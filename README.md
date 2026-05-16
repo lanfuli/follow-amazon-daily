@@ -2,7 +2,7 @@
 
 Daily Amazon seller intelligence digest for Codex.
 
-It combines the low-friction feed aggregation pattern from `follow-builders` with the structured, auditable workflow style from `wayamzpost`. The result is a small public skill that can run on GitHub Actions and produce a Chinese-first bilingual seller digest.
+It combines the low-friction feed aggregation pattern from `follow-builders` with the structured, auditable workflow style from `wayamzpost`. The result is a small public skill that can run on GitHub Actions and produce a daily seller digest in Chinese, English, or bilingual mode.
 
 ## What It Produces
 
@@ -19,6 +19,25 @@ npm test
 node scripts/audit-sources.js --dry-run
 node scripts/prepare-digest.js
 ```
+
+## Language
+
+The default is Chinese:
+
+```json
+{
+  "language": "zh"
+}
+```
+
+You can override it at runtime:
+
+```bash
+node scripts/prepare-digest.js --language zh
+node scripts/prepare-digest.js --language en
+```
+
+When `language` is `zh`, English source titles, summaries, seller impact, and suggested actions are translated or rewritten into natural Chinese. Proper nouns and operator terms such as Amazon, Walmart, TikTok Shop, Sponsored Products, Brand Registry, PPC, ASIN, API, and Search Query Performance stay in English.
 
 ## Sources
 

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lanfuli/follow-amazon-daily/config/config-schema.json",
+  "title": "follow-amazon-daily config",
+  "type": "object",
+  "required": ["timezone", "language", "sources"],
+  "additionalProperties": true,
+  "properties": {
+    "timezone": {
+      "type": "string",
+      "default": "America/Los_Angeles"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["zh", "en", "bilingual"],
+      "default": "zh",
+      "description": "Digest language. zh translates English source content into natural Chinese."
+    },
+    "maxItemsPerSource": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 8
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  }
+}

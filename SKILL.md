@@ -6,7 +6,7 @@ version: 0.1.0
 
 # follow-amazon-daily
 
-Generate a daily Amazon seller intelligence digest in Chinese-first bilingual style.
+Generate a daily Amazon seller intelligence digest. Default language is Chinese.
 
 ## Hard Rules
 
@@ -16,6 +16,7 @@ Generate a daily Amazon seller intelligence digest in Chinese-first bilingual st
 4. WeAreSellers is a community pain-signal source, not policy authority. Confirm policy claims with official sources.
 5. Billion Dollar Sellers is industry opinion unless confirmed elsewhere.
 6. This skill does not publish to Telegram, email, Notion, Xiaohongshu, LinkedIn, X, or Instagram.
+7. Follow `config.language` exactly: `zh` means translate English source content into Chinese; `en` means English; `bilingual` means interleaved English and Chinese. See [prompts/translate.md](prompts/translate.md).
 
 ## Outputs
 
@@ -39,6 +40,8 @@ Useful options:
 
 ```bash
 node scripts/prepare-digest.js --date 2026-05-16
+node scripts/prepare-digest.js --language zh
+node scripts/prepare-digest.js --language en
 node scripts/prepare-digest.js --public-only
 node scripts/prepare-digest.js --quiet
 node scripts/prepare-digest.js --dry-run
@@ -52,6 +55,12 @@ node scripts/audit-sources.js --dry-run
 - Community Pain Signals: use WeAreSellers to spot repeated pain, confusion, account-risk patterns, or operational friction.
 - Podcast / Video Playbooks: use Serious Sellers Podcast and MyAmazonGuy for tactics.
 - Newsletter / Analyst Signals: use BDS for strategic opinions and trend hypotheses.
+
+## Language Policy
+
+`config/sources.json` has `language: "zh"` by default. When `language` is `zh`, do not leave English RSS excerpts as the digest body. Translate titles, summaries, seller impact, and suggested actions into natural Chinese while preserving operator terms such as Amazon, PPC, ASIN, Sponsored Products, Brand Registry, and Search Query Performance.
+
+This follows the same intent as `follow-builders`: the feed can be English, but the final digest language must match the user's selection.
 
 ## Authenticated Sources
 

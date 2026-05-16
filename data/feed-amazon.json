@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T23:26:48.542Z",
+  "generatedAt": "2026-05-16T23:34:32.555Z",
   "date": "2026-05-16",
   "itemCount": 33,
   "privateItemCount": 0,
@@ -11,7 +11,7 @@
       "category": "Seller Ops",
       "title": "AMZ123亚马逊导航-跨境电商出海门户",
       "url": "https://www.amz123.com/",
-      "publishedAt": "2026-05-16T23:26:48.326Z",
+      "publishedAt": "2026-05-16T23:34:32.341Z",
       "excerpt": "AMZ123亚马逊导航是一家致力于服务中国跨境电商从业者的综合平台，以让跨境电商出海更便捷为使命，始终围绕卖家需求，为卖家提供实时的跨境资讯，实用的跨境干货、工具、数据和服务，打造一站式跨境流量入口。做跨境电商，就上AMZ123。",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -22,30 +22,13 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amazon-ads-library-ce29e2b25dc58ef2",
-      "source": "Amazon Ads Library",
-      "sourceType": "official",
-      "category": "Official / Policy",
-      "title": "A guide to targeting with Sponsored Products",
-      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-05-16T23:26:47.686Z",
-      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
-      "sellerImpact": "Check whether this changes policy, API, advertising, logistics, or marketplace operations.",
-      "tags": [
-        "Amazon Ads",
-        "advertising"
-      ],
-      "access": "public",
-      "sourceReliability": "official"
-    },
-    {
       "id": "walmart-marketplace-release-notes-b330dd519ce2ab26",
       "source": "Walmart Marketplace Release Notes",
       "sourceType": "official",
       "category": "Official / Policy",
       "title": "Changelog",
       "url": "https://developer.walmart.com/us-marketplace/changelog",
-      "publishedAt": "2026-05-16T23:26:47.684Z",
+      "publishedAt": "2026-05-16T23:34:31.859Z",
       "excerpt": "Changelog",
       "sellerImpact": "Check whether this changes policy, API, advertising, logistics, or marketplace operations.",
       "tags": [
@@ -56,21 +39,21 @@
       "sourceReliability": "official"
     },
     {
-      "id": "helium10-blog-6591719e0e72d7d8",
-      "source": "Helium 10 Blog",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "Blog",
-      "url": "https://www.helium10.com/blog/",
-      "publishedAt": "2026-05-16T23:26:47.510Z",
-      "excerpt": "Stay up-to-date on the latest Amazon FBA news in addition to great information for every level of Amazon seller with our engaging Blog stories.",
-      "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
+      "id": "amazon-ads-library-ce29e2b25dc58ef2",
+      "source": "Amazon Ads Library",
+      "sourceType": "official",
+      "category": "Official / Policy",
+      "title": "A guide to targeting with Sponsored Products",
+      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+      "publishedAt": "2026-05-16T23:34:31.851Z",
+      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
+      "sellerImpact": "Check whether this changes policy, API, advertising, logistics, or marketplace operations.",
       "tags": [
-        "Helium 10",
-        "operations"
+        "Amazon Ads",
+        "advertising"
       ],
       "access": "public",
-      "sourceReliability": "industry"
+      "sourceReliability": "official"
     },
     {
       "id": "amazon-sp-api-docs-c74cf80751d2bbcf",
@@ -79,7 +62,7 @@
       "category": "Official / Policy",
       "title": "Selling Partner API",
       "url": "https://developer-docs.amazon.com/sp-api/",
-      "publishedAt": "2026-05-16T23:26:47.501Z",
+      "publishedAt": "2026-05-16T23:34:31.512Z",
       "excerpt": "Selling Partner API",
       "sellerImpact": "Check whether this changes policy, API, advertising, logistics, or marketplace operations.",
       "tags": [
@@ -97,7 +80,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon's agentic army is coming - you ready?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-s-agentic-army-is-coming-you-ready",
-      "publishedAt": "2026-05-16T23:26:47.471Z",
+      "publishedAt": "2026-05-16T23:34:31.504Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -114,7 +97,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Your margin is my opportunity - Jeff Bezos",
       "url": "https://www.billiondollarsellers.com/p/bdsn-your-margin-is-my-opportunity-jeff-bezos",
-      "publishedAt": "2026-05-16T23:26:47.471Z",
+      "publishedAt": "2026-05-16T23:34:31.504Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -131,7 +114,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How Amazon's search bar actually thinks",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-amazon-s-search-bar-actually-thinks",
-      "publishedAt": "2026-05-16T23:26:47.471Z",
+      "publishedAt": "2026-05-16T23:34:31.504Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -148,7 +131,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon speaks: AI agents are about to kill your business (if you don't act now)",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-speaks-ai-agents-are-about-to-kill-your-business-if-you-don-t-act-now",
-      "publishedAt": "2026-05-16T23:26:47.471Z",
+      "publishedAt": "2026-05-16T23:34:31.504Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -165,7 +148,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Should you stop tracking your Amazon rank?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-should-you-stop-tracking-your-amazon-rank",
-      "publishedAt": "2026-05-16T23:26:47.471Z",
+      "publishedAt": "2026-05-16T23:34:31.504Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -182,7 +165,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon just killed your fake pricing",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-just-killed-your-fake-pricing",
-      "publishedAt": "2026-05-16T23:26:47.471Z",
+      "publishedAt": "2026-05-16T23:34:31.504Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -199,7 +182,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How much in tariff refunds will you get?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-much-in-tariff-refunds-will-you-get",
-      "publishedAt": "2026-05-16T23:26:47.471Z",
+      "publishedAt": "2026-05-16T23:34:31.504Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -216,7 +199,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Rufus is dead. Long live Alexa.",
       "url": "https://www.billiondollarsellers.com/p/bdsn-rufus-is-dead-long-live-alexa",
-      "publishedAt": "2026-05-16T23:26:47.470Z",
+      "publishedAt": "2026-05-16T23:34:31.503Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
       "tags": [
@@ -227,13 +210,30 @@
       "sourceReliability": "industry"
     },
     {
+      "id": "helium10-blog-6591719e0e72d7d8",
+      "source": "Helium 10 Blog",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "Blog",
+      "url": "https://www.helium10.com/blog/",
+      "publishedAt": "2026-05-16T23:34:31.476Z",
+      "excerpt": "Stay up-to-date on the latest Amazon FBA news in addition to great information for every level of Amazon seller with our engaging Blog stories.",
+      "sellerImpact": "Evaluate whether this changes seller operations, ads, positioning, or growth priorities.",
+      "tags": [
+        "Helium 10",
+        "operations"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
       "id": "buy-with-prime-62352007f655fc97",
       "source": "Buy with Prime",
       "sourceType": "official",
       "category": "Official / Policy",
       "title": "Buy with Prime Blog",
       "url": "https://buywithprime.amazon.com/blog",
-      "publishedAt": "2026-05-16T23:26:47.421Z",
+      "publishedAt": "2026-05-16T23:34:31.458Z",
       "excerpt": "Advice, trends, and insights to help grow your business.",
       "sellerImpact": "Check whether this changes policy, API, advertising, logistics, or marketplace operations.",
       "tags": [

@@ -107,7 +107,34 @@ test("public digest excludes private authenticated signal by default", () => {
   const publicDigest = buildDigest(feed, { privateItems: [privateItem], includePrivate: false });
   assert.doesNotMatch(publicDigest, /subscriber-visible analysis text/);
   const stdoutDigest = buildDigest(feed, { privateItems: [privateItem], includePrivate: true });
-  assert.match(stdoutDigest, /stdout-only/);
+  assert.match(stdoutDigest, /仅 stdout/);
+});
+
+test("Chinese digest translates known English source content", () => {
+  const feed = {
+    generatedAt: "2026-05-16T00:00:00.000Z",
+    date: "2026-05-16",
+    itemCount: 1,
+    errors: [],
+    items: [
+      makeItem({
+        ...baseSource,
+        name: "Amazon Ads Library",
+        sourceReliability: "official",
+        category: "Official / Policy",
+        tags: ["Amazon Ads", "advertising"]
+      }, {
+        title: "A guide to targeting with Sponsored Products",
+        url: "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+        excerpt: "Discover tips to help you drive sales through targeting with Sponsored Products."
+      })
+    ]
+  };
+  const digest = buildDigest(feed, { language: "zh" });
+  assert.match(digest, /Sponsored Products 定向指南/);
+  assert.match(digest, /Amazon Ads 官方说明/);
+  assert.doesNotMatch(digest, /Discover tips to help you drive sales/);
+  assert.match(digest, /官方 \/ 政策/);
 });
 
 async function fixture(name) {

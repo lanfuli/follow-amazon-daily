@@ -1,5 +1,6 @@
 {
   "timezone": "America/Los_Angeles",
+  "language": "zh",
   "maxItemsPerSource": 8,
   "sources": [
     {

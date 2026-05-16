@@ -10,6 +10,13 @@ import {
   writeText
 } from "./lib/common.js";
 import { fetchSource } from "./lib/fetchers.js";
+import {
+  categoryLabel,
+  labels,
+  localizeItem,
+  resolveLanguage,
+  suggestActionZh
+} from "./lib/i18n.js";
 
 const CATEGORIES = [
   "Official / Policy",
@@ -27,6 +34,7 @@ async function main() {
   const limit = Number.parseInt(args.limit || config.maxItemsPerSource || "8", 10);
   const timeoutMs = Number.parseInt(args.timeout || "20000", 10);
   const publicOnly = Boolean(args["public-only"]);
+  const language = resolveLanguage(config, args);
 
   const results = await Promise.all(
     config.sources
@@ -48,8 +56,8 @@ async function main() {
     errors
   };
 
-  const publicDigest = buildDigest(feed, { privateItems: [], includePrivate: false });
-  const stdoutDigest = buildDigest(feed, { privateItems, includePrivate: privateItems.length > 0 });
+  const publicDigest = buildDigest(feed, { privateItems: [], includePrivate: false, language });
+  const stdoutDigest = buildDigest(feed, { privateItems, includePrivate: privateItems.length > 0, language });
 
   if (!args["dry-run"]) {
     await writeJson(repoPath(args.out || "data/feed-amazon.json"), feed);
@@ -68,17 +76,19 @@ async function main() {
 export function buildDigest(feed, options = {}) {
   const privateItems = options.privateItems ?? [];
   const includePrivate = Boolean(options.includePrivate);
+  const language = options.language || "zh";
+  const t = labels(language);
   const lines = [
-    `# Amazon Seller Daily Intelligence - ${feed.date}`,
+    `# ${t.titlePrefix} - ${feed.date}`,
     "",
-    `Generated: ${feed.generatedAt}`,
-    `Public items: ${feed.itemCount}`,
-    `Private auth signals: ${includePrivate ? privateItems.length : 0}`,
+    `${t.generated}: ${feed.generatedAt}`,
+    `${t.publicItems}: ${feed.itemCount}`,
+    `${t.privateSignals}: ${includePrivate ? privateItems.length : 0}`,
     ""
   ];
 
   if (feed.errors.length > 0) {
-    lines.push("## Source Warnings", "");
+    lines.push(`## ${t.sourceWarnings}`, "");
     for (const error of feed.errors.slice(0, 10)) {
       lines.push(`- ${error.source}: ${error.message}`);
     }
@@ -87,25 +97,23 @@ export function buildDigest(feed, options = {}) {
 
   for (const category of CATEGORIES) {
     const items = feed.items.filter((item) => item.category === category).slice(0, 8);
-    lines.push(`## ${category}`, "");
+    lines.push(`## ${categoryLabel(category, language)}`, "");
     if (items.length === 0) {
-      lines.push("- No public signal captured today.", "");
+      lines.push(`- ${t.noSignal}`, "");
       continue;
     }
     for (const item of items) {
-      lines.push(formatDigestItem(item));
+      lines.push(formatDigestItem(item, language));
     }
     lines.push("");
   }
 
   if (includePrivate) {
-    lines.push("## Private Auth Signals (stdout-only)", "");
-    lines.push(
-      "These items came from authenticated sessions. They are summarized for temporary analysis and are not written to the public feed file."
-    );
+    lines.push(`## ${t.privateHeading}`, "");
+    lines.push(t.privateNotice);
     lines.push("");
     for (const item of privateItems.slice(0, 8)) {
-      lines.push(formatDigestItem(item));
+      lines.push(formatDigestItem(item, language));
     }
     lines.push("");
   }
@@ -113,30 +121,47 @@ export function buildDigest(feed, options = {}) {
   return `${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
 }
 
-function formatDigestItem(item) {
+function formatDigestItem(item, language = "zh") {
+  if (language === "bilingual") {
+    const zh = localizeItem(item, "zh");
+    return [
+      `- [${escapeMarkdown(item.title)}](${item.url})`,
+      `  - What happened: ${item.excerpt || "Public metadata captured."}`,
+      `  - Seller impact: ${item.sellerImpact}`,
+      `  - Suggested action: ${suggestAction(item, "en")}`,
+      `  - 中文标题: ${zh.title}`,
+      `  - 发生了什么: ${zh.excerpt}`,
+      `  - 卖家影响: ${zh.sellerImpact}`,
+      `  - 建议动作: ${suggestAction(item, "zh")}`,
+      `  - Tags / 标签: ${item.tags.join(", ")} / ${zh.tags.join(", ")}`
+    ].join("\n");
+  }
+  const t = labels(language);
+  const localized = localizeItem(item, language);
   return [
-    `- [${escapeMarkdown(item.title)}](${item.url})`,
-    `  - 发生了什么: ${item.excerpt || "Public metadata captured."}`,
-    `  - 卖家影响: ${item.sellerImpact}`,
-    `  - 建议动作: ${suggestAction(item)}`,
-    `  - Tags: ${item.tags.join(", ")}`
+    `- [${escapeMarkdown(localized.title)}](${item.url})`,
+    `  - ${t.happened}: ${localized.excerpt || t.publicMetadata}`,
+    `  - ${t.impact}: ${localized.sellerImpact}`,
+    `  - ${t.action}: ${suggestAction(item, language)}`,
+    `  - ${t.tags}: ${localized.tags.join(", ")}`
   ].join("\n");
 }
 
-function suggestAction(item) {
+function suggestAction(item, language = "zh") {
+  if (language === "zh") return suggestActionZh(item);
   if (item.sourceReliability === "official") {
-    return "今天先确认是否影响账号、广告、API、物流或合规 SOP。";
+    return "Check whether this should update account, ads, API, logistics, or compliance SOPs.";
   }
   if (item.category === "Community Pain Signals") {
-    return "把它当成异常/痛点雷达，等官方或多源确认后再改 SOP。";
+    return "Treat it as a pain signal; wait for official or multi-source confirmation before changing SOPs.";
   }
   if (item.category === "Podcast / Video Playbooks") {
-    return "挑一个和你当前广告、Listing 或库存问题相关的动作做小范围测试。";
+    return "Pick one tactic related to ads, listings, conversion, or inventory and test it narrowly.";
   }
   if (item.category === "Newsletter / Analyst Signals") {
-    return "提炼成一个假设，再用你自己的类目数据验证。";
+    return "Turn it into a hypothesis, then validate it against your own category data.";
   }
-  return "记录可能影响利润、转化或运营效率的点，决定是否进入本周实验清单。";
+  return "Decide whether this belongs in this week's operating experiment list.";
 }
 
 function escapeMarkdown(value) {

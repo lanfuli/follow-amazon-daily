@@ -1,0 +1,3 @@
+display_name: Follow Amazon Daily
+short_description: Daily bilingual Amazon seller intelligence digest.
+default_prompt: Generate today's Amazon seller intelligence digest.

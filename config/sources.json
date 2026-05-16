@@ -1,0 +1,120 @@
+{
+  "timezone": "America/Los_Angeles",
+  "maxItemsPerSource": 8,
+  "sources": [
+    {
+      "id": "amazon-sp-api-docs",
+      "name": "Amazon SP-API Docs",
+      "type": "generic_html",
+      "url": "https://developer-docs.amazon.com/sp-api/",
+      "category": "Official / Policy",
+      "sourceType": "official",
+      "sourceReliability": "official",
+      "access": "public",
+      "tags": ["SP-API", "Amazon", "developer"]
+    },
+    {
+      "id": "amazon-ads-library",
+      "name": "Amazon Ads Library",
+      "type": "generic_html",
+      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+      "category": "Official / Policy",
+      "sourceType": "official",
+      "sourceReliability": "official",
+      "access": "public",
+      "tags": ["Amazon Ads", "advertising"]
+    },
+    {
+      "id": "buy-with-prime",
+      "name": "Buy with Prime",
+      "type": "generic_html",
+      "url": "https://buywithprime.amazon.com/blog",
+      "category": "Official / Policy",
+      "sourceType": "official",
+      "sourceReliability": "official",
+      "access": "public",
+      "tags": ["Buy with Prime", "DTC"]
+    },
+    {
+      "id": "walmart-marketplace-release-notes",
+      "name": "Walmart Marketplace Release Notes",
+      "type": "generic_html",
+      "url": "https://developer.walmart.com/us-marketplace/changelog",
+      "category": "Official / Policy",
+      "sourceType": "official",
+      "sourceReliability": "official",
+      "access": "public",
+      "tags": ["Walmart", "marketplace"]
+    },
+    {
+      "id": "helium10-blog",
+      "name": "Helium 10 Blog",
+      "type": "generic_html",
+      "url": "https://www.helium10.com/blog/",
+      "category": "Seller Ops",
+      "sourceType": "industry",
+      "sourceReliability": "industry",
+      "access": "public",
+      "tags": ["Helium 10", "operations"]
+    },
+    {
+      "id": "serious-sellers-podcast",
+      "name": "Serious Sellers Podcast",
+      "type": "rss",
+      "url": "https://feed.podbean.com/helium10/feed.xml",
+      "category": "Podcast / Video Playbooks",
+      "sourceType": "podcast",
+      "sourceReliability": "media",
+      "access": "public",
+      "tags": ["podcast", "playbook"]
+    },
+    {
+      "id": "amz123",
+      "name": "AMZ123",
+      "type": "generic_html",
+      "url": "https://www.amz123.com/",
+      "category": "Seller Ops",
+      "sourceType": "industry",
+      "sourceReliability": "industry",
+      "access": "public",
+      "tags": ["AMZ123", "cross-border"]
+    },
+    {
+      "id": "wearesellers",
+      "name": "WeAreSellers",
+      "type": "wearesellers",
+      "url": "https://www.wearesellers.com/",
+      "rssUrl": "https://www.wearesellers.com/feed",
+      "category": "Community Pain Signals",
+      "sourceType": "community",
+      "sourceReliability": "community",
+      "access": "community_signal",
+      "authEnv": "WEARESELLERS_COOKIE",
+      "tags": ["community", "seller pain"]
+    },
+    {
+      "id": "billion-dollar-sellers",
+      "name": "Billion Dollar Sellers",
+      "type": "beehiiv_archive",
+      "url": "https://www.billiondollarsellers.com/archive",
+      "category": "Newsletter / Analyst Signals",
+      "sourceType": "newsletter",
+      "sourceReliability": "industry",
+      "access": "partial_public",
+      "authEnv": "BDS_COOKIE",
+      "tags": ["newsletter", "strategy"]
+    },
+    {
+      "id": "my-amazon-guy",
+      "name": "My Amazon Guy",
+      "type": "youtube_rss",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UClUSEsDS2sdgNJfCcCM_5Uw",
+      "handleUrl": "https://www.youtube.com/@MyAmazonGuy",
+      "category": "Podcast / Video Playbooks",
+      "sourceType": "youtube",
+      "sourceReliability": "media",
+      "access": "public",
+      "tags": ["YouTube", "agency playbook"]
+    }
+  ]
+}

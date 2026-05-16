@@ -1,0 +1,32 @@
+name: Daily Amazon feed
+
+on:
+  schedule:
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm test
+      - run: node scripts/audit-sources.js --dry-run --quiet
+      - run: node scripts/prepare-digest.js --quiet
+      - name: Commit generated feed
+        run: |
+          if git diff --quiet -- data/feed-amazon.json digest; then
+            echo "No feed changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feed-amazon.json digest/*.md
+          git commit -m "chore: update daily amazon feed"
+          git push

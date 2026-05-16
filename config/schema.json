@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lanfuli/follow-amazon-daily/config/schema.json",
+  "title": "follow-amazon-daily feed",
+  "type": "object",
+  "required": ["generatedAt", "date", "itemCount", "items", "errors"],
+  "additionalProperties": false,
+  "properties": {
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "date": { "type": "string", "format": "date" },
+    "itemCount": { "type": "integer", "minimum": 0 },
+    "privateItemCount": { "type": "integer", "minimum": 0 },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/feedItem" }
+    },
+    "errors": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourceError" }
+    }
+  },
+  "$defs": {
+    "feedItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "category",
+        "title",
+        "url",
+        "publishedAt",
+        "excerpt",
+        "sellerImpact",
+        "tags",
+        "access",
+        "sourceReliability"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "source": { "type": "string" },
+        "sourceType": { "type": "string" },
+        "category": { "type": "string" },
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "publishedAt": { "type": "string" },
+        "excerpt": { "type": "string" },
+        "sellerImpact": { "type": "string" },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "access": {
+          "enum": ["public", "partial_public", "authenticated_ephemeral", "community_signal"]
+        },
+        "sourceReliability": {
+          "enum": ["official", "industry", "community", "media"]
+        }
+      }
+    },
+    "sourceError": {
+      "type": "object",
+      "required": ["source", "message"],
+      "additionalProperties": false,
+      "properties": {
+        "source": { "type": "string" },
+        "message": { "type": "string" },
+        "url": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "follow-amazon-daily",
+  "version": "0.1.0",
+  "description": "Daily bilingual Amazon seller intelligence digest skill.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "prepare-digest": "node scripts/prepare-digest.js",
+    "audit:sources": "node scripts/audit-sources.js",
+    "test": "node --test"
+  }
+}

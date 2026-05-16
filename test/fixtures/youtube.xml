@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">
+  <title>My Amazon Guy</title>
+  <entry>
+    <id>yt:video:abc123</id>
+    <title>Amazon SEO Ranking Strategy</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=abc123"/>
+    <published>2026-05-15T16:00:00+00:00</published>
+    <media:description>How to improve Amazon ranking with listing operations.</media:description>
+  </entry>
+</feed>

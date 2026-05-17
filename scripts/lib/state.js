@@ -1,13 +1,19 @@
-// Cross-run dedup state. Tracks which items have already been emitted in a
-// previous digest so a "daily" digest only shows what's actually new, instead
-// of repeating the same podcast episodes / newsletter titles every day.
+// Cross-run dedup state. Tracks which items have already been DELIVERED in a
+// previous digest so a "daily" digest only shows what's actually new.
 //
-// Mirrors follow-builders' state-feed.json approach: a flat { seen: { key: ts } }
-// map, pruned to a rolling window so the file never grows unbounded. The file
-// lives in the repo root so GitHub Actions commits it and dedup persists.
+// Key by the stable item id only. `item.id` = `${source.id}-${hash(url,title)}`,
+// so it is unique per piece of content and a recurring series with a constant
+// title (e.g. a weekly "Friday Live Q&A" video) still gets a fresh id each week
+// because the URL differs. A fuzzy title key was tried and removed — it
+// permanently suppressed every recurring same-title episode after the first.
+//
+// State is persisted only AFTER a digest is actually delivered (see
+// scripts/mark-seen.js), never at fetch time, so a failed/aborted run repeats
+// content rather than silently losing it. The file is per-install and
+// gitignored — shipping it would pre-mark everything seen.
 
 import { readFile, writeFile } from "node:fs/promises";
-import { normalizeTitle, repoPath } from "./common.js";
+import { repoPath } from "./common.js";
 
 const STATE_FILE = "state-feed.json";
 const PRUNE_MS = 14 * 24 * 60 * 60 * 1000; // 14 days
@@ -29,15 +35,8 @@ export async function saveState(state, path = repoPath(STATE_FILE)) {
   await writeFile(path, `${JSON.stringify(state, null, 2)}\n`);
 }
 
-// An item is keyed by its stable id and (separately) its normalized title, so
-// it dedupes across runs even if the URL picks up tracking params or the title
-// shifts slightly.
 export function itemKeys(item) {
-  const keys = [];
-  if (item.id) keys.push(`id:${item.id}`);
-  const nt = normalizeTitle(item.title || "");
-  if (nt) keys.push(`t:${nt}`);
-  return keys;
+  return item.id ? [`id:${item.id}`] : [];
 }
 
 export function isSeen(state, item) {
@@ -48,7 +47,9 @@ export function markSeen(state, item, now = Date.now()) {
   for (const k of itemKeys(item)) state.seen[k] = now;
 }
 
-// Returns only the items not previously emitted, and records them as seen.
+// Read-only: returns items not previously delivered. Does NOT persist — the
+// in-memory state is marked so duplicates within this call are also dropped,
+// but nothing is written until scripts/mark-seen.js runs post-delivery.
 export function filterUnseen(state, items) {
   const fresh = [];
   for (const item of items) {

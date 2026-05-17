@@ -125,8 +125,9 @@ labelled, not the full editorial digest).
 
 ### Step 7 — Welcome digest
 Immediately run the full pipeline once now (prepare-digest → you remix per the
-prompts → deliver via their chosen method) so they see real output today. Then
-ask for feedback — length, focus, tone — and apply it (edit the relevant
+prompts → deliver via their chosen method → `node scripts/mark-seen.js` so the
+first scheduled run won't repeat today's items) so they see real output today.
+Then ask for feedback — length, focus, tone — and apply it (edit the relevant
 `prompts/` file or config), and confirm what changed.
 
 ### Step 8 — Reconfigure-by-chat reminder
@@ -156,8 +157,16 @@ Then:
    `privateItems` content).
 5. Deliver: if `config.delivery.method` is `telegram` / `email` / `feishu`,
    pipe the digest to `node scripts/deliver.js --file digest/<date>.md`.
-   Otherwise (`stdout`) show it here. For scheduled runs this whole flow is
-   wrapped by `scripts/run-daily.sh`.
+   Otherwise (`stdout`) show it here.
+6. **Only after the digest is written and delivered**, run
+   `node scripts/mark-seen.js` so the next run excludes these items.
+   `prepare-digest.js` filters against dedup state read-only and never persists
+   it — if you skip this step (or the run fails) the items simply reappear next
+   time rather than being silently lost. Skip mark-seen if you ran with
+   `--ignore-state`.
+
+For scheduled runs this whole flow (including mark-seen, only on delivery
+success) is wrapped by `scripts/run-daily.sh`.
 
 Useful options:
 

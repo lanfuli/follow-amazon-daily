@@ -253,12 +253,54 @@ test("state filterUnseen returns new items once, then nothing", () => {
   assert.equal(isSeen(state, a), true);
 });
 
-test("state dedupes same item across runs by normalized title", () => {
+test("state dedups by stable id; recurring same-title new episode survives", () => {
   const state = { seen: {} };
-  const v1 = makeItem(baseSource, { title: "8-Figure Amazon Brand!", url: "https://x.com/ep1" });
-  markSeen(state, v1);
-  const v2 = makeItem({ ...baseSource, id: "other" }, { title: "8-figure amazon brand", url: "https://x.com/ep1?utm=x" });
-  assert.equal(isSeen(state, v2), true);
+  const mag = { ...baseSource, id: "mag", name: "My Amazon Guy" };
+  const wk1 = makeItem(mag, {
+    title: "Friday Live Q&A with Noah Wickham",
+    url: "https://www.youtube.com/watch?v=AAA"
+  });
+  const wk1Again = makeItem(mag, {
+    title: "Friday Live Q&A with Noah Wickham",
+    url: "https://www.youtube.com/watch?v=AAA"
+  });
+  markSeen(state, wk1);
+  // Identical content (same url+title → same id) is deduped.
+  assert.equal(isSeen(state, wk1Again), true);
+  // BUG #1 regression: next week's episode has the SAME title but a new URL —
+  // it MUST NOT be suppressed (a fuzzy title key used to permanently hide it).
+  const wk2 = makeItem(mag, {
+    title: "Friday Live Q&A with Noah Wickham",
+    url: "https://www.youtube.com/watch?v=BBB"
+  });
+  assert.equal(isSeen(state, wk2), false);
+});
+
+test("mark-seen flow: prepare filters read-only, post-delivery commit excludes next run", async () => {
+  const { loadState, markSeen, saveState } = await import("../scripts/lib/state.js");
+  const tmp = `/tmp/fad-state-test-${Date.now()}.json`;
+  const a = makeItem(baseSource, { title: "Fresh A", url: "https://x.com/fa" });
+  const b = makeItem(baseSource, { title: "Fresh B", url: "https://x.com/fb" });
+
+  // Run 1: prepare-style read-only filter — nothing persisted yet.
+  let state = await loadState(tmp);
+  let shown = filterUnseen(state, [a, b]);
+  assert.equal(shown.length, 2);
+
+  // A failed/aborted run does NOT persist → run 2 still shows everything.
+  state = await loadState(tmp);
+  shown = filterUnseen(state, [a, b]);
+  assert.equal(shown.length, 2, "unpersisted state must not consume items");
+
+  // Successful delivery → mark-seen commits.
+  state = await loadState(tmp);
+  for (const it of [a, b]) markSeen(state, it);
+  await saveState(state, tmp);
+
+  // Next run excludes the delivered items.
+  state = await loadState(tmp);
+  assert.equal(filterUnseen(state, [a, b]).length, 0);
+  await import("node:fs/promises").then((fs) => fs.rm(tmp, { force: true }));
 });
 
 test("chunkText splits long text under the cap without losing content", () => {

@@ -11,7 +11,7 @@ import {
 } from "./lib/common.js";
 import { fetchSource } from "./lib/fetchers.js";
 import { CATEGORY_LABELS, resolveLanguage } from "./lib/i18n.js";
-import { filterUnseen, loadState, saveState } from "./lib/state.js";
+import { filterUnseen, loadState } from "./lib/state.js";
 
 export const CATEGORIES = [
   "Official / Policy",
@@ -116,8 +116,14 @@ async function main() {
   const configPath = repoPath(args.sources || "config/sources.json");
   const config = await readJson(configPath);
   const date = args.date || todayInTimeZone(config.timezone);
-  const limit = Number.parseInt(args.limit || config.maxItemsPerSource || "8", 10);
-  const timeoutMs = Number.parseInt(args.timeout || "20000", 10);
+  // Coerce non-finite/non-positive (e.g. a bare `--limit` flag → true → NaN)
+  // back to the default so a typo can't silently empty the feed.
+  const posInt = (value, fallback) => {
+    const n = Number.parseInt(value, 10);
+    return Number.isFinite(n) && n > 0 ? n : fallback;
+  };
+  const limit = posInt(args.limit, posInt(config.maxItemsPerSource, 8));
+  const timeoutMs = posInt(args.timeout, 20000);
   const publicOnly = Boolean(args["public-only"]);
   const language = resolveLanguage(config, args);
 
@@ -140,11 +146,13 @@ async function main() {
   const fresh = filterByLookback(deduped, lookbackByName);
 
   // R3.1 — cross-run dedup so the digest only shows what's new since last run.
+  // Read-only: filter against persisted state but do NOT write it here. State
+  // is committed by scripts/mark-seen.js only after the digest is delivered, so
+  // a failed/aborted run repeats content instead of silently losing it.
   const ignoreState = Boolean(args["ignore-state"]);
   let items = fresh;
-  let state = null;
   if (!ignoreState) {
-    state = await loadState();
+    const state = await loadState();
     items = filterUnseen(state, fresh);
   }
 
@@ -161,9 +169,6 @@ async function main() {
 
   if (!args["dry-run"]) {
     await writeJson(repoPath(args.out || "data/feed-amazon.json"), feed);
-    if (state && !ignoreState) {
-      await saveState(state);
-    }
   }
 
   if (!args.quiet) {

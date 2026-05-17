@@ -31,6 +31,7 @@ export async function fetchSource(source, options = {}) {
     if (source.type === "wearesellers") return await fetchWeAreSellers(source, options);
     if (source.type === "beehiiv_archive") return await fetchBeehiivArchive(source, options);
     if (source.type === "linklist") return await fetchLinkList(source, options);
+    if (source.type === "article_index") return await fetchArticleIndex(source, options);
     if (source.type === "generic_html") return await fetchGenericHtml(source, options);
     return {
       items: [],
@@ -206,6 +207,78 @@ export async function fetchLinkList(source, options = {}) {
     items.length === 0
       ? [{ source: source.name, url: source.url, message: "linklist: no matching article links found" }]
       : [];
+  return { items, privateItems: [], errors };
+}
+
+// Harvests article URLs from an index/listing page. `pattern` is a regex (string
+// form) matching a full article href. DOM order is preserved (blog indexes list
+// newest first) and dupes are dropped.
+export function parseArticleLinks(html, baseUrl, pattern, limit = 3) {
+  const re = new RegExp(`href=["'](${pattern})["']`, "gi");
+  const urls = [];
+  const seen = new Set();
+  for (const m of String(html).matchAll(re)) {
+    const url = absoluteUrl(baseUrl, m[1]);
+    if (!url) continue;
+    const key = url.replace(/[?#].*$/, "").toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    urls.push(url);
+    if (urls.length >= limit) break;
+  }
+  return urls;
+}
+
+// Two-step source: fetch an index page, find the newest real article links,
+// then fetch each article and extract its actual title + body (structured-data
+// first, nav-stripped readable text as fallback). This is what makes a blog
+// source return real content instead of the index's list of headings.
+export async function fetchArticleIndex(source, options = {}) {
+  const errors = [];
+  const cap = Math.min(options.limit ?? 8, source.maxArticles ?? 3);
+
+  let indexRes;
+  try {
+    indexRes = await fetchText(source.url, { timeoutMs: options.timeoutMs, headers: UA_HEADERS });
+  } catch (error) {
+    return {
+      items: [],
+      privateItems: [],
+      errors: [{ source: source.name, url: source.url, message: `index fetch failed: ${error.message}` }]
+    };
+  }
+
+  const pattern = source.articlePattern || "https?://[^\"']+";
+  const urls = parseArticleLinks(indexRes.text, indexRes.finalUrl, pattern, cap);
+  if (urls.length === 0) {
+    return {
+      items: [],
+      privateItems: [],
+      errors: [{ source: source.name, url: source.url, message: "article_index: no article links matched" }]
+    };
+  }
+
+  const items = [];
+  for (const url of urls) {
+    try {
+      const res = await fetchText(url, { timeoutMs: options.timeoutMs, headers: UA_HEADERS });
+      const sd = extractStructuredData(res.text);
+      const title = sd.title || htmlTitle(res.text) || source.name;
+      const excerpt = extractMetaDescription(res.text) || sd.title || title;
+      const body = sd.body || extractReadableText(res.text);
+      const publishedAt =
+        sd.publishedAt && !Number.isNaN(Date.parse(sd.publishedAt))
+          ? new Date(sd.publishedAt).toISOString()
+          : undefined;
+      const thin = meaningfulLen(body) + meaningfulLen(excerpt) < 120;
+      if (thin) {
+        errors.push({ source: source.name, url: res.finalUrl, message: "thin article content" });
+      }
+      items.push(makeItem(source, { title, url: res.finalUrl, publishedAt, excerpt, body, thin }));
+    } catch (error) {
+      errors.push({ source: source.name, url, message: `article fetch failed: ${error.message}` });
+    }
+  }
   return { items, privateItems: [], errors };
 }
 

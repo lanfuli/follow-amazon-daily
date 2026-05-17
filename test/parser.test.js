@@ -11,6 +11,7 @@ import {
   normalizeTitle
 } from "../scripts/lib/common.js";
 import {
+  parseArticleLinks,
   parseBeehiivArchive,
   parseLinkList,
   parseWeAreSellersHtml,
@@ -325,6 +326,24 @@ test("buildFeishuPayload shapes plain and signed payloads", () => {
   assert.equal(signed.timestamp, String(ts));
   const expected = createHmac("sha256", `${ts}\n${secret}`).digest("base64");
   assert.equal(signed.sign, expected);
+});
+
+test("parseArticleLinks keeps article slugs, drops category pages, dedups, caps", () => {
+  const html = `
+    <a href="https://www.helium10.com/blog/how-amazon-rufus-changes-prime-day-discovery-in-2026/">A</a>
+    <a href="https://www.helium10.com/blog/amazon-fba/">category</a>
+    <a href="https://www.helium10.com/blog/amazon-seller-central/">category</a>
+    <a href="https://www.helium10.com/blog/7-warning-signs-youve-outgrown-manual-amazon-ppc/">B</a>
+    <a href="https://www.helium10.com/blog/how-amazon-rufus-changes-prime-day-discovery-in-2026/">A dup</a>
+    <a href="https://www.helium10.com/blog/8-best-amazon-seller-tools/">C</a>`;
+  const pattern = "https://www\\.helium10\\.com/blog/[a-z0-9]+(?:-[a-z0-9]+){3,}/";
+  const urls = parseArticleLinks(html, "https://www.helium10.com/blog/", pattern, 3);
+  assert.equal(urls.length, 3);
+  assert.match(urls[0], /how-amazon-rufus-changes-prime-day-discovery/);
+  assert.match(urls[1], /7-warning-signs/);
+  assert.match(urls[2], /8-best-amazon-seller-tools/);
+  assert.ok(!urls.some((u) => /\/blog\/amazon-fba\/|\/blog\/amazon-seller-central\//.test(u)),
+    "category pages must be excluded");
 });
 
 async function fixture(name) {

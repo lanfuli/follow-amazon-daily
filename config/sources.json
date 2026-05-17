@@ -36,8 +36,10 @@
     {
       "id": "helium10-blog",
       "name": "Helium 10 Blog",
-      "type": "generic_html",
+      "type": "article_index",
       "url": "https://www.helium10.com/blog/",
+      "articlePattern": "https://www\\.helium10\\.com/blog/[a-z0-9]+(?:-[a-z0-9]+){3,}/",
+      "maxArticles": 3,
       "category": "Seller Ops",
       "sourceType": "industry",
       "sourceReliability": "industry",

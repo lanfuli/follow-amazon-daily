@@ -62,7 +62,7 @@
     },
     "sources": {
       "type": "array",
-      "description": "Source list. Each source supports: id, name, type (rss | youtube_rss | wearesellers | beehiiv_archive | generic_html | linklist), url, category, sourceType, sourceReliability, access, tags. Optional: lookbackHours (drop items older than this; undated official pages are exempt), linkPattern (regex for type=linklist anchor harvesting), altUrl (fallback URL), authEnv, rssUrl, handleUrl.",
+      "description": "Source list. Each source supports: id, name, type (rss | youtube_rss | wearesellers | beehiiv_archive | generic_html | linklist | article_index), url, category, sourceType, sourceReliability, access, tags. Optional: lookbackHours (drop items older than this; undated official pages are exempt), linkPattern (regex for type=linklist anchor harvesting), articlePattern + maxArticles (type=article_index: harvest the newest article links from an index, then fetch each for real title+body), altUrl (fallback URL), authEnv, rssUrl, handleUrl.",
       "items": {
         "type": "object",
         "properties": {
@@ -74,6 +74,16 @@
           "linkPattern": {
             "type": "string",
             "description": "Regex (string form) used by type=linklist sources to harvest article anchors from an index/hub page."
+          },
+          "articlePattern": {
+            "type": "string",
+            "description": "Regex (string form) matching a full article URL. type=article_index harvests the newest matches from the index page, then fetches each article for its real title and body."
+          },
+          "maxArticles": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 3,
+            "description": "Max articles a type=article_index source fetches per run."
           }
         }
       }

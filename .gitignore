@@ -7,3 +7,6 @@ raw/
 coverage/
 digest/private-*.md
 data/private-*.json
+# Per-install cross-run dedup state. Must NOT be shipped: a committed state
+# would pre-mark every item "seen" and make a fresh user's first digest empty.
+state-feed.json

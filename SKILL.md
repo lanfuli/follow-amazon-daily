@@ -48,7 +48,13 @@ its own specific summary.
 data/feed-amazon.json   # deterministic raw public feed (script-written)
 digest/YYYY-MM-DD.md     # editorial digest (agent-written, no private items)
 stdout                   # full JSON blob from the script (for the agent)
+state-feed.json          # per-install cross-run dedup state — LOCAL ONLY
 ```
+
+`state-feed.json` is gitignored runtime state. Never commit it and never ship
+it: a populated state would pre-mark every item "seen" and make a fresh user's
+first digest empty. A clean install has no state file, so the first run shows
+everything (the welcome digest works).
 
 ## First Run — Onboarding
 

@@ -26,17 +26,19 @@ jobs:
           node-version: "22"
       - run: npm test
       - run: node scripts/audit-sources.js --dry-run --quiet
-      # Refreshes the deterministic raw feed + cross-run dedup state only. The
-      # editorial digest (digest/*.md) is produced by the agent on demand.
-      - run: node scripts/prepare-digest.js --quiet
+      # Refreshes the deterministic raw feed snapshot only. The editorial digest
+      # (digest/*.md) is produced by the agent on demand. state-feed.json is
+      # per-install runtime state (gitignored) and is intentionally NOT committed
+      # — shipping it would pre-mark every item seen and empty new users' digests.
+      - run: node scripts/prepare-digest.js --quiet --ignore-state
       - name: Commit generated feed
         run: |
-          if git diff --quiet -- data/feed-amazon.json state-feed.json; then
+          if git diff --quiet -- data/feed-amazon.json; then
             echo "No feed changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/feed-amazon.json state-feed.json
+          git add data/feed-amazon.json
           git commit -m "chore: update daily amazon feed [skip ci]"
           git push

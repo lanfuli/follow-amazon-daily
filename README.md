@@ -77,16 +77,20 @@ labelled raw fallback if the Claude CLI is unavailable on the cron run).
 
 ## Sources
 
-- Amazon SP-API docs
-- Amazon Ads Library
-- Buy with Prime blog
-- Walmart Marketplace release notes
-- Helium 10 blog
-- Serious Sellers Podcast RSS
-- AMZ123
-- WeAreSellers RSS / HTML
-- Billion Dollar Sellers archive
-- MyAmazonGuy YouTube RSS
+Defined in `config/sources.json` (8 sources):
+
+- Amazon SP-API Release Notes (official)
+- Amazon Ads Library (official)
+- Helium 10 Blog (industry)
+- Serious Sellers Podcast — RSS (media)
+- AMZ123 跨境头条 — `/t` link list (industry)
+- WeAreSellers — RSS / HTML (community)
+- Billion Dollar Sellers — archive (newsletter)
+- My Amazon Guy — YouTube RSS (media)
+
+Each source has a `lookbackHours` window; items older than that, and items
+already shown in a previous run (`state-feed.json`, per-install), are filtered
+out so the digest is only what's new.
 
 ## Optional Auth
 
@@ -120,6 +124,8 @@ Each item in `data/feed-amazon.json`:
 - `body` (raw readable text for public sources; empty for community /
   subscriber-gated sources)
 - `tags`, `access`, `sourceReliability`
+- `thin` (optional, `true` when the source returned only an index/JS shell —
+  the agent reports it honestly instead of fabricating a summary)
 
 Seller impact and suggested actions are written by the agent at digest time, not
 stored as canned strings.

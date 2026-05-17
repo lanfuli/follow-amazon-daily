@@ -4,6 +4,14 @@ on:
   schedule:
     - cron: "30 14 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to refresh (placeholder for future per-source-type splits)"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
 
 permissions:
   contents: write
@@ -18,17 +26,17 @@ jobs:
           node-version: "22"
       - run: npm test
       - run: node scripts/audit-sources.js --dry-run --quiet
-      # Refreshes the deterministic raw feed only. The editorial digest
-      # (digest/*.md) is produced by the agent on demand, not in CI.
+      # Refreshes the deterministic raw feed + cross-run dedup state only. The
+      # editorial digest (digest/*.md) is produced by the agent on demand.
       - run: node scripts/prepare-digest.js --quiet
       - name: Commit generated feed
         run: |
-          if git diff --quiet -- data/feed-amazon.json; then
+          if git diff --quiet -- data/feed-amazon.json state-feed.json; then
             echo "No feed changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/feed-amazon.json
-          git commit -m "chore: update daily amazon feed"
+          git add data/feed-amazon.json state-feed.json
+          git commit -m "chore: update daily amazon feed [skip ci]"
           git push

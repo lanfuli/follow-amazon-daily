@@ -52,7 +52,21 @@
     },
     "sources": {
       "type": "array",
-      "items": { "type": "object" }
+      "description": "Source list. Each source supports: id, name, type (rss | youtube_rss | wearesellers | beehiiv_archive | generic_html | linklist), url, category, sourceType, sourceReliability, access, tags. Optional: lookbackHours (drop items older than this; undated official pages are exempt), linkPattern (regex for type=linklist anchor harvesting), altUrl (fallback URL), authEnv, rssUrl, handleUrl.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "lookbackHours": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Items published before now - lookbackHours are filtered out. Undated pages bypass this and rely on cross-run state dedup instead."
+          },
+          "linkPattern": {
+            "type": "string",
+            "description": "Regex (string form) used by type=linklist sources to harvest article anchors from an index/hub page."
+          }
+        }
+      }
     }
   }
 }

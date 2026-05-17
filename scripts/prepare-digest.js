@@ -11,6 +11,7 @@ import {
 } from "./lib/common.js";
 import { fetchSource } from "./lib/fetchers.js";
 import { CATEGORY_LABELS, resolveLanguage } from "./lib/i18n.js";
+import { filterUnseen, loadState, saveState } from "./lib/state.js";
 
 export const CATEGORIES = [
   "Official / Policy",
@@ -22,8 +23,25 @@ export const CATEGORIES = [
 
 const PROMPT_FILES = {
   dailyDigest: "prompts/daily-digest.md",
-  translate: "prompts/translate.md"
+  translate: "prompts/translate.md",
+  summarizeOfficial: "prompts/summarize-official.md",
+  summarizePodcast: "prompts/summarize-podcast.md",
+  summarizeCommunity: "prompts/summarize-community.md",
+  summarizeNewsletter: "prompts/summarize-newsletter.md"
 };
+
+// Drops items older than their source's lookbackHours. Items whose date is
+// missing/unparseable, or that resolve to ~now (undated pages default to the
+// run time in makeItem), are kept — those rely on cross-run state dedup instead.
+export function filterByLookback(items, lookbackByName, nowMs = Date.now()) {
+  return items.filter((item) => {
+    const hours = lookbackByName.get(item.source);
+    if (!hours) return true;
+    const ts = Date.parse(item.publishedAt);
+    if (Number.isNaN(ts)) return true;
+    return nowMs - ts <= hours * 60 * 60 * 1000;
+  });
+}
 
 async function loadPrompts() {
   const prompts = {};
@@ -110,10 +128,25 @@ async function main() {
   );
 
   const errors = results.flatMap((result) => result.errors);
-  const items = sortItems(dedupeItems(results.flatMap((result) => result.items)));
+  const deduped = sortItems(dedupeItems(results.flatMap((result) => result.items)));
   const privateItems = sortItems(dedupeItems(results.flatMap((result) => result.privateItems)));
   const generatedAt = new Date().toISOString();
   const prompts = await loadPrompts();
+
+  // R3.2 — drop stale items per source lookback window.
+  const lookbackByName = new Map(
+    config.sources.map((s) => [s.name, s.lookbackHours])
+  );
+  const fresh = filterByLookback(deduped, lookbackByName);
+
+  // R3.1 — cross-run dedup so the digest only shows what's new since last run.
+  const ignoreState = Boolean(args["ignore-state"]);
+  let items = fresh;
+  let state = null;
+  if (!ignoreState) {
+    state = await loadState();
+    items = filterUnseen(state, fresh);
+  }
 
   const { feed, blob } = buildOutputs({
     items,
@@ -128,6 +161,9 @@ async function main() {
 
   if (!args["dry-run"]) {
     await writeJson(repoPath(args.out || "data/feed-amazon.json"), feed);
+    if (state && !ignoreState) {
+      await saveState(state);
+    }
   }
 
   if (!args.quiet) {

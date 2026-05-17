@@ -1,13 +1,21 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { dedupeItems, makeItem } from "../scripts/lib/common.js";
+import {
+  dedupeItems,
+  extractReadableText,
+  extractStructuredData,
+  makeItem,
+  normalizeTitle
+} from "../scripts/lib/common.js";
 import {
   parseBeehiivArchive,
+  parseLinkList,
   parseWeAreSellersHtml,
   parseXmlFeed
 } from "../scripts/lib/fetchers.js";
-import { buildOutputs } from "../scripts/prepare-digest.js";
+import { buildOutputs, filterByLookback } from "../scripts/prepare-digest.js";
+import { filterUnseen, isSeen, markSeen } from "../scripts/lib/state.js";
 
 const baseSource = {
   id: "fixture",
@@ -157,6 +165,98 @@ test("blob carries raw excerpts plus prompts and language for agent remix", () =
   const official = blob.categories.find((c) => c.key === "Official / Policy");
   assert.equal(official.zh, "官方 / 政策");
   assert.equal(blob.stats.byCategory["Official / Policy"], 1);
+});
+
+test("extractStructuredData reads JSON-LD Article", () => {
+  const html = `<html><head>
+    <script type="application/ld+json">${JSON.stringify({
+      "@type": "BlogPosting",
+      headline: "May 2026 SP-API Release Notes",
+      datePublished: "2026-05-06T00:00:00Z",
+      articleBody: "Amazon will modify attribute usage and enumeration values."
+    })}</script></head><body><nav>Home Docs</nav></body></html>`;
+  const sd = extractStructuredData(html);
+  assert.equal(sd.title, "May 2026 SP-API Release Notes");
+  assert.match(sd.publishedAt, /2026-05-06/);
+  assert.match(sd.body, /attribute usage and enumeration/);
+});
+
+test("extractStructuredData reads __NEXT_DATA__ post body", () => {
+  const html = `<script id="__NEXT_DATA__" type="application/json">${JSON.stringify({
+    props: { pageProps: { post: { title: "Agentic Shopping", body: "Agents will reshape discovery." } } }
+  })}</script>`;
+  const sd = extractStructuredData(html);
+  assert.equal(sd.title, "Agentic Shopping");
+  assert.match(sd.body, /reshape discovery/);
+});
+
+test("extractReadableText strips nav/header/footer chrome", () => {
+  const html =
+    "<html><body><nav>首页 跨境头条 跨境百科 工具箱</nav>" +
+    "<header>拖动LOGO到书签栏</header>" +
+    "<article>真实正文：5.18 价格新规将影响参考价计算。</article>" +
+    "<footer>联系开店顾问</footer></body></html>";
+  const text = extractReadableText(html);
+  assert.match(text, /真实正文/);
+  assert.doesNotMatch(text, /跨境头条/);
+  assert.doesNotMatch(text, /联系开店顾问/);
+});
+
+test("normalizeTitle lowercases and strips punctuation", () => {
+  assert.equal(
+    normalizeTitle("  [BDSN] Amazon's Search Bar — How It Thinks! "),
+    "bdsn amazon s search bar how it thinks"
+  );
+  assert.equal(normalizeTitle("同样标题，标点不同。"), "同样标题 标点不同");
+});
+
+test("parseLinkList harvests article anchors generically", () => {
+  const html =
+    '<a href="/t/HryfW7m9">5.18 价格新规解读</a>' +
+    '<a href="/t/BtxQPDav">Coupang 极速开店实操</a>' +
+    '<a href="/about">关于我们</a>'; // non-matching, excluded
+  const linkRe = /<a\b[^>]*href=["']([^"']*\/t\/[A-Za-z0-9_-]{4,}[^"']*)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  const items = parseLinkList(html, { ...baseSource, name: "AMZ123" }, "https://www.amz123.com/t", linkRe);
+  assert.equal(items.length, 2);
+  assert.match(items[0].url, /amz123\.com\/t\/HryfW7m9/);
+  assert.equal(items[0].title, "5.18 价格新规解读");
+});
+
+test("makeItem carries thin flag only when set", () => {
+  const thin = makeItem(baseSource, { title: "Index shell", url: "https://x.com/i", thin: true });
+  assert.equal(thin.thin, true);
+  const ok = makeItem(baseSource, { title: "Real", url: "https://x.com/r", body: "real body text here" });
+  assert.equal("thin" in ok, false);
+});
+
+test("filterByLookback drops stale dated items, keeps undated/now", () => {
+  const now = Date.parse("2026-05-16T12:00:00Z");
+  const lookback = new Map([["Fixture Source", 72]]);
+  const fresh = makeItem(baseSource, { title: "Fresh", url: "https://x.com/f", publishedAt: "2026-05-15T12:00:00Z" });
+  const stale = makeItem(baseSource, { title: "Stale", url: "https://x.com/s", publishedAt: "2026-04-01T00:00:00Z" });
+  const undated = makeItem(baseSource, { title: "Undated", url: "https://x.com/u", publishedAt: new Date(now).toISOString() });
+  const kept = filterByLookback([fresh, stale, undated], lookback, now);
+  const titles = kept.map((i) => i.title).sort();
+  assert.deepEqual(titles, ["Fresh", "Undated"]);
+});
+
+test("state filterUnseen returns new items once, then nothing", () => {
+  const state = { seen: {} };
+  const a = makeItem(baseSource, { title: "Item A", url: "https://x.com/a" });
+  const b = makeItem(baseSource, { title: "Item B", url: "https://x.com/b" });
+  const first = filterUnseen(state, [a, b]);
+  assert.equal(first.length, 2);
+  const second = filterUnseen(state, [a, b]);
+  assert.equal(second.length, 0);
+  assert.equal(isSeen(state, a), true);
+});
+
+test("state dedupes same item across runs by normalized title", () => {
+  const state = { seen: {} };
+  const v1 = makeItem(baseSource, { title: "8-Figure Amazon Brand!", url: "https://x.com/ep1" });
+  markSeen(state, v1);
+  const v2 = makeItem({ ...baseSource, id: "other" }, { title: "8-figure amazon brand", url: "https://x.com/ep1?utm=x" });
+  assert.equal(isSeen(state, v2), true);
 });
 
 async function fixture(name) {

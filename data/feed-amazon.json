@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-05-17T01:24:16.070Z",
-  "date": "2026-05-16",
-  "itemCount": 30,
+  "generatedAt": "2026-05-17T15:37:50.029Z",
+  "date": "2026-05-17",
+  "itemCount": 28,
   "items": [
+    {
+      "id": "amz123-46d4ae9eb7b0609a",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "亚马逊把AI装进搜索栏：Alexa购物版支持降价提醒、定时下单、多轮对话，卖家如何抓住新流量红利？",
+      "url": "https://www.amz123.com/t/hwQvHTfe",
+      "publishedAt": "2026-05-17T15:37:50.028Z",
+      "excerpt": "亚马逊把AI装进搜索栏：Alexa购物版支持降价提醒、定时下单、多轮对话，卖家如何抓住新流量红利？",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
     {
       "id": "amz123-4823296e05caa4ef",
       "source": "AMZ123 跨境头条",
@@ -10,7 +27,7 @@
       "category": "Seller Ops",
       "title": "订单增长26%，波兰消费者开始偏好网购宠物用品",
       "url": "https://www.amz123.com/t/Z0gKWKLh",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
+      "publishedAt": "2026-05-17T15:37:50.027Z",
       "excerpt": "订单增长26%，波兰消费者开始偏好网购宠物用品",
       "body": "",
       "tags": [
@@ -27,7 +44,7 @@
       "category": "Seller Ops",
       "title": "《2026年亚马逊Prime Day研究报告》",
       "url": "https://www.amz123.com/t/uY8DISMX",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
+      "publishedAt": "2026-05-17T15:37:50.027Z",
       "excerpt": "《2026年亚马逊Prime Day研究报告》",
       "body": "",
       "tags": [
@@ -44,7 +61,7 @@
       "category": "Seller Ops",
       "title": "AMZ123会员专享丨5月第2周资讯汇总",
       "url": "https://www.amz123.com/t/oB4iAF1j",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
+      "publishedAt": "2026-05-17T15:37:50.027Z",
       "excerpt": "AMZ123会员专享丨5月第2周资讯汇总",
       "body": "",
       "tags": [
@@ -61,7 +78,7 @@
       "category": "Seller Ops",
       "title": "字节上诉至欧盟最高法院，试图避免DMA严格监管",
       "url": "https://www.amz123.com/t/MEO3w6t7",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
+      "publishedAt": "2026-05-17T15:37:50.027Z",
       "excerpt": "字节上诉至欧盟最高法院，试图避免DMA严格监管",
       "body": "",
       "tags": [
@@ -78,7 +95,7 @@
       "category": "Seller Ops",
       "title": "巴西重启小额免税，TikTok卖家迎重磅利好！",
       "url": "https://www.amz123.com/t/gB2eByV0",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
+      "publishedAt": "2026-05-17T15:37:50.027Z",
       "excerpt": "巴西重启小额免税，TikTok卖家迎重磅利好！",
       "body": "",
       "tags": [
@@ -95,7 +112,7 @@
       "category": "Seller Ops",
       "title": "京东将在都柏林设立本地办公室",
       "url": "https://www.amz123.com/t/RLAL6ymS",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
+      "publishedAt": "2026-05-17T15:37:50.027Z",
       "excerpt": "京东将在都柏林设立本地办公室",
       "body": "",
       "tags": [
@@ -112,25 +129,8 @@
       "category": "Seller Ops",
       "title": "亚马逊再度裁员，卖家服务团队将被削减",
       "url": "https://www.amz123.com/t/T2BGH0VZ",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
+      "publishedAt": "2026-05-17T15:37:50.027Z",
       "excerpt": "亚马逊再度裁员，卖家服务团队将被削减",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-46d4ae9eb7b0609a",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "亚马逊把AI装进搜索栏：Alexa购物版支持降价提醒、定时下单、多轮对话，卖家如何抓住新流量红利？",
-      "url": "https://www.amz123.com/t/hwQvHTfe",
-      "publishedAt": "2026-05-17T01:24:16.068Z",
-      "excerpt": "亚马逊把AI装进搜索栏：Alexa购物版支持降价提醒、定时下单、多轮对话，卖家如何抓住新流量红利？",
       "body": "",
       "tags": [
         "AMZ123",
@@ -146,7 +146,7 @@
       "category": "Official / Policy",
       "title": "A guide to targeting with Sponsored Products",
       "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-05-17T01:24:14.871Z",
+      "publishedAt": "2026-05-17T15:37:48.792Z",
       "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
       "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
@@ -157,30 +157,13 @@
       "sourceReliability": "official"
     },
     {
-      "id": "helium10-blog-6591719e0e72d7d8",
-      "source": "Helium 10 Blog",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "Blog",
-      "url": "https://www.helium10.com/blog/",
-      "publishedAt": "2026-05-17T01:24:14.664Z",
-      "excerpt": "Stay up-to-date on the latest Amazon FBA news in addition to great information for every level of Amazon seller with our engaging Blog stories.",
-      "body": "New & Noteworthy How Amazon Rufus Changes Prime Day Discovery in 2026 (And What to Do About It) Rufus-driven discovery will account for a meaningful share of top-of-funnel traffic, learn how to use it for Prime Day 2026. Read More 15 minute read Best Selling Products On Amazon: Top Selling Items & Categories in 2023 28 minute read Mastering Amazon Seller Central: A Comprehensive Guide 26 minute read Walmart Seller Center: Everything You Need to Know for Success 9 minute read Helium 10 Pricing & Membership Plan Options – How They Work Achieve More Results in Less Time Accelerate the Growth of Your Business, Brand or Agency Maximize your results and drive success faster with Helium 10’s full suite of Amazon and Walmart solutions. Get Started Search for: The 30-Day Prime Day Prep Calendar: What to Do Every Week Before the Event 18 minute read May 14, 2026 How Amazon Rufus Changes Prime Day Discovery in 2026 (And What to Do About It) 19 minute read May 13, 2026 How AI-Powered Amazon PPC Software Saves 10+ Hours Weekly and Boosts Performance 31 minute read May 8, 2026 How This Amazon Seller Uses Helium 10 as the Data Engine Behind an AI-Powered Optimization Workflow 4 minute read April 28, 2026 7 Warning Signs You’ve Outgrown Manual Amazon PPC Management 20 minute read April 24, 2026 Amazon + TikTok Shop Ads: One Platform vs. Two Agencies 7 minute read April 17, 2026 Why Does Your Amazon ACoS Look Great But You’re Still Losing Money? 29 minute read April 16, 2026 Take Back Control of Your Amazon Advertising: Agency Costs vs. Automation Software 14 minute read April 15, 2026 Why Are Brands Rethinking Their Amazon Advertising Strategy in 2026? 17 minute read April 7, 2026 Why Most Amazon FBA Listings Fail (And the Data-Driven Fix Sellers Are Missing) 6 minute read April 6, 20...",
-      "tags": [
-        "Helium 10",
-        "operations"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
       "id": "amazon-sp-api-docs-913cf37877f42b3e",
       "source": "Amazon SP-API Release Notes",
       "sourceType": "official",
       "category": "Official / Policy",
       "title": "SP-API Release Notes",
       "url": "https://developer-docs.amazon.com/sp-api/docs/sp-api-release-notes",
-      "publishedAt": "2026-05-17T01:24:14.639Z",
+      "publishedAt": "2026-05-17T15:37:48.775Z",
       "excerpt": "Selling Partner API new features, software updates, and changelog.",
       "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . April 29, 2026 API changes External Fulfillment Shipping v2024-09-11 Added support for the Easy Ship program for US domestic shipments. Added drop-off location details, such as the address, map URL, and distance, for shipments that the seller delivers to nearby drop-off locations. Added support for US customary units. Fulfillment Outbound v2020-07-01 Updated the getPackageTrackingDetails operation with two new eventCode values to support locker delivery: EVENT_801 : Package delivered to locker. EVENT_804 : Package picked up from locker. Orders API v2026-01-01 Added TAX and PAYMENT attributes to the getOrders and searchOrders operations to address discrepancies between Orders v0 and Orders v2026-01-01. These discrepancies include Order.PaymentExecutionDetail , Order.PaymentMethod , Order.PaymentMethodDetails , Order.IsIBA , Order.ElectronicInvoiceStatus , Order.BuyerInvoicePreference , Order.BuyerTaxInformation , Order.MarketplaceTaxInfo , Order.SellerDisplayName , Order.BuyerInfo.BuyerTaxInfo , OrderItem.TaxCollection , OrderItem.DeemedResellerCategory , OrderItem.SerialNumberRequired , and OrderItem.AssociatedItems . Documentation changes Added pricing validation details to the Listings Items API and Product Pricing API guides. This feature allows users to detect and fix pricing problems before submission or production impact. Added the attribute updates to Orders API Migration Guide and Access Orders PII guide. Added the Get Tax Information guide for the Orders API. Deprecation notices Deprecated SP-API resources are no longer in active development. Calls to deprecated SP-API resources will fail as of their removal date. For a complete list of SP-API deprecations,...",
       "tags": [
@@ -192,30 +175,13 @@
       "sourceReliability": "official"
     },
     {
-      "id": "billion-dollar-sellers-a4f5e22ca440d867",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] Rufus is dead. Long live Alexa.",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-rufus-is-dead-long-live-alexa",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
       "id": "billion-dollar-sellers-b33874bdd702e9b2",
       "source": "Billion Dollar Sellers",
       "sourceType": "newsletter",
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon's agentic army is coming - you ready?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-s-agentic-army-is-coming-you-ready",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
+      "publishedAt": "2026-05-17T15:37:48.560Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -232,7 +198,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Your margin is my opportunity - Jeff Bezos",
       "url": "https://www.billiondollarsellers.com/p/bdsn-your-margin-is-my-opportunity-jeff-bezos",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
+      "publishedAt": "2026-05-17T15:37:48.560Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -249,7 +215,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How Amazon's search bar actually thinks",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-amazon-s-search-bar-actually-thinks",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
+      "publishedAt": "2026-05-17T15:37:48.560Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -266,7 +232,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon speaks: AI agents are about to kill your business (if you don't act now)",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-speaks-ai-agents-are-about-to-kill-your-business-if-you-don-t-act-now",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
+      "publishedAt": "2026-05-17T15:37:48.560Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -283,7 +249,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Should you stop tracking your Amazon rank?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-should-you-stop-tracking-your-amazon-rank",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
+      "publishedAt": "2026-05-17T15:37:48.560Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -300,7 +266,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon just killed your fake pricing",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-just-killed-your-fake-pricing",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
+      "publishedAt": "2026-05-17T15:37:48.560Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -317,7 +283,24 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How much in tariff refunds will you get?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-much-in-tariff-refunds-will-you-get",
-      "publishedAt": "2026-05-17T01:24:14.491Z",
+      "publishedAt": "2026-05-17T15:37:48.560Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-a4f5e22ca440d867",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] Rufus is dead. Long live Alexa.",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-rufus-is-dead-long-live-alexa",
+      "publishedAt": "2026-05-17T15:37:48.559Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -343,6 +326,23 @@
       ],
       "access": "public",
       "sourceReliability": "media"
+    },
+    {
+      "id": "wearesellers-2f4fd0a0274f7852",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "近30天ACOS仅12.56%，但销量仅145单，下一步应该如何放量冲击类目前三？当前最大的瓶颈到底是价格、流量还是Review数量？想冲到月销300单以上，广告结构应该如何调整？",
+      "url": "https://www.wearesellers.com/question/119761",
+      "publishedAt": "Sat, 16 May 2026 03:05:18 +0000",
+      "excerpt": "各位前辈好， 我在美国站销售一款产品，最近30天广告表现不错，但销量与头部竞品仍有明显差距，想请教大家下一步该如何做。 一、近30天整体数据 销售数据 销量：145单 销售额：$3,030.46 Sessions：636 总转化率：22.8% 广告数据 广告花费：$257.88 广告订单：95单 广告销售额：约 $2,050+ ACOS：12.56% CPC：$0.67 CPA：$2.55 ROAS：8.22 广告订单占比：95 /...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
     },
     {
       "id": "my-amazon-guy-5c7a11c4b992d4ba",
@@ -413,55 +413,21 @@
       "sourceReliability": "community"
     },
     {
-      "id": "wearesellers-44620f8cf0cc084d",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "科学选品逻辑胜于“运气”，为什么都是看数据选品, 你却很难找到爆款? 真正的破局, 不能靠卷, 而是要会算",
-      "url": "https://www.wearesellers.com/question/119706",
-      "publishedAt": "Thu, 14 May 2026 12:47:25 +0000",
-      "excerpt": "为什么都是看数据选品, 你却很难找到爆款? 选品看数据, 却始终看不到背后本质, 广告一直投, 算账却始终不见利润。新品难推、老品难守, 运营动作越多, 风险反而越高。 为什么大卖能持续霸榜, 中小卖却做不上去? 差距不一定是不努力, 而是努力的方向真的对吗? 头部卖家用选品-广告-供应链协同形成正循环, 中小卖零散操作、被动应对, 只能在红海里反复试错。 为什么始终找不到属于自己的可持续盈利模型? 看不清隐形盈利结构、广告回报、沉淀...",
-      "body": "",
+      "id": "helium10-blog-acb3f889d769b15b",
+      "source": "Helium 10 Blog",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "How Amazon Rufus Changes Prime Day Discovery in 2026 (And What to Do About It)",
+      "url": "https://www.helium10.com/blog/how-amazon-rufus-changes-prime-day-discovery-in-2026/",
+      "publishedAt": "2026-05-13T16:11:19.000Z",
+      "excerpt": "Rufus-driven discovery will account for a meaningful share of top-of-funnel traffic, learn how to use it for Prime Day 2026.",
+      "body": "How Amazon Rufus Changes Prime Day Discovery in 2026 (And What to Do About It) Lauren Stair 19 minute read Published: May 13, 2026 Share: URL copied Walk Out of Prime Day with More Customers, More Data, More Margin. Plan your inventory, sharpen your listings, run smarter ads, and pull in outside traffic so the four-day surge keeps lifting your brand long after the event ends. Download Free Checklist Table of Contents Key Takeaways: Why Your Current Prime Day Keyword Strategy Doesn't Reach Rufus Shoppers How Does Rufus Actually Decide Which Products to Surface? Three signals drive Rufus retrieval performance. What Does Prime Day Listing Optimization for Rufus Actually Look Like? Production: what to actually change. Should You Change Your PPC Strategy for a Rufus-Heavy Prime Day? How Do Rufus Optimization, Traditional Keywords, and Prime Day Prep Compare Across Your ASIN Tiers? What Happens to Your Prime Day Rankings After the Event Ends? Achieve More Results in Less Time With Helium 10 Sign Up For Free Walk Out of Prime Day with More Customers, More Data, More Margin. Plan your inventory, sharpen your listings, run smarter ads, and pull in outside traffic so the four-day surge keeps lifting your brand long after the event ends. Download Free Checklist TL:DR; Amazon Rufus surfaces products through conversational, use-case queries that bypass traditional SERP ranking signals. During Prime Day 2026, Rufus-driven discovery will account for a meaningful share of top-of-funnel traffic for high-intent shoppers. Brands that have not restructured listings for semantic, context-rich content before the event will miss placements that PPC spend alone cannot recover. Key Takeaways: Rufus retrieves products based on use-case context, comparative framing, and review semantics, not key...",
       "tags": [
-        "community",
-        "seller pain"
+        "Helium 10",
+        "operations"
       ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-c92453b9009260ee",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "用Nano banana pro生成亚马逊商品套图（附提示词）",
-      "url": "https://www.wearesellers.com/question/119684",
-      "publishedAt": "Thu, 14 May 2026 07:02:50 +0000",
-      "excerpt": "亚马逊电商套图提示词 找一张产品实拍图作为参考图（1688、竞品或自己拍） 将参考图和提示词发给 Nano Banana Pro（打开 https://gemini.google.com/app，选择制作图片 ）。 1. 主图（Hero / Main Image，纯白背景） 输入参考图和提示词： Generate a professional Amazon main image. Using the precise appearanc...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-79f4c9f0dc859c8c",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "03年亚马逊1年半白帽运营助理经验，坐标上海。目前入职一家新公司，公司希望要求0-1搭建，面临职业瓶颈，想离职但摇摆不定，希望能够得到大佬们的指点",
-      "url": "https://www.wearesellers.com/question/119681",
-      "publishedAt": "Thu, 14 May 2026 06:28:48 +0000",
-      "excerpt": "一、基本信息​ 03年女生，坐标上海，纯白帽精品+精铺运营经验（1年3个月运营助理）。 二、工作情况 2024年毕业后入职第一家公司做助理，但由于效益不行，一直处于亏损状态，25年11月公司被裁 在这家学到的有： 基础的市场调研，就对卖家精灵类目数据的简单分析 广告也有接触但都是开一些简单的自动广告和商品投放，手动关键词也是随便开的 写标题，以及listing这些也只是看看竞品，写一个差不多的，不会关键词的搭建 简单来说每个环节都有一...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
+      "access": "public",
+      "sourceReliability": "industry"
     },
     {
       "id": "my-amazon-guy-ee626e7e46628063",

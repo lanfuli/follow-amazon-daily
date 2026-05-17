@@ -2,6 +2,10 @@
   "timezone": "America/Los_Angeles",
   "language": "zh",
   "maxItemsPerSource": 8,
+  "frequency": "daily",
+  "delivery": {
+    "method": "stdout"
+  },
   "sources": [
     {
       "id": "amazon-sp-api-docs",

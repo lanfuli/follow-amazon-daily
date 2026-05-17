@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { readFile } from "node:fs/promises";
 import {
   dedupeItems,
   parseArgs,
@@ -6,25 +7,91 @@ import {
   repoPath,
   sortItems,
   todayInTimeZone,
-  writeJson,
-  writeText
+  writeJson
 } from "./lib/common.js";
 import { fetchSource } from "./lib/fetchers.js";
-import {
-  categoryLabel,
-  labels,
-  localizeItem,
-  resolveLanguage,
-  suggestActionZh
-} from "./lib/i18n.js";
+import { CATEGORY_LABELS, resolveLanguage } from "./lib/i18n.js";
 
-const CATEGORIES = [
+export const CATEGORIES = [
   "Official / Policy",
   "Seller Ops",
   "Community Pain Signals",
   "Podcast / Video Playbooks",
   "Newsletter / Analyst Signals"
 ];
+
+const PROMPT_FILES = {
+  dailyDigest: "prompts/daily-digest.md",
+  translate: "prompts/translate.md"
+};
+
+async function loadPrompts() {
+  const prompts = {};
+  for (const [key, rel] of Object.entries(PROMPT_FILES)) {
+    try {
+      prompts[key] = await readFile(repoPath(rel), "utf8");
+    } catch {
+      prompts[key] = "";
+    }
+  }
+  return prompts;
+}
+
+// Pure seam: turns fetched items into the deterministic public feed plus the
+// full agent blob. The script never assembles the final Chinese digest itself
+// — the agent does that by reading `blob.items` + `blob.prompts`.
+export function buildOutputs({
+  items,
+  privateItems = [],
+  errors = [],
+  config,
+  date,
+  generatedAt,
+  language,
+  prompts = {}
+}) {
+  const byCategory = {};
+  for (const category of CATEGORIES) {
+    byCategory[category] = items.filter((item) => item.category === category).length;
+  }
+
+  // Public, deterministic feed: raw English excerpts preserved, no canned
+  // translation, no prompts, no ephemeral authenticated signals.
+  const feed = {
+    generatedAt,
+    date,
+    itemCount: items.length,
+    items,
+    errors
+  };
+
+  // Full blob for the agent. Includes prompts and stdout-only private signals;
+  // this is never written to the public feed file.
+  const blob = {
+    generatedAt,
+    date,
+    config: {
+      language,
+      timezone: config.timezone,
+      delivery: config.delivery ?? { method: "stdout" }
+    },
+    stats: {
+      publicItems: items.length,
+      privateItems: privateItems.length,
+      byCategory
+    },
+    categories: CATEGORIES.map((key) => ({
+      key,
+      zh: CATEGORY_LABELS[key]?.zh ?? key
+    })),
+    items,
+    privateItems,
+    prompts,
+    errors
+  };
+
+  return { feed, blob };
+}
 
 async function main() {
   const args = parseArgs();
@@ -43,129 +110,29 @@ async function main() {
   );
 
   const errors = results.flatMap((result) => result.errors);
-  const publicItems = sortItems(dedupeItems(results.flatMap((result) => result.items)));
+  const items = sortItems(dedupeItems(results.flatMap((result) => result.items)));
   const privateItems = sortItems(dedupeItems(results.flatMap((result) => result.privateItems)));
   const generatedAt = new Date().toISOString();
+  const prompts = await loadPrompts();
 
-  const feed = {
-    generatedAt,
+  const { feed, blob } = buildOutputs({
+    items,
+    privateItems,
+    errors,
+    config,
     date,
-    itemCount: publicItems.length,
-    privateItemCount: 0,
-    items: publicItems,
-    errors
-  };
-
-  const publicDigest = buildDigest(feed, { privateItems: [], includePrivate: false, language });
-  const stdoutDigest = buildDigest(feed, { privateItems, includePrivate: privateItems.length > 0, language });
+    generatedAt,
+    language,
+    prompts
+  });
 
   if (!args["dry-run"]) {
     await writeJson(repoPath(args.out || "data/feed-amazon.json"), feed);
-    await writeText(repoPath(args.digest || `digest/${date}.md`), publicDigest);
-    if (args["include-private-digest"] && privateItems.length > 0) {
-      await writeText(repoPath(`digest/private-${date}.md`), stdoutDigest);
-    }
   }
 
   if (!args.quiet) {
-    process.stdout.write(`${stdoutDigest}\n`);
+    process.stdout.write(`${JSON.stringify(blob, null, 2)}\n`);
   }
-
-}
-
-export function buildDigest(feed, options = {}) {
-  const privateItems = options.privateItems ?? [];
-  const includePrivate = Boolean(options.includePrivate);
-  const language = options.language || "zh";
-  const t = labels(language);
-  const lines = [
-    `# ${t.titlePrefix} - ${feed.date}`,
-    "",
-    `${t.generated}: ${feed.generatedAt}`,
-    `${t.publicItems}: ${feed.itemCount}`,
-    `${t.privateSignals}: ${includePrivate ? privateItems.length : 0}`,
-    ""
-  ];
-
-  if (feed.errors.length > 0) {
-    lines.push(`## ${t.sourceWarnings}`, "");
-    for (const error of feed.errors.slice(0, 10)) {
-      lines.push(`- ${error.source}: ${error.message}`);
-    }
-    lines.push("");
-  }
-
-  for (const category of CATEGORIES) {
-    const items = feed.items.filter((item) => item.category === category).slice(0, 8);
-    lines.push(`## ${categoryLabel(category, language)}`, "");
-    if (items.length === 0) {
-      lines.push(`- ${t.noSignal}`, "");
-      continue;
-    }
-    for (const item of items) {
-      lines.push(formatDigestItem(item, language));
-    }
-    lines.push("");
-  }
-
-  if (includePrivate) {
-    lines.push(`## ${t.privateHeading}`, "");
-    lines.push(t.privateNotice);
-    lines.push("");
-    for (const item of privateItems.slice(0, 8)) {
-      lines.push(formatDigestItem(item, language));
-    }
-    lines.push("");
-  }
-
-  return `${lines.join("\n").replace(/\n{3,}/g, "\n\n").trim()}\n`;
-}
-
-function formatDigestItem(item, language = "zh") {
-  if (language === "bilingual") {
-    const zh = localizeItem(item, "zh");
-    return [
-      `- [${escapeMarkdown(item.title)}](${item.url})`,
-      `  - What happened: ${item.excerpt || "Public metadata captured."}`,
-      `  - Seller impact: ${item.sellerImpact}`,
-      `  - Suggested action: ${suggestAction(item, "en")}`,
-      `  - 中文标题: ${zh.title}`,
-      `  - 发生了什么: ${zh.excerpt}`,
-      `  - 卖家影响: ${zh.sellerImpact}`,
-      `  - 建议动作: ${suggestAction(item, "zh")}`,
-      `  - Tags / 标签: ${item.tags.join(", ")} / ${zh.tags.join(", ")}`
-    ].join("\n");
-  }
-  const t = labels(language);
-  const localized = localizeItem(item, language);
-  return [
-    `- [${escapeMarkdown(localized.title)}](${item.url})`,
-    `  - ${t.happened}: ${localized.excerpt || t.publicMetadata}`,
-    `  - ${t.impact}: ${localized.sellerImpact}`,
-    `  - ${t.action}: ${suggestAction(item, language)}`,
-    `  - ${t.tags}: ${localized.tags.join(", ")}`
-  ].join("\n");
-}
-
-function suggestAction(item, language = "zh") {
-  if (language === "zh") return suggestActionZh(item);
-  if (item.sourceReliability === "official") {
-    return "Check whether this should update account, ads, API, logistics, or compliance SOPs.";
-  }
-  if (item.category === "Community Pain Signals") {
-    return "Treat it as a pain signal; wait for official or multi-source confirmation before changing SOPs.";
-  }
-  if (item.category === "Podcast / Video Playbooks") {
-    return "Pick one tactic related to ads, listings, conversion, or inventory and test it narrowly.";
-  }
-  if (item.category === "Newsletter / Analyst Signals") {
-    return "Turn it into a hypothesis, then validate it against your own category data.";
-  }
-  return "Decide whether this belongs in this week's operating experiment list.";
-}
-
-function escapeMarkdown(value) {
-  return String(value).replace(/[[\]]/g, "\\$&");
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

@@ -1,62 +1,90 @@
+**English** | [中文](README.zh-CN.md)
+
 # follow-amazon-daily
 
-Daily Amazon seller intelligence digest for Codex.
+Daily Amazon seller intelligence digest skill.
 
-It combines the low-friction feed aggregation pattern from `follow-builders` with the structured, auditable workflow style from `wayamzpost`. The result is a small public skill that can run on GitHub Actions and produce a daily seller digest in Chinese, English, or bilingual mode.
+It combines the low-friction feed aggregation pattern from `follow-builders`
+with the structured, auditable workflow style from `wayamzpost`. A deterministic
+script fetches raw content; the agent remixes it into a real editorial digest in
+Chinese, English, or bilingual mode. Nothing is auto-published to social
+platforms.
+
+## Architecture (two stages)
+
+1. **`scripts/prepare-digest.js`** — fetches every source, writes the
+   deterministic raw feed `data/feed-amazon.json`, and prints a single JSON blob
+   (raw items + prompts + config + stats) to stdout. It does **not** write the
+   digest and does **not** translate.
+2. **The agent** — reads that JSON and remixes it into `digest/YYYY-MM-DD.md`
+   following `prompts/daily-digest.md` and `prompts/translate.md`. Every item
+   gets its own specific summary written from the raw `body`/`excerpt` — there is
+   no hardcoded phrase dictionary, so the output is not repetitive boilerplate.
 
 ## What It Produces
 
-- `data/feed-amazon.json`: structured public feed
-- `digest/YYYY-MM-DD.md`: daily public digest
-- stdout: digest plus optional private authenticated signals
-
-No auto-publishing is included in V1.
+- `data/feed-amazon.json`: deterministic raw public feed (script-written)
+- `digest/YYYY-MM-DD.md`: editorial digest (agent-written, never includes
+  private authenticated content)
+- stdout: full JSON blob for the agent, plus optional stdout-only private
+  authenticated signals
 
 ## Quick Start
 
 ```bash
 npm test
 node scripts/audit-sources.js --dry-run
-node scripts/prepare-digest.js
+node scripts/prepare-digest.js          # prints the JSON blob
+# then the agent remixes it per prompts/daily-digest.md into digest/<date>.md
 ```
 
 ## Language
 
-The default is Chinese:
-
-```json
-{
-  "language": "zh"
-}
-```
-
-You can override it at runtime:
+Default is Chinese (`config.language: "zh"`). Override at runtime:
 
 ```bash
-node scripts/prepare-digest.js --language zh
 node scripts/prepare-digest.js --language en
+node scripts/prepare-digest.js --language bilingual
 ```
 
-When `language` is `zh`, English source titles, summaries, seller impact, and suggested actions are translated or rewritten into natural Chinese. Proper nouns and operator terms such as Amazon, Walmart, TikTok Shop, Sponsored Products, Brand Registry, PPC, ASIN, API, and Search Query Performance stay in English.
+Translation is performed by the agent following `prompts/translate.md`: natural,
+native-sounding Chinese, with operator terms and proper nouns kept in English
+(Amazon, Walmart, TikTok Shop, Sponsored Products, Brand Registry, PPC, ACOS,
+ASIN, SP-API, Search Query Performance) and URLs unchanged.
+
+## Delivery
+
+Default is `stdout` (show in chat, no keys, no auto-publish). The user can opt
+into their own Telegram or email delivery in `config/sources.json`:
+
+```json
+{ "delivery": { "method": "telegram", "chatId": "123456789" } }
+```
+
+Secrets come from environment variables only: `TELEGRAM_BOT_TOKEN` or
+`RESEND_API_KEY`. Send a finished digest with:
+
+```bash
+node scripts/deliver.js --file digest/2026-05-16.md
+```
 
 ## Sources
-
-Default public sources include:
 
 - Amazon SP-API docs
 - Amazon Ads Library
 - Buy with Prime blog
 - Walmart Marketplace release notes
 - Helium 10 blog
-- Serious Sellers Podcast RSS: `https://feed.podbean.com/helium10/feed.xml`
+- Serious Sellers Podcast RSS
 - AMZ123
-- WeAreSellers RSS: `https://www.wearesellers.com/feed`
-- Billion Dollar Sellers archive: `https://www.billiondollarsellers.com/archive`
-- MyAmazonGuy YouTube RSS: `https://www.youtube.com/feeds/videos.xml?channel_id=UClUSEsDS2sdgNJfCcCM_5Uw`
+- WeAreSellers RSS / HTML
+- Billion Dollar Sellers archive
+- MyAmazonGuy YouTube RSS
 
 ## Optional Auth
 
-WeAreSellers and Billion Dollar Sellers can be enhanced with authenticated cookies:
+WeAreSellers and Billion Dollar Sellers can be enriched with authenticated
+cookies:
 
 ```bash
 export WEARESELLERS_COOKIE='name=value; other=value'
@@ -64,38 +92,30 @@ export BDS_COOKIE='name=value; other=value'
 node scripts/prepare-digest.js
 ```
 
-The script never stores raw authenticated page text. Private authenticated insights are stdout-only by default. If you intentionally want a local private file, use:
-
-```bash
-node scripts/prepare-digest.js --include-private-digest
-```
-
-`digest/private-*.md` is ignored by git.
+The script never persists raw authenticated page text. Authenticated insights
+are returned as `privateItems` in the stdout blob only — never written to
+`data/feed-amazon.json` or the public digest.
 
 ## GitHub Actions
 
-The workflow runs daily at `14:30 UTC`, tests the parser, audits sources in non-fatal dry-run mode, and commits `data/feed-amazon.json` plus the public digest when there are changes.
+The daily workflow tests the parser, audits sources in non-fatal dry-run mode,
+refreshes `data/feed-amazon.json`, and commits **only that feed file**. The
+editorial digest is produced by the agent on demand, not in CI. Keep auth
+cookies out of public workflow logs.
 
-GitHub Actions does not pass auth secrets by default. Keep private cookies out of public workflow logs unless you deliberately build a private workflow.
+## Feed Item Schema
 
-## Schema
+Each item in `data/feed-amazon.json`:
 
-Every feed item includes:
+- `id`, `source`, `sourceType`, `category`
+- `title`, `url`, `publishedAt`
+- `excerpt` (short metadata)
+- `body` (raw readable text for public sources; empty for community /
+  subscriber-gated sources)
+- `tags`, `access`, `sourceReliability`
 
-- `id`
-- `source`
-- `sourceType`
-- `category`
-- `title`
-- `url`
-- `publishedAt`
-- `excerpt`
-- `sellerImpact`
-- `tags`
-- `access`
-- `sourceReliability`
-
-See `config/schema.json`.
+Seller impact and suggested actions are written by the agent at digest time, not
+stored as canned strings.
 
 ## License
 

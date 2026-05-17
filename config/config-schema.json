@@ -21,6 +21,35 @@
       "minimum": 1,
       "default": 8
     },
+    "delivery": {
+      "type": "object",
+      "description": "Optional. How the finished digest is delivered. Default is stdout (no auto-publish).",
+      "additionalProperties": true,
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": ["stdout", "telegram", "email"],
+          "default": "stdout"
+        },
+        "chatId": {
+          "type": "string",
+          "description": "Telegram chat id (only when method is telegram). Bot token comes from env TELEGRAM_BOT_TOKEN."
+        },
+        "email": {
+          "type": "string",
+          "description": "Recipient email (only when method is email). API key comes from env RESEND_API_KEY."
+        }
+      }
+    },
+    "frequency": {
+      "type": "string",
+      "enum": ["daily", "weekly"],
+      "default": "daily"
+    },
+    "deliveryTime": {
+      "type": "string",
+      "description": "Local HH:MM the scheduled run should fire (used when setting up cron)."
+    },
     "sources": {
       "type": "array",
       "items": { "type": "object" }

@@ -7,7 +7,7 @@ import {
   parseWeAreSellersHtml,
   parseXmlFeed
 } from "../scripts/lib/fetchers.js";
-import { buildDigest } from "../scripts/prepare-digest.js";
+import { buildOutputs } from "../scripts/prepare-digest.js";
 
 const baseSource = {
   id: "fixture",
@@ -84,57 +84,79 @@ test("dedupes repeated URL or title", () => {
   assert.equal(dedupeItems([one, two, three]).length, 1);
 });
 
-test("public digest excludes private authenticated signal by default", () => {
-  const feed = {
-    generatedAt: "2026-05-16T00:00:00.000Z",
-    date: "2026-05-16",
-    itemCount: 1,
-    errors: [],
-    items: [
-      makeItem(baseSource, {
-        title: "Public item",
-        url: "https://example.com/public",
-        excerpt: "Public metadata"
-      })
-    ]
-  };
+test("public source keeps scraped body; gated source stays metadata-only", () => {
+  const publicItem = makeItem(
+    { ...baseSource, sourceReliability: "official", access: "public" },
+    { title: "Public page", url: "https://example.com/p", body: "Full readable article body text." }
+  );
+  assert.match(publicItem.body, /Full readable article body text/);
+
+  const communityItem = makeItem(
+    { ...baseSource, sourceReliability: "community", access: "community_signal" },
+    { title: "Community thread", url: "https://example.com/q", body: "subscriber/community body that must not persist" }
+  );
+  assert.equal(communityItem.body, "");
+});
+
+test("public feed excludes private authenticated signal; blob keeps it stdout-only", () => {
+  const publicItem = makeItem(baseSource, {
+    title: "Public item",
+    url: "https://example.com/public",
+    excerpt: "Public metadata"
+  });
   const privateItem = makeItem(baseSource, {
     title: "Private item",
     url: "https://example.com/private",
     excerpt: "subscriber-visible analysis text",
     access: "authenticated_ephemeral"
   });
-  const publicDigest = buildDigest(feed, { privateItems: [privateItem], includePrivate: false });
-  assert.doesNotMatch(publicDigest, /subscriber-visible analysis text/);
-  const stdoutDigest = buildDigest(feed, { privateItems: [privateItem], includePrivate: true });
-  assert.match(stdoutDigest, /仅 stdout/);
+  const { feed, blob } = buildOutputs({
+    items: [publicItem],
+    privateItems: [privateItem],
+    errors: [],
+    config: { timezone: "America/Los_Angeles" },
+    date: "2026-05-16",
+    generatedAt: "2026-05-16T00:00:00.000Z",
+    language: "zh"
+  });
+  const feedJson = JSON.stringify(feed);
+  assert.doesNotMatch(feedJson, /subscriber-visible analysis text/);
+  assert.equal(feed.items.length, 1);
+  assert.equal(blob.privateItems.length, 1);
+  assert.equal(blob.stats.privateItems, 1);
+  assert.match(JSON.stringify(blob.privateItems), /subscriber-visible analysis text/);
 });
 
-test("Chinese digest translates known English source content", () => {
-  const feed = {
-    generatedAt: "2026-05-16T00:00:00.000Z",
-    date: "2026-05-16",
-    itemCount: 1,
+test("blob carries raw excerpts plus prompts and language for agent remix", () => {
+  const item = makeItem({
+    ...baseSource,
+    name: "Amazon Ads Library",
+    sourceReliability: "official",
+    category: "Official / Policy",
+    tags: ["Amazon Ads", "advertising"]
+  }, {
+    title: "A guide to targeting with Sponsored Products",
+    url: "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+    excerpt: "Discover tips to help you drive sales through targeting with Sponsored Products."
+  });
+  const { feed, blob } = buildOutputs({
+    items: [item],
+    privateItems: [],
     errors: [],
-    items: [
-      makeItem({
-        ...baseSource,
-        name: "Amazon Ads Library",
-        sourceReliability: "official",
-        category: "Official / Policy",
-        tags: ["Amazon Ads", "advertising"]
-      }, {
-        title: "A guide to targeting with Sponsored Products",
-        url: "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-        excerpt: "Discover tips to help you drive sales through targeting with Sponsored Products."
-      })
-    ]
-  };
-  const digest = buildDigest(feed, { language: "zh" });
-  assert.match(digest, /Sponsored Products 定向指南/);
-  assert.match(digest, /Amazon Ads 官方说明/);
-  assert.doesNotMatch(digest, /Discover tips to help you drive sales/);
-  assert.match(digest, /官方 \/ 政策/);
+    config: { timezone: "America/Los_Angeles" },
+    date: "2026-05-16",
+    generatedAt: "2026-05-16T00:00:00.000Z",
+    language: "zh",
+    prompts: { dailyDigest: "DAILY_DIGEST_PROMPT_BODY", translate: "TRANSLATE_PROMPT_BODY" }
+  });
+  // Raw English excerpt is preserved for the agent; no canned dictionary translation.
+  assert.match(JSON.stringify(feed.items[0]), /Discover tips to help you drive sales/);
+  assert.equal(blob.config.language, "zh");
+  assert.equal(blob.prompts.dailyDigest, "DAILY_DIGEST_PROMPT_BODY");
+  assert.equal(blob.prompts.translate, "TRANSLATE_PROMPT_BODY");
+  const official = blob.categories.find((c) => c.key === "Official / Policy");
+  assert.equal(official.zh, "官方 / 政策");
+  assert.equal(blob.stats.byCategory["Official / Policy"], 1);
 });
 
 async function fixture(name) {

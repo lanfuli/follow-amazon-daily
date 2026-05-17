@@ -1,11 +1,11 @@
 import {
   absoluteUrl,
+  extractReadableText,
   fetchText,
   firstAtomHref,
   firstXmlTag,
   htmlTitle,
   makeItem,
-  normalizeWhitespace,
   stripTags,
   truncate
 } from "./common.js";
@@ -104,13 +104,15 @@ export async function fetchGenericHtml(source, options = {}) {
   });
   const title = htmlTitle(response.text) || source.name;
   const excerpt = extractMetaDescription(response.text) || title;
+  const body = extractReadableText(response.text);
   return {
     items: [
       makeItem(source, {
         title,
         url: response.finalUrl,
         publishedAt: new Date().toISOString(),
-        excerpt
+        excerpt,
+        body
       })
     ],
     privateItems: [],
@@ -130,13 +132,17 @@ export function parseXmlFeed(xml, source, limit = 8) {
     const publishedAt =
       firstXmlTag(block, ["pubDate", "published", "updated", "dc:date"]) || new Date().toISOString();
     const excerpt =
-      firstXmlTag(block, ["itunes:summary", "media:description", "description", "summary", "content:encoded"]) ||
+      firstXmlTag(block, ["itunes:summary", "media:description", "description", "summary"]) ||
       title;
+    const body =
+      firstXmlTag(block, ["content:encoded", "itunes:summary", "description", "summary", "media:description"]) ||
+      "";
     return makeItem(source, {
       title,
       url,
       publishedAt,
       excerpt,
+      body,
       access: source.access
     });
   });
@@ -202,7 +208,7 @@ async function fetchPrivateArticleSignals(source, publicItems, options, auth) {
           cookie: auth.cookie
         }
       });
-      const text = readableBody(response.text);
+      const text = extractReadableText(response.text);
       if (!text || text.length < 160) continue;
       privateItems.push({
         ...item,
@@ -221,15 +227,6 @@ async function fetchPrivateArticleSignals(source, publicItems, options, auth) {
 function extractMetaDescription(html) {
   const match = html.match(/<meta\b[^>]*name=["']description["'][^>]*content=["']([^"']+)["'][^>]*>/i);
   return match?.[1] ? stripTags(match[1]) : "";
-}
-
-function readableBody(html) {
-  const article =
-    html.match(/<article\b[\s\S]*?<\/article>/i)?.[0] ||
-    html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ||
-    html.match(/<body\b[\s\S]*?<\/body>/i)?.[0] ||
-    html;
-  return normalizeWhitespace(stripTags(article));
 }
 
 function titleFromSlug(url) {

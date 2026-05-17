@@ -3,6 +3,7 @@
   "language": "zh",
   "maxItemsPerSource": 8,
   "frequency": "daily",
+  "onboardingComplete": false,
   "delivery": {
     "method": "stdout"
   },

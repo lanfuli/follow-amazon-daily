@@ -36,7 +36,8 @@ its own specific summary.
 5. Billion Dollar Sellers is industry opinion unless confirmed elsewhere.
 6. No auto-publishing to social platforms (Notion, Xiaohongshu, LinkedIn, X,
    Instagram). Delivery is limited to what the user explicitly configures in
-   `config.delivery` (`stdout` default, or their own Telegram/email).
+   `config.delivery` (`stdout` default, or their own Telegram / Email / Feishu).
+   Never ask the user to paste a secret in chat — write it to their env file.
 7. Follow `config.language` exactly. See `prompts/translate.md`.
 8. Never fabricate or speculate. Every digest item must carry its original link;
    no link → exclude it. See `prompts/daily-digest.md`.
@@ -51,27 +52,82 @@ stdout                   # full JSON blob from the script (for the agent)
 
 ## First Run — Onboarding
 
-If the user is setting this up for the first time (no delivery preferences
-chosen yet), walk them through it conversationally. Do not make them edit files.
+**Gate:** if `config/sources.json` does not have `onboardingComplete: true`, run
+this flow before anything else. Drive it conversationally — *you* edit the
+config and env files for the user; never make them hand-edit JSON, and **never
+ask them to paste a secret into the chat**.
 
-1. **Intro** — one or two lines on what this digest covers (official/policy,
-   seller ops, community pain, podcast/video playbooks, newsletter signals).
-2. **Language** — Chinese (default), English, or bilingual.
-3. **Frequency & time** — daily (default) or weekly; what local time and
-   timezone. (Used only if they want a scheduled run.)
-4. **Delivery** —
-   - **stdout / in-chat** (default): just show the digest here. No keys needed.
-   - **Telegram**: guide them through @BotFather → bot token → chat id. Token
-     goes in env `TELEGRAM_BOT_TOKEN`; chat id in `config.delivery.chatId`.
-   - **Email**: free Resend key in env `RESEND_API_KEY`;
-     `config.delivery.email` is the recipient.
-5. **Save config** — write their choices into `config/sources.json`
-   (`language`, `frequency`, `deliveryTime`, `delivery.method`, etc.).
-6. **Optional schedule** — only for Telegram/email delivery, set up a cron that
-   runs `prepare-digest.js`, has the agent remix, then pipes to `deliver.js`.
-   For stdout/in-chat, skip cron — it is on-demand.
-7. **Welcome digest** — run the daily workflow once now so they see real output,
-   then ask if length/focus/tone needs adjusting and apply it.
+### Step 1 — Intro
+One or two lines: this is a daily Amazon-seller intelligence digest covering
+Official / Policy, Seller Ops, Community Pain Signals, Podcast / Video
+Playbooks, and Newsletter / Analyst Signals. Read `config/sources.json` and tell
+them the actual source names and count. One line on the two-stage model (a
+script fetches raw content; you remix it into a real digest).
+
+### Step 2 — Language
+Ask: Chinese (default), English, or bilingual → set `config.language`.
+
+### Step 3 — Frequency, time, timezone
+Ask cadence: daily (default) or weekly; the local time (`HH:MM`); their IANA
+timezone (e.g. `America/Los_Angeles`, `Asia/Shanghai`); and the weekday if
+weekly. Set `frequency`, `deliveryTime`, `timezone`, `weeklyDay`.
+
+### Step 4 — Delivery method
+Present four options. For every keyed option, the secret rule is absolute: the
+user gets the secret from the provider, and **you write it into their env file
+(`~/.follow-amazon-daily.env`, which the cron sources) — they never paste it
+into chat, and you never echo it back**.
+
+- **In-chat / stdout** (default) — just show the digest here. No keys.
+- **Telegram** — guide: open @BotFather → `/newbot` → copy the bot token; send
+  the new bot any message; then
+  `curl -s "https://api.telegram.org/bot<TOKEN>/getUpdates"` to read
+  `chat.id`. You put `TELEGRAM_BOT_TOKEN` in the env file and
+  `delivery.chatId` in config.
+- **Email** — sign up at resend.com (free), create an API key. You put
+  `RESEND_API_KEY` in the env file and the recipient in `delivery.email`.
+- **Feishu** (飞书 / Lark) — in the target Feishu group: 设置 → 群机器人 →
+  添加机器人 → 自定义机器人 → copy the **Webhook URL**. Optional: enable 签名校验
+  and copy the secret. You put `FEISHU_WEBHOOK` (and `FEISHU_WEBHOOK_SECRET` if
+  signed) in the env file. The target is whichever group the bot is in — no
+  chatId needed. Set `delivery.method: "feishu"`.
+
+When writing the env file, create/append `~/.follow-amazon-daily.env` with
+`export KEY=value` lines and tell the user the file path only.
+
+### Step 5 — Save config
+Write all choices into `config/sources.json` (`language`, `frequency`,
+`deliveryTime`, `timezone`, `weeklyDay`, `delivery.method` + `chatId`/`email`
+as needed) and set `onboardingComplete: true`. Show a short plain-language
+summary of what you saved.
+
+### Step 6 — Schedule (system crontab)
+Skip for stdout/on-demand. For telegram/email/feishu, install a crontab entry
+that runs `scripts/run-daily.sh` (it does prepare → agent remix → deliver, with
+a labelled raw fallback if the Claude CLI is unavailable on the cron run):
+
+```
+CRON_TZ=<their IANA tz>
+<min> <hour> * * <*|weekday>  /abs/path/to/skill/scripts/run-daily.sh
+```
+
+If `CRON_TZ` is unsupported on their cron, convert their local time to UTC for
+the schedule instead. Then verify by running `scripts/run-daily.sh` once and
+confirming the message actually arrived in their channel. Be honest about the
+raw-fallback caveat (no agent in the cron environment = structured feed, clearly
+labelled, not the full editorial digest).
+
+### Step 7 — Welcome digest
+Immediately run the full pipeline once now (prepare-digest → you remix per the
+prompts → deliver via their chosen method) so they see real output today. Then
+ask for feedback — length, focus, tone — and apply it (edit the relevant
+`prompts/` file or config), and confirm what changed.
+
+### Step 8 — Reconfigure-by-chat reminder
+Tell them everything is changeable by just asking: "switch to English / make it
+weekly / change time to 8am ET / send it to Feishu instead / make summaries
+shorter / show my settings". You edit config or prompts for them — and when the
+time/timezone/frequency changes, you also update the crontab entry.
 
 ## Daily Workflow
 
@@ -92,8 +148,10 @@ Then:
    item `body` first, then `excerpt`. Never reuse a sentence across items.
 4. Write the public digest to `digest/<date>.md` (must contain **no**
    `privateItems` content).
-5. Deliver: if `config.delivery.method` is `telegram`/`email`, pipe the digest
-   to `node scripts/deliver.js --file digest/<date>.md`. Otherwise show it here.
+5. Deliver: if `config.delivery.method` is `telegram` / `email` / `feishu`,
+   pipe the digest to `node scripts/deliver.js --file digest/<date>.md`.
+   Otherwise (`stdout`) show it here. For scheduled runs this whole flow is
+   wrapped by `scripts/run-daily.sh`.
 
 Useful options:
 
@@ -112,9 +170,10 @@ When the user asks to change something, edit `config/sources.json` and confirm:
 
 - "Switch to English / bilingual" → `language`
 - "Make it weekly" / "change time to 8am ET" → `frequency`, `deliveryTime`,
-  `timezone` (and update the cron if one exists)
-- "Send it to Telegram / email instead" → `delivery.method` (+ guide key/target
-  setup); "just show it here" → `delivery.method: "stdout"`
+  `timezone`, `weeklyDay` — and update the crontab entry if one exists
+- "Send it to Telegram / Email / Feishu instead" → `delivery.method` (+ guide
+  the key/webhook setup, secret into the env file, never in chat);
+  "just show it here" → `delivery.method: "stdout"` (and remove the crontab)
 - "Make summaries shorter / focus more on X / change tone" → edit the relevant
   file in `prompts/` and tell them it applies next run
 - "Show my settings / sources" → read and display `config/sources.json`

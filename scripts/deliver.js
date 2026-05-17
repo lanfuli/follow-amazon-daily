@@ -4,15 +4,17 @@
 // parsing, no npm deps), consistent with how this skill handles cookies.
 //
 // Usage:
-//   node scripts/prepare-digest.js ... | <agent remixes> | node scripts/deliver.js --file digest/2026-05-16.md
+//   node scripts/prepare-digest.js | <agent remixes> | node scripts/deliver.js --file digest/2026-05-16.md
 //   echo "digest text" | node scripts/deliver.js
 //   node scripts/deliver.js --message "digest text"
 //
 // Delivery method + targets come from `config/sources.json` -> `delivery`:
-//   { "method": "stdout" | "telegram" | "email",
+//   { "method": "stdout" | "telegram" | "email" | "feishu",
 //     "chatId": "<telegram chat id>", "email": "<address>" }
-// Secrets come from env: TELEGRAM_BOT_TOKEN, RESEND_API_KEY.
+// Secrets come from env only:
+//   TELEGRAM_BOT_TOKEN | RESEND_API_KEY | FEISHU_WEBHOOK (+ FEISHU_WEBHOOK_SECRET)
 
+import { createHmac } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { parseArgs, readJson, repoPath } from "./lib/common.js";
 
@@ -24,20 +26,27 @@ async function getDigestText(args) {
   return Buffer.concat(chunks).toString("utf8");
 }
 
-async function sendTelegram(text, botToken, chatId) {
-  const MAX_LEN = 4000;
+// Splits text into chunks no longer than maxLen, preferring to break on a
+// newline near the limit so message boundaries don't land mid-sentence.
+// Shared by Telegram (4000) and Feishu (large).
+export function chunkText(text, maxLen) {
   const chunks = [];
-  let remaining = text;
+  let remaining = String(text);
   while (remaining.length > 0) {
-    if (remaining.length <= MAX_LEN) {
+    if (remaining.length <= maxLen) {
       chunks.push(remaining);
       break;
     }
-    let splitAt = remaining.lastIndexOf("\n", MAX_LEN);
-    if (splitAt < MAX_LEN * 0.5) splitAt = MAX_LEN;
+    let splitAt = remaining.lastIndexOf("\n", maxLen);
+    if (splitAt < maxLen * 0.5) splitAt = maxLen;
     chunks.push(remaining.slice(0, splitAt));
     remaining = remaining.slice(splitAt);
   }
+  return chunks;
+}
+
+async function sendTelegram(text, botToken, chatId) {
+  const chunks = chunkText(text, 4000);
   for (const chunk of chunks) {
     const res = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
       method: "POST",
@@ -89,6 +98,37 @@ async function sendEmail(text, apiKey, toEmail, language) {
   }
 }
 
+// Builds a Feishu custom-bot text payload. When a signing secret is set on the
+// bot, Feishu requires `timestamp` + `sign`, where
+// sign = base64(HMAC_SHA256(key = `${timestamp}\n${secret}`, msg = "")).
+export function buildFeishuPayload(text, secret, tsSeconds) {
+  const payload = { msg_type: "text", content: { text } };
+  if (secret) {
+    const ts = String(tsSeconds ?? Math.floor(Date.now() / 1000));
+    const sign = createHmac("sha256", `${ts}\n${secret}`).digest("base64");
+    payload.timestamp = ts;
+    payload.sign = sign;
+  }
+  return payload;
+}
+
+async function sendFeishu(text, webhookUrl, secret) {
+  // Feishu text messages cap around 30KB; stay well under it.
+  const chunks = chunkText(text, 20000);
+  for (const chunk of chunks) {
+    const res = await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(buildFeishuPayload(chunk, secret))
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || (typeof data.code === "number" && data.code !== 0)) {
+      throw new Error(`Feishu API error: ${data.msg || data.code || res.status}`);
+    }
+    if (chunks.length > 1) await new Promise((r) => setTimeout(r, 400));
+  }
+}
+
 async function main() {
   const args = parseArgs();
   let config = {};
@@ -119,6 +159,11 @@ async function main() {
       if (!delivery.email) throw new Error("delivery.email missing in config");
       await sendEmail(digestText, apiKey, delivery.email, language);
       process.stdout.write(`${JSON.stringify({ status: "ok", method: "email", to: delivery.email })}\n`);
+    } else if (delivery.method === "feishu") {
+      const webhook = process.env.FEISHU_WEBHOOK;
+      if (!webhook) throw new Error("FEISHU_WEBHOOK not set in environment");
+      await sendFeishu(digestText, webhook, process.env.FEISHU_WEBHOOK_SECRET);
+      process.stdout.write(`${JSON.stringify({ status: "ok", method: "feishu" })}\n`);
     } else {
       process.stdout.write(`${digestText}\n`);
     }

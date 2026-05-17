@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
+import { createHmac } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { buildFeishuPayload, chunkText } from "../scripts/deliver.js";
 import {
   dedupeItems,
   extractReadableText,
@@ -257,6 +259,30 @@ test("state dedupes same item across runs by normalized title", () => {
   markSeen(state, v1);
   const v2 = makeItem({ ...baseSource, id: "other" }, { title: "8-figure amazon brand", url: "https://x.com/ep1?utm=x" });
   assert.equal(isSeen(state, v2), true);
+});
+
+test("chunkText splits long text under the cap without losing content", () => {
+  const text = Array.from({ length: 50 }, (_, i) => `line ${i} ${"x".repeat(20)}`).join("\n");
+  const chunks = chunkText(text, 100);
+  assert.ok(chunks.length > 1);
+  for (const c of chunks) assert.ok(c.length <= 100, `chunk too long: ${c.length}`);
+  assert.equal(chunks.join(""), text);
+  const short = chunkText("tiny", 100);
+  assert.deepEqual(short, ["tiny"]);
+});
+
+test("buildFeishuPayload shapes plain and signed payloads", () => {
+  const plain = buildFeishuPayload("hello", undefined);
+  assert.deepEqual(plain, { msg_type: "text", content: { text: "hello" } });
+
+  const ts = 1747400000;
+  const secret = "abc123";
+  const signed = buildFeishuPayload("hi", secret, ts);
+  assert.equal(signed.msg_type, "text");
+  assert.equal(signed.content.text, "hi");
+  assert.equal(signed.timestamp, String(ts));
+  const expected = createHmac("sha256", `${ts}\n${secret}`).digest("base64");
+  assert.equal(signed.sign, expected);
 });
 
 async function fixture(name) {

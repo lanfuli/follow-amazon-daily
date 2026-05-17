@@ -21,14 +21,19 @@
       "minimum": 1,
       "default": 8
     },
+    "onboardingComplete": {
+      "type": "boolean",
+      "default": false,
+      "description": "Set true once first-run onboarding has been completed. When false/absent the skill runs onboarding before anything else."
+    },
     "delivery": {
       "type": "object",
-      "description": "Optional. How the finished digest is delivered. Default is stdout (no auto-publish).",
+      "description": "Optional. How the finished digest is delivered. Default is stdout (no auto-publish). All secrets come from environment variables only (sourced from ~/.follow-amazon-daily.env by the cron), never from config or chat: TELEGRAM_BOT_TOKEN, RESEND_API_KEY, FEISHU_WEBHOOK, FEISHU_WEBHOOK_SECRET (optional).",
       "additionalProperties": true,
       "properties": {
         "method": {
           "type": "string",
-          "enum": ["stdout", "telegram", "email"],
+          "enum": ["stdout", "telegram", "email", "feishu"],
           "default": "stdout"
         },
         "chatId": {
@@ -48,7 +53,12 @@
     },
     "deliveryTime": {
       "type": "string",
-      "description": "Local HH:MM the scheduled run should fire (used when setting up cron)."
+      "description": "Local HH:MM the scheduled run should fire (used when setting up the crontab)."
+    },
+    "weeklyDay": {
+      "type": "string",
+      "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+      "description": "Day of week for weekly digests (only used when frequency is weekly)."
     },
     "sources": {
       "type": "array",

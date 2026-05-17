@@ -55,18 +55,25 @@ ASIN, SP-API, Search Query Performance) and URLs unchanged.
 ## Delivery
 
 Default is `stdout` (show in chat, no keys, no auto-publish). The user can opt
-into their own Telegram or email delivery in `config/sources.json`:
+into their own Telegram, Email, or Feishu delivery in `config/sources.json`:
 
 ```json
 { "delivery": { "method": "telegram", "chatId": "123456789" } }
+{ "delivery": { "method": "feishu" } }
 ```
 
-Secrets come from environment variables only: `TELEGRAM_BOT_TOKEN` or
-`RESEND_API_KEY`. Send a finished digest with:
+Secrets come from environment variables only (the cron sources them from
+`~/.follow-amazon-daily.env`): `TELEGRAM_BOT_TOKEN`, `RESEND_API_KEY`,
+`FEISHU_WEBHOOK` (+ optional `FEISHU_WEBHOOK_SECRET`). Feishu uses a custom-bot
+group webhook — no app, no chatId. Send a finished digest with:
 
 ```bash
 node scripts/deliver.js --file digest/2026-05-16.md
 ```
+
+For an automatic daily run, onboarding installs a system crontab entry that
+runs `scripts/run-daily.sh` (prepare → agent remix → deliver, with a clearly
+labelled raw fallback if the Claude CLI is unavailable on the cron run).
 
 ## Sources
 

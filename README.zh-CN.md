@@ -49,17 +49,24 @@ Registry、PPC、ACOS、ASIN、SP-API、Search Query Performance），URL 不改
 ## 投递
 
 默认 `stdout`（在对话里展示，无需密钥，不自动发布）。用户可在
-`config/sources.json` 里选择自己的 Telegram 或邮箱投递：
+`config/sources.json` 里选择自己的 Telegram、邮箱或飞书投递：
 
 ```json
 { "delivery": { "method": "telegram", "chatId": "123456789" } }
+{ "delivery": { "method": "feishu" } }
 ```
 
-密钥只来自环境变量：`TELEGRAM_BOT_TOKEN` 或 `RESEND_API_KEY`。发送成稿：
+密钥只来自环境变量（cron 从 `~/.follow-amazon-daily.env` 读取）：
+`TELEGRAM_BOT_TOKEN`、`RESEND_API_KEY`、`FEISHU_WEBHOOK`（可选
+`FEISHU_WEBHOOK_SECRET`）。飞书用群里的自定义机器人 webhook——无需建应用、无需
+chatId。发送成稿：
 
 ```bash
 node scripts/deliver.js --file digest/2026-05-16.md
 ```
+
+自动每日：onboarding 会装一条系统 crontab，跑 `scripts/run-daily.sh`（抓取 →
+agent 改写 → 投递；若 cron 环境没有 Claude CLI，则产出明确标注的原始 fallback）。
 
 ## 来源
 

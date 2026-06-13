@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-06-12T17:22:47.673Z",
-  "date": "2026-06-12",
-  "itemCount": 30,
+  "generatedAt": "2026-06-13T15:58:06.459Z",
+  "date": "2026-06-13",
+  "itemCount": 28,
   "items": [
+    {
+      "id": "amz123-08b8109b0f1658cc",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "亚马逊会员日提前至6月，卖家运营打法解析",
+      "url": "https://www.amz123.com/t/LEqW9qWx",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
+      "excerpt": "亚马逊会员日提前至6月，卖家运营打法解析",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
     {
       "id": "amz123-73abce7ca656c0f1",
       "source": "AMZ123 跨境头条",
@@ -10,7 +27,7 @@
       "category": "Seller Ops",
       "title": "泄露隐私数据，Coupang被韩国PIPC罚款6247亿韩元",
       "url": "https://www.amz123.com/t/nVbWHhiu",
-      "publishedAt": "2026-06-12T17:22:47.672Z",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
       "excerpt": "泄露隐私数据，Coupang被韩国PIPC罚款6247亿韩元",
       "body": "",
       "tags": [
@@ -27,7 +44,7 @@
       "category": "Seller Ops",
       "title": "AliExpress开放澳洲本地卖家入驻",
       "url": "https://www.amz123.com/t/sQjZaPly",
-      "publishedAt": "2026-06-12T17:22:47.672Z",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
       "excerpt": "AliExpress开放澳洲本地卖家入驻",
       "body": "",
       "tags": [
@@ -44,7 +61,7 @@
       "category": "Seller Ops",
       "title": "火速自查！ 这类TikTok Shop店铺将被永久关停",
       "url": "https://www.amz123.com/t/ImlEdsqA",
-      "publishedAt": "2026-06-12T17:22:47.672Z",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
       "excerpt": "火速自查！ 这类TikTok Shop店铺将被永久关停",
       "body": "",
       "tags": [
@@ -61,7 +78,7 @@
       "category": "Seller Ops",
       "title": "Openai考虑下调AI使用费用",
       "url": "https://www.amz123.com/t/TOyF1xE4",
-      "publishedAt": "2026-06-12T17:22:47.672Z",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
       "excerpt": "Openai考虑下调AI使用费用",
       "body": "",
       "tags": [
@@ -78,7 +95,7 @@
       "category": "Seller Ops",
       "title": "欧盟小包裹免税时代终结！7月1日新规落地，跨境卖家如何提前布局欧洲市场？",
       "url": "https://www.amz123.com/t/JZdXDCNd",
-      "publishedAt": "2026-06-12T17:22:47.672Z",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
       "excerpt": "欧盟小包裹免税时代终结！7月1日新规落地，跨境卖家如何提前布局欧洲市场？",
       "body": "",
       "tags": [
@@ -95,7 +112,7 @@
       "category": "Seller Ops",
       "title": "SpaceX上市融资750亿美元，估值1.77万亿美元",
       "url": "https://www.amz123.com/t/kmlOQzJS",
-      "publishedAt": "2026-06-12T17:22:47.672Z",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
       "excerpt": "SpaceX上市融资750亿美元，估值1.77万亿美元",
       "body": "",
       "tags": [
@@ -112,25 +129,8 @@
       "category": "Seller Ops",
       "title": "全托管卖家，悄悄在TikTok Shop上发财",
       "url": "https://www.amz123.com/t/7Pl4VOdM",
-      "publishedAt": "2026-06-12T17:22:47.672Z",
+      "publishedAt": "2026-06-13T15:58:06.457Z",
       "excerpt": "全托管卖家，悄悄在TikTok Shop上发财",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-08b8109b0f1658cc",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "亚马逊会员日提前至6月，卖家运营打法解析",
-      "url": "https://www.amz123.com/t/LEqW9qWx",
-      "publishedAt": "2026-06-12T17:22:47.671Z",
-      "excerpt": "亚马逊会员日提前至6月，卖家运营打法解析",
       "body": "",
       "tags": [
         "AMZ123",
@@ -146,7 +146,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Born on Amazon but built everywhere else",
       "url": "https://www.billiondollarsellers.com/p/bdsn-born-on-amazon-but-built-everywhere-else",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -163,7 +163,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] U.S. cracks down on foreign sellers",
       "url": "https://www.billiondollarsellers.com/p/bdsn-u-s-cracks-down-on-foreign-sellers",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -180,7 +180,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] NY to fine sellers $5K for AI generated people in Amazon ads",
       "url": "https://www.billiondollarsellers.com/p/bdsn-ny-to-fine-sellers-5k-for-ai-generated-people-in-amazon-ads",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -197,7 +197,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon's AI read your listing. It got 3 things wrong.",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-s-ai-read-your-listing-it-got-3-things-wrong",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -214,7 +214,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] If you sell off Amazon, Google says do this NOW",
       "url": "https://www.billiondollarsellers.com/p/bdsn-if-you-sell-off-amazon-google-says-do-this-now",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -231,7 +231,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Wake-up call for Helium 10, Jungle Scout, Data Dive, SmartScout, etc.",
       "url": "https://www.billiondollarsellers.com/p/bdsn-wake-up-call-for-helium-10-jungle-scout-data-dive-smartscout-etc",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -248,7 +248,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Reviews you get this weekend will kill your listing",
       "url": "https://www.billiondollarsellers.com/p/bdsn-reviews-you-get-this-weekend-will-kill-your-listing",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -265,7 +265,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Fake sale tactics are dead on Amazon",
       "url": "https://www.billiondollarsellers.com/p/bdsn-fake-sale-tactics-are-dead-on-amazon",
-      "publishedAt": "2026-06-12T17:22:46.484Z",
+      "publishedAt": "2026-06-13T15:58:04.556Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +282,7 @@
       "category": "Official / Policy",
       "title": "A guide to targeting with Sponsored Products",
       "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-06-12T17:22:46.321Z",
+      "publishedAt": "2026-06-13T15:58:04.544Z",
       "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
       "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
@@ -299,7 +299,7 @@
       "category": "Official / Policy",
       "title": "SP-API Release Notes",
       "url": "https://developer-docs.amazon.com/sp-api/docs/sp-api-release-notes",
-      "publishedAt": "2026-06-12T17:22:46.309Z",
+      "publishedAt": "2026-06-13T15:58:04.395Z",
       "excerpt": "Selling Partner API new features, software updates, and changelog.",
       "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . May 27, 2026 API changes Listings Restrictions API v2021-08-01 Added the optional productType query parameter to the getListingsRestrictions operation. You can use this parameter along with a brand name to evaluate GTIN exemption restrictions for a specific product type. Notifications API v1 Added the filterExpression field to the createSubscription operation. You can use this field to filter events before notification delivery. Filters are applied to the notification payload using Common Expression Language (CEL) syntax. Added DeliveryTipChange as a supported order change type to the OrderChangeType notification schema. You can use this to track the status of a delivery tip for an order. Orders API v0 The following updates apply to veterinary products: Added the approvedAlternativeDetails field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to submit pre-approved alternative product attributes. Added the interimStatusDetail field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to provide granular progress updates while an order is pending verification to indicate that a veterinarian has been contacted. Added the ValidInterimStatusCodes field to the RegulatedOrderVerificationStatus object in the getOrderRegulatedInfo response. This field returns the list of supported interim status codes and customer-facing descriptions that you can use when you provide an interimStatusDetail . Orders API v2026-01-01 Added the breakdowns array to the getOrder and searchOrders operations. You can use this attribute to show an order&#x27;s proceeds breakdown, including delivery tip...",
       "tags": [
@@ -309,6 +309,40 @@
       ],
       "access": "public",
       "sourceReliability": "official"
+    },
+    {
+      "id": "wearesellers-d8d8859bd7364f9e",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "亚马逊标题又出新规？其实是道超车的机会来了！特别温馨提醒，如果你不想要PD的流量了，你就现在改标题，否则我劝你最好等PD完了再动……",
+      "url": "https://www.wearesellers.com/question/121027",
+      "publishedAt": "Sat, 13 Jun 2026 13:55:37 +0000",
+      "excerpt": "亚马逊7月27日生效75字符标题限制，很多卖家第一反应是焦虑。 其实但换个角度看：这是小链接终于能跟大链接打差异化的一仗。 相信很多小伙伴都收到这封邮件了。 亚马逊把原来堆在标题里的信息，拆成了两个前台决策位： 75字符标题负责定义产品，125字符Item Highlights负责刺激点击和转化。 老链接继续吃权重，小链接要做的是用更窄的定位、更准的亮点、更集中的广告，把一个细分需求打穿。 很多人觉得很难受，不知道该怎么办。但是不要担...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
+    },
+    {
+      "id": "my-amazon-guy-6868e000a3f3bc1e",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
+      "url": "https://www.youtube.com/watch?v=Lfyi65R_2Vg",
+      "publishedAt": "2026-06-13T05:10:00+00:00",
+      "excerpt": "Prime Day is coming, but Amazon growth is bigger than one sales event. If your listings, ads, and ecommerce strategy aren’t ready, traffic won’t save you. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about growing and scaling online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and Prime Day prep → Conversion rate and turn...",
+      "body": "Prime Day is coming, but Amazon growth is bigger than one sales event. If your listings, ads, and ecommerce strategy aren’t ready, traffic won’t save you. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about growing and scaling online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and Prime Day prep → Conversion rate and turning traffic into buyers → Inventory, operations, and scaling profitably → Building a stronger ecommerce strategy beyond Amazon Prime Day can bring the traffic. Your strategy has to turn it into sales. 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
+      "tags": [
+        "YouTube",
+        "agency playbook"
+      ],
+      "access": "public",
+      "sourceReliability": "media"
     },
     {
       "id": "my-amazon-guy-41c8e7e5249563a2",
@@ -343,23 +377,6 @@
       ],
       "access": "community_signal",
       "sourceReliability": "community"
-    },
-    {
-      "id": "my-amazon-guy-6868e000a3f3bc1e",
-      "source": "My Amazon Guy",
-      "sourceType": "youtube",
-      "category": "Podcast / Video Playbooks",
-      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
-      "url": "https://www.youtube.com/watch?v=Lfyi65R_2Vg",
-      "publishedAt": "2026-06-11T15:32:27+00:00",
-      "excerpt": "Prime Day is coming, but Amazon growth is bigger than one sales event. If your listings, ads, and ecommerce strategy aren’t ready, traffic won’t save you. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about growing and scaling online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and Prime Day prep → Conversion rate and turn...",
-      "body": "Prime Day is coming, but Amazon growth is bigger than one sales event. If your listings, ads, and ecommerce strategy aren’t ready, traffic won’t save you. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about growing and scaling online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and Prime Day prep → Conversion rate and turning traffic into buyers → Inventory, operations, and scaling profitably → Building a stronger ecommerce strategy beyond Amazon Prime Day can bring the traffic. Your strategy has to turn it into sales. 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
-      "tags": [
-        "YouTube",
-        "agency playbook"
-      ],
-      "access": "public",
-      "sourceReliability": "media"
     },
     {
       "id": "wearesellers-d2d794f30d07df7a",
@@ -447,40 +464,6 @@
       "sourceReliability": "media"
     },
     {
-      "id": "wearesellers-b9f09d6e4310f4ac",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "亚马逊中小公司运营管理岗，带组一年业绩翻倍，却等来一个新组长，我是不是误判了自己的位置？",
-      "url": "https://www.wearesellers.com/question/120858",
-      "publishedAt": "Wed, 10 Jun 2026 03:03:40 +0000",
-      "excerpt": "最近遇到一件事，心里有点不是滋味，入职现在这家公司一年了。刚来的时候，公司运营团队规模不大，之前面试因为看中老板第一次面就直接按我提的再加2k的底薪，还有欧洲老店给我，然后我负责其中一个组，说未来要培养我成为整个运营部主管。另外几个人是负责老连接，老板不肯让我管理，可能出于提成这块原因。 由于老板比较信任我，加上平时做事习惯主动一点，慢慢地很多事情都开始往我这里集中。比如：运营数据汇总、部门周报月报、跨部门沟通、运营部整体对接。老板也...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-08c80f495850310f",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "# 超级话题 # 美国纽约州 AI 模特广告披露新规，AI模特可能面临罚款。这对亚马逊 Listing 图片是否有实际影响？有没有必要立刻修改亚马逊的主副图、A+图",
-      "url": "https://www.wearesellers.com/question/120853",
-      "publishedAt": "Wed, 10 Jun 2026 02:15:36 +0000",
-      "excerpt": "最近看到消息说，美国纽约州针对广告中使用 AI 生成模特/合成人物出台了披露要求：如果广告中使用 AI 生成的 synthetic performer，但没有明显披露，首次违规可能面临 1000 美元罚款。法规显示6月9日生效。 想请教下大家，有没有必要立刻修改亚马逊的主副图、A+图呢？",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
       "id": "serious-sellers-podcast-5dff1f44b79ed055",
       "source": "Serious Sellers Podcast",
       "sourceType": "podcast",
@@ -490,23 +473,6 @@
       "publishedAt": "Mon, 08 Jun 2026 12:46:36 -0700",
       "excerpt": "An e-commerce seller for 25 years reveals how to protect profits, control inventory, rethink shipping costs, and use AI workflows without letting bad data quietly wreck your Amazon business today.",
       "body": "An e-commerce seller for 25 years reveals how to protect profits, control inventory, rethink shipping costs, and use AI workflows without letting bad data quietly wreck your Amazon business today. 💰Get Helium 10 with a special discount to start or scale your e-commerce business here: https://h10.me/h10 ► Watch The Podcasts On Youtube: https://www.youtube.com/@Helium10SeriousSellersPodcast?sub_confirmation=1 ► Instagram: instagram.com/serioussellerspodcast ► Free Amazon Seller Chrome Extension: https://h10.me/extension ► Sign Up For Helium 10: https://h10.me/signup (Use SSP10 To Save 10% For Life) ► Learn How To Sell on Amazon: https://h10.me/ft What does it really take to stay profitable after more than two decades in e-commerce? In this episode, Bradley Sutton welcomes back Rolando Rosas, a seven-figure seller with 25 years of online selling experience, to talk about the less glamorous but absolutely critical side of running a long-term Amazon business: operations, inventory, cash flow, shipping, and knowing your numbers. Rolando shares how his e-commerce journey began in 2002, after the tech bubble burst, with his own website and Google AdWords, before expanding to Amazon, Walmart, eBay, and other channels. Today, Amazon makes up the majority of his revenue, but he explains why sellers should not rely on one growth lever alone. As markets shift, especially in B2B and IT-related categories, sellers need to pay close attention to profitability and not just top-line sales. One of the biggest lessons from the episode is that great marketing cannot save weak operations. Rolando breaks down why inventory mismanagement can sink even large companies, how MFN (Multi-channel Fulfillment) can help certain sellers reduce cash flow pressure, and why treating shipping as a shared...",
-      "tags": [
-        "podcast",
-        "playbook"
-      ],
-      "access": "public",
-      "sourceReliability": "media"
-    },
-    {
-      "id": "serious-sellers-podcast-cca048f3cdc4602e",
-      "source": "Serious Sellers Podcast",
-      "sourceType": "podcast",
-      "category": "Podcast / Video Playbooks",
-      "title": "#750 - The Maldives Honeymoon Product Launch Strategy 2026",
-      "url": "https://helium10.podbean.com/e/750-the-maldives-honeymoon-product-launch-strategy-2026/",
-      "publishedAt": "Sat, 30 May 2026 07:30:00 -0700",
-      "excerpt": "Learn the latest updates on this proven Amazon launch strategy using keyword research, Rufus or Alexa for Shopping optimization, PPC, TikTok Shop traffic, and relevancy signals to rank faster.",
-      "body": "Learn the latest updates on this proven Amazon launch strategy using keyword research, Rufus or Alexa for Shopping optimization, PPC, TikTok Shop traffic, and relevancy signals to rank faster. ► Watch The Podcasts On Youtube: https://www.youtube.com/@Helium10SeriousSellersPodcast?sub_confirmation=1 ► Instagram: instagram.com/serioussellerspodcast ► Free Amazon Seller Chrome Extension: https://h10.me/extension ► Sign Up For Helium 10: https://h10.me/signup (Use SSP10 To Save 10% For Life) ► Learn How To Sell on Amazon: https://h10.me/ft Wait! Before you dive in… this is part 2 of a 2-part series, so don’t be that person who starts a movie halfway through and asks what’s going on. Go watch/listen to part 1 on the AM/PM Podcast first, where Bradley breaks down the AI and product research strategies that set up this Maldives Honeymoon launch strategy: https://h10.me/am526 In this special episode of the Serious Sellers Podcast, Bradley Sutton returns to the Maldives for episode 750 and breaks down his latest “Maldives Honeymoon” launch strategy. This time, he shares the exact tactics he recently tested to get new products to page one for multiple keywords in less than five days. From keyword research to listing optimization, this episode is packed with launch strategies for Amazon sellers who want to give their products the strongest possible start. Bradley explains why a successful launch begins before PPC campaigns ever go live. Sellers need to study competitor reviews, analyze TikTok Shop reviews, look at Rufus questions (Quick note: Rufus is now rebranded as Alexa for Shopping ) , and understand what kind of images are working in their niche. He also walks through several ways to build a stronger keyword list, including Cerebro, Brand Analytics, Search Query Performance...",
       "tags": [
         "podcast",
         "playbook"

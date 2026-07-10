@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-07-09T17:01:25.714Z",
-  "date": "2026-07-09",
-  "itemCount": 30,
+  "generatedAt": "2026-07-10T16:36:50.275Z",
+  "date": "2026-07-10",
+  "itemCount": 22,
   "items": [
+    {
+      "id": "amazon-ads-library-ce29e2b25dc58ef2",
+      "source": "Amazon Ads Library",
+      "sourceType": "official",
+      "category": "Official / Policy",
+      "title": "A guide to targeting with Sponsored Products",
+      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+      "publishedAt": "2026-07-10T16:36:46.589Z",
+      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
+      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
+      "tags": [
+        "Amazon Ads",
+        "advertising"
+      ],
+      "access": "public",
+      "sourceReliability": "official"
+    },
     {
       "id": "amazon-sp-api-docs-8456284d51aa3414",
       "source": "Amazon SP-API Release Notes",
@@ -10,7 +27,7 @@
       "category": "Official / Policy",
       "title": "SP-API Release Notes",
       "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
-      "publishedAt": "2026-07-09T17:01:25.711Z",
+      "publishedAt": "2026-07-10T16:36:46.375Z",
       "excerpt": "Selling Partner API new features, software updates, and changelog.",
       "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . May 27, 2026 API changes Listings Restrictions API v2021-08-01 Added the optional productType query parameter to the getListingsRestrictions operation. You can use this parameter along with a brand name to evaluate GTIN exemption restrictions for a specific product type. Notifications API v1 Added the filterExpression field to the createSubscription operation. You can use this field to filter events before notification delivery. Filters are applied to the notification payload using Common Expression Language (CEL) syntax. Added DeliveryTipChange as a supported order change type to the OrderChangeType notification schema. You can use this to track the status of a delivery tip for an order. Orders API v0 The following updates apply to veterinary products: Added the approvedAlternativeDetails field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to submit pre-approved alternative product attributes. Added the interimStatusDetail field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to provide granular progress updates while an order is pending verification to indicate that a veterinarian has been contacted. Added the ValidInterimStatusCodes field to the RegulatedOrderVerificationStatus object in the getOrderRegulatedInfo response. This field returns the list of supported interim status codes and customer-facing descriptions that you can use when you provide an interimStatusDetail . Orders API v2026-01-01 Added the breakdowns array to the getOrder and searchOrders operations. You can use this attribute to show an order&#x27;s proceeds breakdown, including delivery tip...",
       "tags": [
@@ -22,139 +39,20 @@
       "sourceReliability": "official"
     },
     {
-      "id": "amz123-f96761c5b51c11f2",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "Gmarket上半年GMV恢复增长，客单价、卖家数量双双提升",
-      "url": "https://www.amz123.com/t/DTODrHrv",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "Gmarket上半年GMV恢复增长，客单价、卖家数量双双提升",
+      "id": "billion-dollar-sellers-9a8a70bc3ac3aa36",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "24 Proven Amazon Growth Hacks Top Sellers Use in 2026 (Full SOPs)",
+      "url": "https://www.billiondollarsellers.com/p/24-proven-amazon-growth-hacks-top-sellers-use-in-2026-full-sops",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
-        "AMZ123",
-        "cross-border"
+        "newsletter",
+        "strategy"
       ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-0ddf7f1b185c4cf9",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "超150款婴儿用品存在安全风险，亚马逊等平台紧急下架",
-      "url": "https://www.amz123.com/t/2IXZUVHf",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "超150款婴儿用品存在安全风险，亚马逊等平台紧急下架",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-382d68a08e735764",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "26年瑞士电商排名出炉：Temu首次进入前五",
-      "url": "https://www.amz123.com/t/t0G5F5zx",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "26年瑞士电商排名出炉：Temu首次进入前五",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-360d7a9e22167366",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "山东手套杀疯了，上架TikTok美区30天狂销700万",
-      "url": "https://www.amz123.com/t/I7mSEpJ1",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "山东手套杀疯了，上架TikTok美区30天狂销700万",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-ed0030f3d3988d5c",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "Q2德国电商平台销售额增至115亿欧元，家具品类下滑",
-      "url": "https://www.amz123.com/t/itKXrdEa",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "Q2德国电商平台销售额增至115亿欧元，家具品类下滑",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-7b6f0bc30d8d9f14",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "没做37号文、没走ODI备案，你的境外公司还能\"安静\"多久？",
-      "url": "https://www.amz123.com/t/vMGfmWJ7",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "没做37号文、没走ODI备案，你的境外公司还能\"安静\"多久？",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-40d52e84896316d5",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "就在刚刚，Etsy大刀阔斧的做了很多更新，这是在作死吗？对卖家影响这么大！",
-      "url": "https://www.amz123.com/t/7xYQlsy9",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "就在刚刚，Etsy大刀阔斧的做了很多更新，这是在作死吗？对卖家影响这么大！",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-7d60a83d475007c8",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "沃尔玛全球电商旺季峰会重磅开启，“沃”们助你抢跑旺季！",
-      "url": "https://www.amz123.com/t/KDCpcuyn",
-      "publishedAt": "2026-07-09T17:01:24.342Z",
-      "excerpt": "沃尔玛全球电商旺季峰会重磅开启，“沃”们助你抢跑旺季！",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
+      "access": "partial_public",
       "sourceReliability": "industry"
     },
     {
@@ -164,7 +62,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] The magic of Made in USA versus Based in USA",
       "url": "https://www.billiondollarsellers.com/p/bdsn-the-magic-of-made-in-usa-versus-based-in-usa",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -181,7 +79,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon already adjusting titles in mobile",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-already-adjusting-titles-in-mobile",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -198,7 +96,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How to rank #1 on Amazon's AI engine",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-to-rank-1-on-amazon-s-ai-engine",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -215,7 +113,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How Amazon sellers can separate AI gold from garbage",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-amazon-sellers-can-separate-ai-gold-from-garbage",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -232,7 +130,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] China knockoffs took 2 US companies out",
       "url": "https://www.billiondollarsellers.com/p/bdsn-china-knockoffs-took-2-us-companies-out",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -249,7 +147,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Identical Product Con: 10 Things You're Overpaying For",
       "url": "https://www.billiondollarsellers.com/p/bdsn-identical-product-con-10-things-you-re-overpaying-for",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -266,7 +164,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] This hidden keyword field prints sales",
       "url": "https://www.billiondollarsellers.com/p/bdsn-this-hidden-keyword-field-prints-sales",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
+      "publishedAt": "2026-07-10T16:36:46.266Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -277,38 +175,89 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "billion-dollar-sellers-1eef78e160178747",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] Lock your Amazon listings b4 someone redecorates them",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-lock-your-amazon-listings-b4-someone-redecorates-them",
-      "publishedAt": "2026-07-09T17:01:22.629Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
+      "id": "my-amazon-guy-75557a4361177a66",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Improve Amazon Conversion Rate When Price Is Killing Sales",
+      "url": "https://www.youtube.com/shorts/-4ZQVr17Ydk",
+      "publishedAt": "2026-07-10T13:00:29+00:00",
+      "excerpt": "Amazon ads may convert while organic conversion rate stays low due to price, listing traffic, and competitor ads. Sellers should review pricing, product page ads, search term ranking, and self-targeting campaigns. This video explains how Amazon sellers can protect listing sales and improve organic conversion. Stop letting cheaper competitors take your listing traffic, get a conversion fix plan built around price, ad...",
+      "body": "Amazon ads may convert while organic conversion rate stays low due to price, listing traffic, and competitor ads. Sellers should review pricing, product page ads, search term ranking, and self-targeting campaigns. This video explains how Amazon sellers can protect listing sales and improve organic conversion. Stop letting cheaper competitors take your listing traffic, get a conversion fix plan built around price, ads, and ranking: https://bit.ly/3SH8m0l #AmazonPPC #AmazonSeller #AmazonFBA #AmazonConversionRate #AmazonListing Get your Catalog Cleaned up! https://hubs.ly/Q046BVfp0 Growth Email Marketing Strategies: https://hubs.ly/Q04457QF0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon PPC Guide 2026 is here!: https://bit.ly/4lF0OYX Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btpfh0 Amazon Crisis Kit: https://bit.ly/4maWHn",
       "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amazon-ads-library-ce29e2b25dc58ef2",
-      "source": "Amazon Ads Library",
-      "sourceType": "official",
-      "category": "Official / Policy",
-      "title": "A guide to targeting with Sponsored Products",
-      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-07-09T17:01:22.533Z",
-      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
-      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
-      "tags": [
-        "Amazon Ads",
-        "advertising"
+        "YouTube",
+        "agency playbook"
       ],
       "access": "public",
-      "sourceReliability": "official"
+      "sourceReliability": "media"
+    },
+    {
+      "id": "wearesellers-03a7f6b899504992",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "深耕欧洲精品近10年，从0-1类目第一到接手亏损烂盘的职场复盘感悟！大家觉得：能0-1拓品类做第一 和 能全盘整改亏损存量烂盘，哪种能力在当下跨境更吃香？",
+      "url": "https://www.wearesellers.com/question/122086",
+      "publishedAt": "Fri, 10 Jul 2026 09:48:39 +0000",
+      "excerpt": "本人深耕亚马逊欧洲精品纯白帽赛道近10年，一路从一线运营做到全盘站点负责人，经手过 0-1拓品类打爆类目、亿级业绩操盘、团队体系搭建 ，也经历过接手存量烂盘、大面积库存滞销、长期亏损整改的攻坚阶段。最近岗位与薪酬终于落定，闲下来复盘一下这几年的职业经历，和圈内朋友们随便聊聊。 最早几年一直深耕新品类孵化与规模化增长，主打欧洲多站点精品精细化运营。曾独立从零开拓垂直细分品类，完整落地选品、本土化适配、广告体系搭建、供应链深耕，用两年时间...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
+    },
+    {
+      "id": "wearesellers-61b199530cd32ee9",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "# 运营案例分析 # 不靠广告也能稳冲 BS 第一, 低价引流是销售的胜负手吗？",
+      "url": "https://www.wearesellers.com/question/122085",
+      "publishedAt": "Fri, 10 Jul 2026 09:42:36 +0000",
+      "excerpt": "今天在做市场调研，看到了一个让人眼前一亮的产品B0FJ***84Q，因此发出来让大家学习探讨一下。 不多介绍了，直接看图， 产品背景： 该款露营椅长期销售价 39.99 美金，和同类竞品维持相同价格带僵持近一年，旺季前通过价格调整占坑位 先用Prime 专享折扣测试 29.99 美金到手价，验证低价带来转化率大幅提升；随后叠加 14天 BD 秒杀放量，订单规模直接爆发，排名一路冲到 BS 第一名。 目前链接流量结构极度健康：自然流量占...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
+    },
+    {
+      "id": "wearesellers-cf276e11b381b974",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "想向各位卖家请教一个问题：为什么同样的数据、同样的 AI，有人能卖爆，有人却卖不动？",
+      "url": "https://www.wearesellers.com/question/122081",
+      "publishedAt": "Fri, 10 Jul 2026 09:24:36 +0000",
+      "excerpt": "大家好，我是一名互联网公司的 AI 产品实习生，目前在参与一个跨境电商方向的内部研究项目。 最近做了一些 AI Skill 后，我发现自己一直在思考一个问题。现在的数据越来越公开，GPT、Claude 等 AI 工具大家都能使用。很多事情，比如：写 Listing，分析评论，做竞品分析，ai生图，数据整理。其实任何商家配合 AI 都能完成。如果大家获取的信息越来越接近，那未来真正的竞争力到底是什么？ 后来我越来越觉得，真正拉开卖家差距...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
+    },
+    {
+      "id": "wearesellers-1863fbf80c986bd4",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "求助，600+美金的高客单新品，US站点 联盟红人促销佣金、风险、出单效果，求教！",
+      "url": "https://www.wearesellers.com/question/122079",
+      "publishedAt": "Fri, 10 Jul 2026 09:10:17 +0000",
+      "excerpt": "各位大佬，想请教操作过促销折扣里“与亚马逊红人和联盟分享”功能的前辈几个问题（US站点）：运动户外大件类目，联盟实际抽取佣金比例大概多少？官方公示费率和后台实际扣费是否一致？ 高客单价 $600+ 产品走联盟渠道，订单容易出现恶意单吗？买家退货后，之前扣除的联盟佣金会不会返还，还是直接亏损？ 这个渠道对于零单新品拓流真实效果怎么样？我做的是运动户外大件，单品 600 美元以上，新链接上架 6 天了完全没出单，流量一直下滑，评论没问题，...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
     },
     {
       "id": "my-amazon-guy-9e8c2d6bf6b204d6",
@@ -345,57 +294,6 @@
       "sourceReliability": "community"
     },
     {
-      "id": "wearesellers-8a51a1d0c2270a36",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "亚马逊日本站如何修改产品的类目节点？目前试过很多种方法都是不行，且竞品一直在切拥有bs标没有收到任何影响，排除竞对是vc账号切的",
-      "url": "https://www.wearesellers.com/question/122028",
-      "publishedAt": "Thu, 09 Jul 2026 06:14:19 +0000",
-      "excerpt": "3c类目下看到越来越多的友商在各小类目且不相关的类目下切标； 目前已知且部分尝试的方法： 1、后台case自助申请更换，已经不行，提示asin被完全锁死：“我们审核了您的建议，但是无法接受针对 ASIN提出的分类节点更改建议” 2、通过VC账号切，不采用，风险太大； 3、切隐藏节点，再通过子asin带动父asin：试过可以，但是不到一天时间就会被系统再切回原来的类目； 4、开pss，申请国外团队审核，这个曾经试过，但是需要更改产品形态...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-2e675d5bcecd90ab",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "求助！亚马逊老链接换主图（非白底图）。产品属于灯具类的，竞品都不是白底图，我现在要怎么传才能把这个带有新功能的非白底图传上去？",
-      "url": "https://www.wearesellers.com/question/122019",
-      "publishedAt": "Thu, 09 Jul 2026 03:15:21 +0000",
-      "excerpt": "老品新增了一个功能，想把旧图改成有新功能的图，提交的照片系统审核要求要白底图，怎么办呢？ 我是属于灯具类的，竞品都不是白底图，我现在要怎么传才能把这个带有新功能的非白底图传上去？ 模板刷了也没用。 求大佬们支支招。",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-a518b302080d416e",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "小运营日记：AI导购诊断工具制作，目前在制作方面遇到了一些问题，想咨询论坛里的大佬给我一点建议。如何约束 AI，制作一个精确分析画像的 skill？如何让评估结果更加精确，更符合客户和亚马逊平台的算法......",
-      "url": "https://www.wearesellers.com/question/122015",
-      "publishedAt": "Thu, 09 Jul 2026 02:39:37 +0000",
-      "excerpt": "论坛里的大佬们好，这里是 RainbowJoe，一个精通划水摸鱼的小萌新~ 首先感谢前段时间在论坛看到 Mechael 大佬发的帖子： 7月27日标题新规后,你的Listing在AI导购眼里值几分? 我撸了一周的时间写了个工具实测免费给大家食用！ - 知无不言跨境电商社区 看了他的帖子之后，同时接触了 Codex，我也想尝试照着搭建一个自用的 Alexa 对比诊断工具。目前已经进行到了 0.3 版本，在开发过程中遇到了很多问题，想询问...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
       "id": "my-amazon-guy-141d7af4aec02e4d",
       "source": "My Amazon Guy",
       "sourceType": "youtube",
@@ -413,31 +311,14 @@
       "sourceReliability": "media"
     },
     {
-      "id": "wearesellers-6d5eb5a0056bcff8",
+      "id": "wearesellers-4569bf7f92830263",
       "source": "WeAreSellers",
       "sourceType": "community",
       "category": "Community Pain Signals",
-      "title": "分享一下小白一年半的悲惨经历，凄凄惨惨戚戚，终于决定离职，但是还是有些问题希望大佬可以指点一二。",
-      "url": "https://www.wearesellers.com/question/121942",
-      "publishedAt": "Tue, 07 Jul 2026 10:05:34 +0000",
-      "excerpt": "各位同仁，大佬，自己是在24年11月来到深圳，老家北方的，替亲戚工厂来深圳做亚马逊开荒，美国红海，家居纺织多变体，纯小白来的，历时一年半的时间，身心俱疲，已经下定决心就是离开了，但是还是有些问题希望大佬们指点一二。 故事很长，有点悲伤，我只选几点我想得到的讲。 1. 我的工作， 自己是小白入行，老板是看重我比较老实，让我管财务比较放心，来了之后就是纯开荒，房租水电，店铺品牌注册，财务，税务，物流，采购，招聘，上架等都是我主要负责，所有...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-44776af01ad651e6",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "产品开发怎么开？选品不会选？三个思维逻辑打破僵局！",
-      "url": "https://www.wearesellers.com/question/121915",
-      "publishedAt": "Tue, 07 Jul 2026 03:43:34 +0000",
-      "excerpt": "大家都在讲运营思维，但在亚马逊上，一个产品能不能卖起来，不仅仅需要运营的努力，产品本身和运营基本是绑在一起的。 运营能放大一个产品的优势，也能把一个产品的问题暴露得更快。产品方向如果错了，后面再怎么优化 Listing、广告、关键词，都只是把错误推得更远。 所以选品不能只靠感觉，也不能只靠工具给出来的搜索量。 真正的产品开发思维，至少要有三层：发散性思维、收敛思维和反推逻辑。 发散性思维负责打开可能性，收敛思维负责判断可行性，反推逻辑...",
+      "title": "豪掷3000万建声学实验室？揭秘声学巨头如何靠5克爆款与AI+硬件生态杀出重围！",
+      "url": "https://www.wearesellers.com/question/121983",
+      "publishedAt": "Wed, 08 Jul 2026 07:56:17 +0000",
+      "excerpt": "（以下为结合采访嘉宾访谈核心内容整理） 大家好，我是博雅音频跨境业务负责人Chris，我们品牌 2011 年成立，早期主营单反、摄像机摄影配件，2012 年正式 all in 音频赛道，一晃深耕声学硬件十余年。 今天和同行聊聊我们踩过的渠道、爆品打造、品牌自研、AI 新品布局全流程，干货全是一线实操经验。 一、线上线下渠道天差地别，线上新品 3 个月就能验证市场 早些年消费电子行业基本靠线下经销商铺货，这套模式现在弊端特别明显。线下链...",
       "body": "",
       "tags": [
         "community",
@@ -481,23 +362,6 @@
       "sourceReliability": "media"
     },
     {
-      "id": "my-amazon-guy-ab5b20569b12779e",
-      "source": "My Amazon Guy",
-      "sourceType": "youtube",
-      "category": "Podcast / Video Playbooks",
-      "title": "Stop Using Discounts to Scale Your DTC Brand",
-      "url": "https://www.youtube.com/shorts/cqsJr4xxUh4",
-      "publishedAt": "2026-07-06T16:10:04+00:00",
-      "excerpt": "Ecommerce brands often rely on markdowns and discounts to create short sales spikes. This video breaks down price testing, profit margins, returns, commission costs, and product-level pricing decisions. Learn why smarter pricing can help brands protect profit without training customers to wait for discounts. Stop guessing on price, margin, and profit, get a clear growth plan before discounts eat the brand alive: htt...",
-      "body": "Ecommerce brands often rely on markdowns and discounts to create short sales spikes. This video breaks down price testing, profit margins, returns, commission costs, and product-level pricing decisions. Learn why smarter pricing can help brands protect profit without training customers to wait for discounts. Stop guessing on price, margin, and profit, get a clear growth plan before discounts eat the brand alive: https://bit.ly/3SH8m0l #EcommercePricing #ProfitMargins #AmazonSellers #BrandGrowth #EcommerceTips Get your Catalog Cleaned up! https://hubs.ly/Q046BVfp0 Growth Email Marketing Strategies: https://hubs.ly/Q04457QF0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon PPC Guide 2026 is here!: https://bit.ly/4lF0OYX Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btpfh0 Amazon Crisis Kit: https://bit.ly/4maWHn",
-      "tags": [
-        "YouTube",
-        "agency playbook"
-      ],
-      "access": "public",
-      "sourceReliability": "media"
-    },
-    {
       "id": "serious-sellers-podcast-13e23340b7ccd82d",
       "source": "Serious Sellers Podcast",
       "sourceType": "podcast",
@@ -515,5 +379,11 @@
       "sourceReliability": "media"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "AMZ123 跨境头条",
+      "url": "https://www.amz123.com/t",
+      "message": "linklist: no matching article links found"
+    }
+  ]
 }

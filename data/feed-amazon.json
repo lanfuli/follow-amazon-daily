@@ -1,8 +1,144 @@
 {
-  "generatedAt": "2026-07-10T16:36:50.275Z",
-  "date": "2026-07-10",
-  "itemCount": 22,
+  "generatedAt": "2026-07-11T15:30:53.471Z",
+  "date": "2026-07-11",
+  "itemCount": 29,
   "items": [
+    {
+      "id": "amz123-5ff7cc09a8e0dfa4",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "Ozon计划26年新增15个物流中心，投资超300亿卢布",
+      "url": "https://www.amz123.com/t/4f6jtzRs",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "Ozon计划26年新增15个物流中心，投资超300亿卢布",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-a6004f75fce6bae5",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "26年巴西情人节消费达220亿雷亚尔，服饰美妆成热门品类",
+      "url": "https://www.amz123.com/t/EE6TWSZ6",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "26年巴西情人节消费达220亿雷亚尔，服饰美妆成热门品类",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-13a60c5558959924",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "每15秒售出一件，TikTok Shop英国宠物品类快速增长",
+      "url": "https://www.amz123.com/t/nYLuUjg7",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "每15秒售出一件，TikTok Shop英国宠物品类快速增长",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-c9ba85120f74d2a2",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "26年1-4月美国玩具市场销售额增长13%，女性成为主力",
+      "url": "https://www.amz123.com/t/XFqFRLee",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "26年1-4月美国玩具市场销售额增长13%，女性成为主力",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-b98a6e700e8ae344",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "AMZ123会员专享丨7月第2周资讯汇总",
+      "url": "https://www.amz123.com/t/sFHRw3ow",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "AMZ123会员专享丨7月第2周资讯汇总",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-f3b6e0fb00e7c98c",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "TikTok美区推行三级架构保证金，风险保证金最高$10000",
+      "url": "https://www.amz123.com/t/tOMonhbc",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "TikTok美区推行三级架构保证金，风险保证金最高$10000",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-1ae8e6312551cf1a",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "紧急调整！美国CPSC法规给卖家暂时“松绑”了",
+      "url": "https://www.amz123.com/t/6ZMxOODL",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "紧急调整！美国CPSC法规给卖家暂时“松绑”了",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-86594e669662aa81",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "TikTok Shop美区保证金大改！金额不再统一，速查后台应缴额！",
+      "url": "https://www.amz123.com/t/QYrwWTNH",
+      "publishedAt": "2026-07-11T15:30:53.282Z",
+      "excerpt": "TikTok Shop美区保证金大改！金额不再统一，速查后台应缴额！",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
     {
       "id": "amazon-ads-library-ce29e2b25dc58ef2",
       "source": "Amazon Ads Library",
@@ -10,7 +146,7 @@
       "category": "Official / Policy",
       "title": "A guide to targeting with Sponsored Products",
       "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-07-10T16:36:46.589Z",
+      "publishedAt": "2026-07-11T15:30:52.077Z",
       "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
       "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
@@ -27,7 +163,7 @@
       "category": "Official / Policy",
       "title": "SP-API Release Notes",
       "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
-      "publishedAt": "2026-07-10T16:36:46.375Z",
+      "publishedAt": "2026-07-11T15:30:52.063Z",
       "excerpt": "Selling Partner API new features, software updates, and changelog.",
       "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . May 27, 2026 API changes Listings Restrictions API v2021-08-01 Added the optional productType query parameter to the getListingsRestrictions operation. You can use this parameter along with a brand name to evaluate GTIN exemption restrictions for a specific product type. Notifications API v1 Added the filterExpression field to the createSubscription operation. You can use this field to filter events before notification delivery. Filters are applied to the notification payload using Common Expression Language (CEL) syntax. Added DeliveryTipChange as a supported order change type to the OrderChangeType notification schema. You can use this to track the status of a delivery tip for an order. Orders API v0 The following updates apply to veterinary products: Added the approvedAlternativeDetails field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to submit pre-approved alternative product attributes. Added the interimStatusDetail field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to provide granular progress updates while an order is pending verification to indicate that a veterinarian has been contacted. Added the ValidInterimStatusCodes field to the RegulatedOrderVerificationStatus object in the getOrderRegulatedInfo response. This field returns the list of supported interim status codes and customer-facing descriptions that you can use when you provide an interimStatusDetail . Orders API v2026-01-01 Added the breakdowns array to the getOrder and searchOrders operations. You can use this attribute to show an order&#x27;s proceeds breakdown, including delivery tip...",
       "tags": [
@@ -45,7 +181,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "24 Proven Amazon Growth Hacks Top Sellers Use in 2026 (Full SOPs)",
       "url": "https://www.billiondollarsellers.com/p/24-proven-amazon-growth-hacks-top-sellers-use-in-2026-full-sops",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -62,7 +198,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] The magic of Made in USA versus Based in USA",
       "url": "https://www.billiondollarsellers.com/p/bdsn-the-magic-of-made-in-usa-versus-based-in-usa",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -79,7 +215,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon already adjusting titles in mobile",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-already-adjusting-titles-in-mobile",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -96,7 +232,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How to rank #1 on Amazon's AI engine",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-to-rank-1-on-amazon-s-ai-engine",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -113,7 +249,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How Amazon sellers can separate AI gold from garbage",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-amazon-sellers-can-separate-ai-gold-from-garbage",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -130,7 +266,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] China knockoffs took 2 US companies out",
       "url": "https://www.billiondollarsellers.com/p/bdsn-china-knockoffs-took-2-us-companies-out",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -147,7 +283,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Identical Product Con: 10 Things You're Overpaying For",
       "url": "https://www.billiondollarsellers.com/p/bdsn-identical-product-con-10-things-you-re-overpaying-for",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -164,7 +300,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] This hidden keyword field prints sales",
       "url": "https://www.billiondollarsellers.com/p/bdsn-this-hidden-keyword-field-prints-sales",
-      "publishedAt": "2026-07-10T16:36:46.266Z",
+      "publishedAt": "2026-07-11T15:30:51.782Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -173,6 +309,23 @@
       ],
       "access": "partial_public",
       "sourceReliability": "industry"
+    },
+    {
+      "id": "my-amazon-guy-9e8c2d6bf6b204d6",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
+      "url": "https://www.youtube.com/watch?v=QO5bp6v248U",
+      "publishedAt": "2026-07-11T05:01:04+00:00",
+      "excerpt": "The biggest thing holding your business back probably isn't obvious. That's why so many sellers spend months fixing the wrong problem. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about selling and growing online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and advertising performance → Conversion rate optimization → Inve...",
+      "body": "The biggest thing holding your business back probably isn't obvious. That's why so many sellers spend months fixing the wrong problem. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about selling and growing online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and advertising performance → Conversion rate optimization → Inventory, operations, and account health → Scaling your Amazon and ecommerce business profitably Sometimes one good answer can save you months of trial and error. 📌 We're giving away our trade secrets, download our Amazon guides here: https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
+      "tags": [
+        "YouTube",
+        "agency playbook"
+      ],
+      "access": "public",
+      "sourceReliability": "media"
     },
     {
       "id": "my-amazon-guy-75557a4361177a66",
@@ -260,23 +413,6 @@
       "sourceReliability": "community"
     },
     {
-      "id": "my-amazon-guy-9e8c2d6bf6b204d6",
-      "source": "My Amazon Guy",
-      "sourceType": "youtube",
-      "category": "Podcast / Video Playbooks",
-      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
-      "url": "https://www.youtube.com/watch?v=QO5bp6v248U",
-      "publishedAt": "2026-07-09T16:06:52+00:00",
-      "excerpt": "The biggest thing holding your business back probably isn't obvious. That's why so many sellers spend months fixing the wrong problem. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about selling and growing online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and advertising performance → Conversion rate optimization → Inve...",
-      "body": "The biggest thing holding your business back probably isn't obvious. That's why so many sellers spend months fixing the wrong problem. Join Noah Wickham LIVE this Friday at 12:00 PM ET for an Amazon & eCommerce AMA where you can ask anything about selling and growing online. Bring your questions on: → Amazon SEO and listing optimization → PPC strategy and advertising performance → Conversion rate optimization → Inventory, operations, and account health → Scaling your Amazon and ecommerce business profitably Sometimes one good answer can save you months of trial and error. 📌 We're giving away our trade secrets, download our Amazon guides here: https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
-      "tags": [
-        "YouTube",
-        "agency playbook"
-      ],
-      "access": "public",
-      "sourceReliability": "media"
-    },
-    {
       "id": "wearesellers-3b0450ac627f1427",
       "source": "WeAreSellers",
       "sourceType": "community",
@@ -309,23 +445,6 @@
       ],
       "access": "public",
       "sourceReliability": "media"
-    },
-    {
-      "id": "wearesellers-4569bf7f92830263",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "豪掷3000万建声学实验室？揭秘声学巨头如何靠5克爆款与AI+硬件生态杀出重围！",
-      "url": "https://www.wearesellers.com/question/121983",
-      "publishedAt": "Wed, 08 Jul 2026 07:56:17 +0000",
-      "excerpt": "（以下为结合采访嘉宾访谈核心内容整理） 大家好，我是博雅音频跨境业务负责人Chris，我们品牌 2011 年成立，早期主营单反、摄像机摄影配件，2012 年正式 all in 音频赛道，一晃深耕声学硬件十余年。 今天和同行聊聊我们踩过的渠道、爆品打造、品牌自研、AI 新品布局全流程，干货全是一线实操经验。 一、线上线下渠道天差地别，线上新品 3 个月就能验证市场 早些年消费电子行业基本靠线下经销商铺货，这套模式现在弊端特别明显。线下链...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
     },
     {
       "id": "helium10-blog-6e53b69dbbcf40a9",
@@ -379,11 +498,5 @@
       "sourceReliability": "media"
     }
   ],
-  "errors": [
-    {
-      "source": "AMZ123 跨境头条",
-      "url": "https://www.amz123.com/t",
-      "message": "linklist: no matching article links found"
-    }
-  ]
+  "errors": []
 }

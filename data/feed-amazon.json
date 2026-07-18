@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-07-17T15:55:25.162Z",
-  "date": "2026-07-17",
-  "itemCount": 29,
+  "generatedAt": "2026-07-18T15:29:39.894Z",
+  "date": "2026-07-18",
+  "itemCount": 28,
   "items": [
-    {
-      "id": "amz123-e8ebab63431f0c3b",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "2026亚马逊数据统计：第三方卖家GMV达5750亿美元",
-      "url": "https://www.amz123.com/t/tVNyyNBj",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
-      "excerpt": "2026亚马逊数据统计：第三方卖家GMV达5750亿美元",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
     {
       "id": "amz123-699d903baae452c5",
       "source": "AMZ123 跨境头条",
@@ -27,7 +10,7 @@
       "category": "Seller Ops",
       "title": "拉美家电市场趋势：消费者更青睐高端化、多功能产品",
       "url": "https://www.amz123.com/t/GpNTZn7c",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
+      "publishedAt": "2026-07-18T15:29:39.893Z",
       "excerpt": "拉美家电市场趋势：消费者更青睐高端化、多功能产品",
       "body": "",
       "tags": [
@@ -44,7 +27,7 @@
       "category": "Seller Ops",
       "title": "GMV达12亿美元！TikTok美区健康赛道趋势报告出炉",
       "url": "https://www.amz123.com/t/JoNqFJJl",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
+      "publishedAt": "2026-07-18T15:29:39.893Z",
       "excerpt": "GMV达12亿美元！TikTok美区健康赛道趋势报告出炉",
       "body": "",
       "tags": [
@@ -61,7 +44,7 @@
       "category": "Seller Ops",
       "title": "TikTok美国测试卖家托管服务，最高支付20%销售佣金",
       "url": "https://www.amz123.com/t/WPyAEolo",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
+      "publishedAt": "2026-07-18T15:29:39.893Z",
       "excerpt": "TikTok美国测试卖家托管服务，最高支付20%销售佣金",
       "body": "",
       "tags": [
@@ -78,7 +61,7 @@
       "category": "Seller Ops",
       "title": "马士基投资1亿美元新建美国物流中心，创造近1000个岗位",
       "url": "https://www.amz123.com/t/UBbfftIX",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
+      "publishedAt": "2026-07-18T15:29:39.893Z",
       "excerpt": "马士基投资1亿美元新建美国物流中心，创造近1000个岗位",
       "body": "",
       "tags": [
@@ -95,7 +78,7 @@
       "category": "Seller Ops",
       "title": "把小众单品卖出仪式感，TikTok千万播放的清洁神器爆卖了50万",
       "url": "https://www.amz123.com/t/IVLxiG4r",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
+      "publishedAt": "2026-07-18T15:29:39.893Z",
       "excerpt": "把小众单品卖出仪式感，TikTok千万播放的清洁神器爆卖了50万",
       "body": "",
       "tags": [
@@ -112,7 +95,7 @@
       "category": "Seller Ops",
       "title": "PingPong被卢森堡监管机构罚款1.2万欧元",
       "url": "https://www.amz123.com/t/0nMYHBuM",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
+      "publishedAt": "2026-07-18T15:29:39.893Z",
       "excerpt": "PingPong被卢森堡监管机构罚款1.2万欧元",
       "body": "",
       "tags": [
@@ -129,8 +112,25 @@
       "category": "Seller Ops",
       "title": "AMZ123会员专享丨7月第3周资讯汇总",
       "url": "https://www.amz123.com/t/QMEUW8qZ",
-      "publishedAt": "2026-07-17T15:55:22.338Z",
+      "publishedAt": "2026-07-18T15:29:39.893Z",
       "excerpt": "AMZ123会员专享丨7月第3周资讯汇总",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-46696140276531a4",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "单条视频播放超6000万， 会“跳舞”的裙子风靡TikTok",
+      "url": "https://www.amz123.com/t/203pJ9T0",
+      "publishedAt": "2026-07-18T15:29:39.892Z",
+      "excerpt": "单条视频播放超6000万， 会“跳舞”的裙子风靡TikTok",
       "body": "",
       "tags": [
         "AMZ123",
@@ -146,12 +146,30 @@
       "category": "Official / Policy",
       "title": "A guide to targeting with Sponsored Products",
       "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-07-17T15:55:21.482Z",
+      "publishedAt": "2026-07-18T15:29:38.109Z",
       "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
       "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
         "Amazon Ads",
         "advertising"
+      ],
+      "access": "public",
+      "sourceReliability": "official"
+    },
+    {
+      "id": "amazon-sp-api-docs-8456284d51aa3414",
+      "source": "Amazon SP-API Release Notes",
+      "sourceType": "official",
+      "category": "Official / Policy",
+      "title": "SP-API Release Notes",
+      "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
+      "publishedAt": "2026-07-18T15:29:38.073Z",
+      "excerpt": "Selling Partner API new features, software updates, and changelog.",
+      "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . May 27, 2026 API changes Listings Restrictions API v2021-08-01 Added the optional productType query parameter to the getListingsRestrictions operation. You can use this parameter along with a brand name to evaluate GTIN exemption restrictions for a specific product type. Notifications API v1 Added the filterExpression field to the createSubscription operation. You can use this field to filter events before notification delivery. Filters are applied to the notification payload using Common Expression Language (CEL) syntax. Added DeliveryTipChange as a supported order change type to the OrderChangeType notification schema. You can use this to track the status of a delivery tip for an order. Orders API v0 The following updates apply to veterinary products: Added the approvedAlternativeDetails field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to submit pre-approved alternative product attributes. Added the interimStatusDetail field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to provide granular progress updates while an order is pending verification to indicate that a veterinarian has been contacted. Added the ValidInterimStatusCodes field to the RegulatedOrderVerificationStatus object in the getOrderRegulatedInfo response. This field returns the list of supported interim status codes and customer-facing descriptions that you can use when you provide an interimStatusDetail . Orders API v2026-01-01 Added the breakdowns array to the getOrder and searchOrders operations. You can use this attribute to show an order&#x27;s proceeds breakdown, including delivery tip...",
+      "tags": [
+        "SP-API",
+        "Amazon",
+        "developer"
       ],
       "access": "public",
       "sourceReliability": "official"
@@ -163,7 +181,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 7 strategies that make your ASIN answerable",
       "url": "https://www.billiondollarsellers.com/p/bdsn-7-strategies-that-make-your-asin-answerable",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -180,7 +198,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Go from rank #71 to rank #2 in 5 days",
       "url": "https://www.billiondollarsellers.com/p/bdsn-go-from-rank-71-to-rank-2-in-5-days",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -197,7 +215,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] The magic of Made in USA versus Based in USA",
       "url": "https://www.billiondollarsellers.com/p/bdsn-the-magic-of-made-in-usa-versus-based-in-usa",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -214,7 +232,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon already adjusting titles in mobile",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-already-adjusting-titles-in-mobile",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -231,7 +249,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How to rank #1 on Amazon's AI engine",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-to-rank-1-on-amazon-s-ai-engine",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -248,7 +266,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How Amazon sellers can separate AI gold from garbage",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-amazon-sellers-can-separate-ai-gold-from-garbage",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -265,7 +283,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] China knockoffs took 2 US companies out",
       "url": "https://www.billiondollarsellers.com/p/bdsn-china-knockoffs-took-2-us-companies-out",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +300,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Identical Product Con: 10 Things You're Overpaying For",
       "url": "https://www.billiondollarsellers.com/p/bdsn-identical-product-con-10-things-you-re-overpaying-for",
-      "publishedAt": "2026-07-17T15:55:21.389Z",
+      "publishedAt": "2026-07-18T15:29:37.903Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -293,33 +311,15 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amazon-sp-api-docs-8456284d51aa3414",
-      "source": "Amazon SP-API Release Notes",
-      "sourceType": "official",
-      "category": "Official / Policy",
-      "title": "SP-API Release Notes",
-      "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
-      "publishedAt": "2026-07-17T15:55:21.309Z",
-      "excerpt": "Selling Partner API new features, software updates, and changelog.",
-      "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . May 27, 2026 API changes Listings Restrictions API v2021-08-01 Added the optional productType query parameter to the getListingsRestrictions operation. You can use this parameter along with a brand name to evaluate GTIN exemption restrictions for a specific product type. Notifications API v1 Added the filterExpression field to the createSubscription operation. You can use this field to filter events before notification delivery. Filters are applied to the notification payload using Common Expression Language (CEL) syntax. Added DeliveryTipChange as a supported order change type to the OrderChangeType notification schema. You can use this to track the status of a delivery tip for an order. Orders API v0 The following updates apply to veterinary products: Added the approvedAlternativeDetails field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to submit pre-approved alternative product attributes. Added the interimStatusDetail field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to provide granular progress updates while an order is pending verification to indicate that a veterinarian has been contacted. Added the ValidInterimStatusCodes field to the RegulatedOrderVerificationStatus object in the getOrderRegulatedInfo response. This field returns the list of supported interim status codes and customer-facing descriptions that you can use when you provide an interimStatusDetail . Orders API v2026-01-01 Added the breakdowns array to the getOrder and searchOrders operations. You can use this attribute to show an order&#x27;s proceeds breakdown, including delivery tip...",
-      "tags": [
-        "SP-API",
-        "Amazon",
-        "developer"
-      ],
-      "access": "public",
-      "sourceReliability": "official"
-    },
-    {
-      "id": "my-amazon-guy-3d909aca4f3cdb8d",
+      "id": "my-amazon-guy-4df19ffe260a6a2c",
       "source": "My Amazon Guy",
       "sourceType": "youtube",
       "category": "Podcast / Video Playbooks",
-      "title": "TikTok Shop & Meta Affiliates: The Future of Ecom Advertising",
-      "url": "https://www.youtube.com/watch?v=eqqF4vX51ts",
-      "publishedAt": "2026-07-17T15:00:12+00:00",
-      "excerpt": "An ecommerce marketing funnel shows how traffic moves through awareness, conversion, retention, and repeat sales. This video covers DTC marketing strategy, Meta ads, Google ads, UGC, affiliate marketing, email, and SMS. It shows how brands can reduce website drop-off, improve store conversion, and turn more visitors into customers. Stop paying for traffic that leaves without buying, get a full ecommerce growth plan...",
-      "body": "An ecommerce marketing funnel shows how traffic moves through awareness, conversion, retention, and repeat sales. This video covers DTC marketing strategy, Meta ads, Google ads, UGC, affiliate marketing, email, and SMS. It shows how brands can reduce website drop-off, improve store conversion, and turn more visitors into customers. Stop paying for traffic that leaves without buying, get a full ecommerce growth plan built around the funnel and conversion gaps costing the brand sales: https://bit.ly/4jMZtxu #EcommerceMarketing #EcommerceSales #DTCMarketing Want free resources? Dowload our Free Amazon guides here: Download the 2026 Amazon AI Operating Manual: https://bit.ly/3SLmusP Amazon Receiving Delay Guide: https://hubs.ly/Q04cdD4c0 Amazon Catalog Spring Cleaning: https://hubs.ly/Q046BVfp0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btghf0 Amazon 2026 PPC guide: https://bit.ly/4lF0OYX Timestamps 00:00 - Why Ecommerce Customers Leave Before Checkout 00:49 - Amazon Ads vs. Ecommerce Marketing Channels 01:43 - How the Ecommerce Marketing Funnel Works 02:10 - Building Awareness With Paid and Organic Traffic 02:41 - Moving Shoppers From Awareness to Consideration 03:10 - Using UGC and Affiliate Marketing for Sales 03:44 - Turning Website Visitors Into Paying Customers 04:29 - How Email and SMS Create Repeat Buyers 05:44 - How Customer Advocacy Drives Referral Sales 07:20 - Where New Ecommerce Brands Should Start 08:11 - Building Ads for Consideration and Conversion 09:36 - Finding Competitor Ads in Meta Ad Library 11:13 - Why Landing Pages Convert Better Than Homepages 12:57 - Testing...",
+      "title": "Cashback Beta - MAG (Official Lyric Video)",
+      "url": "https://www.youtube.com/watch?v=IXie5mt7X20",
+      "publishedAt": "2026-07-17T21:00:14+00:00",
+      "excerpt": "This is the official lyric video for Cashback Beta, a song about the Amazon ad billing change, lost credit card rewards, seller cash flow, PPC costs, delayed payouts, and the fear that today’s small beta may become tomorrow’s policy. Steven Pope turns Amazon seller frustration into a funny but painfully real track for anyone watching fees rise while profit and cashback disappear. Stream \"Cashback Beta\" by MAG Music....",
+      "body": "This is the official lyric video for Cashback Beta, a song about the Amazon ad billing change, lost credit card rewards, seller cash flow, PPC costs, delayed payouts, and the fear that today’s small beta may become tomorrow’s policy. Steven Pope turns Amazon seller frustration into a funny but painfully real track for anyone watching fees rise while profit and cashback disappear. Stream \"Cashback Beta\" by MAG Music. 🎧 Now available on all major streaming platforms! Find Cashback Beta on Spotify, Apple Music, and more. #CashbackBeta #AmazonSellers #AmazonAds #StevenPope #AmazonFBA ------------------------------------------------- Watch these videos next: Amazon Math - MAG (Official Lyric Video): https://youtu.be/Ic_OCfzBLdU Seller Support Sucks (That’s Seller Life) - MAG (Official Lyric Video): https://youtu.be/xCaQCW4Y-WE Selling on Amazon should not feel like a cash-flow guessing game. Get a free coaching call and build a plan before the next policy change hits: https://bit.ly/4jMZtxu ------------------------------------------------- Follow us: LinkedIn: https://www.linkedin.com/company/28605816/ Instagram: https://www.instagram.com/stevenpopemag/ Pinterest: https://www.pinterest.com/myamazonguys/ Twitter: https://twitter.com/myamazonguy Visit MAG's official music landing page: https://myamazonguy.com/music Apple Music: https://music.apple.com/us/artist/my-amazon-guy/1799215406 Spotify: https://open.spotify.com/album/506pH3tduUTUwRjnDp4eaU",
       "tags": [
         "YouTube",
         "agency playbook"
@@ -445,23 +445,6 @@
       ],
       "access": "public",
       "sourceReliability": "media"
-    },
-    {
-      "id": "wearesellers-b776a23c31f74a3f",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "为什么有的亚马逊类目只能做精铺？精铺卖家现在可能过得比很多精品卖家还好，还真别鄙视人家",
-      "url": "https://www.wearesellers.com/question/122254",
-      "publishedAt": "Wed, 15 Jul 2026 11:49:55 +0000",
-      "excerpt": "说到亚马逊铺货这种跨境电商的形式，很多精品卖家多嗤之以鼻，不管是FBM铺还是FBA精铺，在业内都是处在鄙视链底端。 但是，有些类目天性还就只能做精铺。我见过不少卖家在对这种类目的认识还不够清晰的时候，一开局就想着大搞一把，按过于乐观的数据进行备货，最后导致首批备货从年头卖到年尾还未必清得完。 哪些类目天性只适合精铺呢？ 首先大家所熟悉的鞋服品类。这类产品颜色、尺码属性要求父体下的SKU众多，而且因为带有时尚、潮流审美属性，通常不容易把...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
     },
     {
       "id": "serious-sellers-podcast-1cb2974c6abb5034",

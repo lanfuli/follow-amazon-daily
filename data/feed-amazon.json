@@ -1,25 +1,8 @@
 {
-  "generatedAt": "2026-07-25T15:39:56.324Z",
-  "date": "2026-07-25",
-  "itemCount": 27,
+  "generatedAt": "2026-07-26T15:38:48.439Z",
+  "date": "2026-07-26",
+  "itemCount": 26,
   "items": [
-    {
-      "id": "amz123-b9f6d810ce61bc8e",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "新政倒计时！美国12.5%新关税或至",
-      "url": "https://www.amz123.com/t/snxG3i8d",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
-      "excerpt": "新政倒计时！美国12.5%新关税或至",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
     {
       "id": "amz123-ba0cfa1284882f64",
       "source": "AMZ123 跨境头条",
@@ -27,7 +10,7 @@
       "category": "Seller Ops",
       "title": "销售额32亿美元！Q1 TikTok美区美妆最新报告一次看懂",
       "url": "https://www.amz123.com/t/gsQ2qNip",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
       "excerpt": "销售额32亿美元！Q1 TikTok美区美妆最新报告一次看懂",
       "body": "",
       "tags": [
@@ -44,7 +27,7 @@
       "category": "Seller Ops",
       "title": "26年TikTok世界杯相关内容播放量突破1.2万亿次",
       "url": "https://www.amz123.com/t/SLdApgjI",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
       "excerpt": "26年TikTok世界杯相关内容播放量突破1.2万亿次",
       "body": "",
       "tags": [
@@ -61,7 +44,7 @@
       "category": "Seller Ops",
       "title": "Shopify澳洲推出新广告工具，仅成交后收费",
       "url": "https://www.amz123.com/t/YDWJSONg",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
       "excerpt": "Shopify澳洲推出新广告工具，仅成交后收费",
       "body": "",
       "tags": [
@@ -78,7 +61,7 @@
       "category": "Seller Ops",
       "title": "印度放宽条件，允许亚马逊等平台直接采购商品出口",
       "url": "https://www.amz123.com/t/VdRL2mpJ",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
       "excerpt": "印度放宽条件，允许亚马逊等平台直接采购商品出口",
       "body": "",
       "tags": [
@@ -95,7 +78,7 @@
       "category": "Seller Ops",
       "title": "TikTok因违规收集数据被韩国罚款103.6亿韩元",
       "url": "https://www.amz123.com/t/oMWk0L7K",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
       "excerpt": "TikTok因违规收集数据被韩国罚款103.6亿韩元",
       "body": "",
       "tags": [
@@ -112,7 +95,7 @@
       "category": "Seller Ops",
       "title": "阿里跨境AI工具全球用户突破1000万",
       "url": "https://www.amz123.com/t/Vun1SHqt",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
       "excerpt": "阿里跨境AI工具全球用户突破1000万",
       "body": "",
       "tags": [
@@ -129,7 +112,7 @@
       "category": "Seller Ops",
       "title": "沃尔玛视频推广广告最低出价下调，跨境卖家迎来视频营销新机遇",
       "url": "https://www.amz123.com/t/EEaJoOND",
-      "publishedAt": "2026-07-25T15:39:56.323Z",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
       "excerpt": "沃尔玛视频推广广告最低出价下调，跨境卖家迎来视频营销新机遇",
       "body": "",
       "tags": [
@@ -140,13 +123,48 @@
       "sourceReliability": "industry"
     },
     {
+      "id": "amz123-b42a697e96fd8427",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "易仓WMS 已支持 TikTok Shop 全球多个国家站点授权",
+      "url": "https://www.amz123.com/t/JvID4W4M",
+      "publishedAt": "2026-07-26T15:38:48.437Z",
+      "excerpt": "易仓WMS 已支持 TikTok Shop 全球多个国家站点授权",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amazon-sp-api-docs-8456284d51aa3414",
+      "source": "Amazon SP-API Release Notes",
+      "sourceType": "official",
+      "category": "Official / Policy",
+      "title": "SP-API Release Notes",
+      "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
+      "publishedAt": "2026-07-26T15:38:47.224Z",
+      "excerpt": "Selling Partner API new features, software updates, and changelog.",
+      "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . May 27, 2026 API changes Listings Restrictions API v2021-08-01 Added the optional productType query parameter to the getListingsRestrictions operation. You can use this parameter along with a brand name to evaluate GTIN exemption restrictions for a specific product type. Notifications API v1 Added the filterExpression field to the createSubscription operation. You can use this field to filter events before notification delivery. Filters are applied to the notification payload using Common Expression Language (CEL) syntax. Added DeliveryTipChange as a supported order change type to the OrderChangeType notification schema. You can use this to track the status of a delivery tip for an order. Orders API v0 The following updates apply to veterinary products: Added the approvedAlternativeDetails field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to submit pre-approved alternative product attributes. Added the interimStatusDetail field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to provide granular progress updates while an order is pending verification to indicate that a veterinarian has been contacted. Added the ValidInterimStatusCodes field to the RegulatedOrderVerificationStatus object in the getOrderRegulatedInfo response. This field returns the list of supported interim status codes and customer-facing descriptions that you can use when you provide an interimStatusDetail . Orders API v2026-01-01 Added the breakdowns array to the getOrder and searchOrders operations. You can use this attribute to show an order&#x27;s proceeds breakdown, including delivery tip...",
+      "tags": [
+        "SP-API",
+        "Amazon",
+        "developer"
+      ],
+      "access": "public",
+      "sourceReliability": "official"
+    },
+    {
       "id": "amazon-ads-library-ce29e2b25dc58ef2",
       "source": "Amazon Ads Library",
       "sourceType": "official",
       "category": "Official / Policy",
       "title": "A guide to targeting with Sponsored Products",
       "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-07-25T15:39:53.944Z",
+      "publishedAt": "2026-07-26T15:38:47.144Z",
       "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
       "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
@@ -157,115 +175,13 @@
       "sourceReliability": "official"
     },
     {
-      "id": "billion-dollar-sellers-b13c8b6b0eb7de92",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] TikTok plans to put agencies out of business",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-tiktok-plans-to-put-agencies-out-of-business",
-      "publishedAt": "2026-07-25T15:39:53.853Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-22815e93e1ff0dac",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] 7 strategies that make your ASIN answerable",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-7-strategies-that-make-your-asin-answerable",
-      "publishedAt": "2026-07-25T15:39:53.853Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-ff25791b46b6833f",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] Go from rank #71 to rank #2 in 5 days",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-go-from-rank-71-to-rank-2-in-5-days",
-      "publishedAt": "2026-07-25T15:39:53.853Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-dad73c3d7e066a1f",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] The magic of Made in USA versus Based in USA",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-the-magic-of-made-in-usa-versus-based-in-usa",
-      "publishedAt": "2026-07-25T15:39:53.853Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-8da1aedc1c180208",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] Amazon already adjusting titles in mobile",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-already-adjusting-titles-in-mobile",
-      "publishedAt": "2026-07-25T15:39:53.853Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-6541d33dee8313c4",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] How to rank #1 on Amazon's AI engine",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-how-to-rank-1-on-amazon-s-ai-engine",
-      "publishedAt": "2026-07-25T15:39:53.853Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
       "id": "billion-dollar-sellers-e6565022a1ba75d2",
       "source": "Billion Dollar Sellers",
       "sourceType": "newsletter",
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How Amazon sellers can separate AI gold from garbage",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-amazon-sellers-can-separate-ai-gold-from-garbage",
-      "publishedAt": "2026-07-25T15:39:53.853Z",
+      "publishedAt": "2026-07-26T15:38:47.049Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +198,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] You're no longer just competing for clicks",
       "url": "https://www.billiondollarsellers.com/p/bdsn-you-re-no-longer-just-competing-for-clicks",
-      "publishedAt": "2026-07-25T15:39:53.852Z",
+      "publishedAt": "2026-07-26T15:38:47.048Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -293,22 +209,106 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amazon-sp-api-docs-8456284d51aa3414",
-      "source": "Amazon SP-API Release Notes",
-      "sourceType": "official",
-      "category": "Official / Policy",
-      "title": "SP-API Release Notes",
-      "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
-      "publishedAt": "2026-07-25T15:39:53.810Z",
-      "excerpt": "Selling Partner API new features, software updates, and changelog.",
-      "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . May 27, 2026 API changes Listings Restrictions API v2021-08-01 Added the optional productType query parameter to the getListingsRestrictions operation. You can use this parameter along with a brand name to evaluate GTIN exemption restrictions for a specific product type. Notifications API v1 Added the filterExpression field to the createSubscription operation. You can use this field to filter events before notification delivery. Filters are applied to the notification payload using Common Expression Language (CEL) syntax. Added DeliveryTipChange as a supported order change type to the OrderChangeType notification schema. You can use this to track the status of a delivery tip for an order. Orders API v0 The following updates apply to veterinary products: Added the approvedAlternativeDetails field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to submit pre-approved alternative product attributes. Added the interimStatusDetail field to the VerificationDetails object in the updateVerificationStatus operation. You can use this field to provide granular progress updates while an order is pending verification to indicate that a veterinarian has been contacted. Added the ValidInterimStatusCodes field to the RegulatedOrderVerificationStatus object in the getOrderRegulatedInfo response. This field returns the list of supported interim status codes and customer-facing descriptions that you can use when you provide an interimStatusDetail . Orders API v2026-01-01 Added the breakdowns array to the getOrder and searchOrders operations. You can use this attribute to show an order&#x27;s proceeds breakdown, including delivery tip...",
+      "id": "billion-dollar-sellers-b13c8b6b0eb7de92",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] TikTok plans to put agencies out of business",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-tiktok-plans-to-put-agencies-out-of-business",
+      "publishedAt": "2026-07-26T15:38:47.048Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
       "tags": [
-        "SP-API",
-        "Amazon",
-        "developer"
+        "newsletter",
+        "strategy"
       ],
-      "access": "public",
-      "sourceReliability": "official"
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-22815e93e1ff0dac",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] 7 strategies that make your ASIN answerable",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-7-strategies-that-make-your-asin-answerable",
+      "publishedAt": "2026-07-26T15:38:47.048Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-ff25791b46b6833f",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] Go from rank #71 to rank #2 in 5 days",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-go-from-rank-71-to-rank-2-in-5-days",
+      "publishedAt": "2026-07-26T15:38:47.048Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-dad73c3d7e066a1f",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] The magic of Made in USA versus Based in USA",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-the-magic-of-made-in-usa-versus-based-in-usa",
+      "publishedAt": "2026-07-26T15:38:47.048Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-8da1aedc1c180208",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] Amazon already adjusting titles in mobile",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-already-adjusting-titles-in-mobile",
+      "publishedAt": "2026-07-26T15:38:47.048Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-6541d33dee8313c4",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] How to rank #1 on Amazon's AI engine",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-how-to-rank-1-on-amazon-s-ai-engine",
+      "publishedAt": "2026-07-26T15:38:47.048Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
     },
     {
       "id": "my-amazon-guy-b1b63140b095b1d0",
@@ -370,23 +370,6 @@
       "url": "https://www.wearesellers.com/question/122596",
       "publishedAt": "Fri, 24 Jul 2026 03:46:29 +0000",
       "excerpt": "自从7.1-7.7号秒杀后，广告的曝光大幅度下降，后面我不能不断通过提高cpc来增加曝光，但是越提高竞价就被抬得越高陷入恶性循环。6月份的这个产品所有广告的平均CVR能达到5%-6%。最近几天的转化有所回升，但是只要曝光点击下降，转化就跟着下降，不稳定，今天的曝光和转化又跌了。 1.我该如何调整广告拯救只能靠拉高cpc来跑出曝光 1.SP精准之前转化在4%以上，cpc1.03 现在cpc1.03,cvr 0.96%。一些SP精准的商品...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-f951ce16cef9ff3f",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "亚马逊AI图片合规新规实操分享 哪些图要打标怎么打标一次说清楚",
-      "url": "https://www.wearesellers.com/question/122542",
-      "publishedAt": "Thu, 23 Jul 2026 05:39:11 +0000",
-      "excerpt": "最近亚马逊AI图片合规新规落地了，我踩了几个坑才搞清楚到底怎么操作，今天把完整流程整理出来分享给大家。 先说结论：凡是图片里包含AI生成的逼真人物，上传前必须在文件元数据里加上contains-synthetic-performer这个标签，不然Listing会被抑制显示甚至下架。不是不能用AI，而是要如实披露。 哪些图必须打标。完全由AI生成的真人模特穿戴产品图，真人照片经AI换脸或实质性修改面部体型，产品实拍抠图置入AI生成的虚拟...",
       "body": "",
       "tags": [
         "community",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-08T14:58:35.644Z",
-  "date": "2026-08-08",
-  "itemCount": 30,
+  "generatedAt": "2026-08-09T15:01:14.429Z",
+  "date": "2026-08-09",
+  "itemCount": 28,
   "items": [
     {
       "id": "amz123-e865529e90389ff2",
@@ -10,7 +10,7 @@
       "category": "Seller Ops",
       "title": "Q2营收增至3863亿卢布，Yandex电商业务首次盈利",
       "url": "https://www.amz123.com/t/9NFMntFv",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "Q2营收增至3863亿卢布，Yandex电商业务首次盈利",
       "body": "",
       "tags": [
@@ -27,7 +27,7 @@
       "category": "Seller Ops",
       "title": "欧洲电商未来靠什么增长？市场规模、品类与物流全面解析",
       "url": "https://www.amz123.com/t/w0sj2Khk",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "欧洲电商未来靠什么增长？市场规模、品类与物流全面解析",
       "body": "",
       "tags": [
@@ -44,7 +44,7 @@
       "category": "Seller Ops",
       "title": "Coupang发布Q2财报：营收88亿美元，盈利能力承压",
       "url": "https://www.amz123.com/t/nLZfGOG7",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "Coupang发布Q2财报：营收88亿美元，盈利能力承压",
       "body": "",
       "tags": [
@@ -61,7 +61,7 @@
       "category": "Seller Ops",
       "title": "11月起，印尼电商平台将对年销售额超5亿卢比卖家征税",
       "url": "https://www.amz123.com/t/TVZuoxKs",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "11月起，印尼电商平台将对年销售额超5亿卢比卖家征税",
       "body": "",
       "tags": [
@@ -78,7 +78,7 @@
       "category": "Seller Ops",
       "title": "美国将对芯片材料加征15%进口关税",
       "url": "https://www.amz123.com/t/sWTympkV",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "美国将对芯片材料加征15%进口关税",
       "body": "",
       "tags": [
@@ -95,7 +95,7 @@
       "category": "Seller Ops",
       "title": "突发重磅！亚马逊2026新品扶持计划出炉，物流、仓储、佣金三重补贴",
       "url": "https://www.amz123.com/t/hqIfRjoT",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "突发重磅！亚马逊2026新品扶持计划出炉，物流、仓储、佣金三重补贴",
       "body": "",
       "tags": [
@@ -112,7 +112,7 @@
       "category": "Seller Ops",
       "title": "10款亚马逊热销母婴产品盘点：婴儿护理产品月销过万",
       "url": "https://www.amz123.com/t/u1Y44CG5",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "10款亚马逊热销母婴产品盘点：婴儿护理产品月销过万",
       "body": "",
       "tags": [
@@ -129,7 +129,7 @@
       "category": "Seller Ops",
       "title": "Joybuy进军欧洲六大市场，推出当日配送和低价会员模式",
       "url": "https://www.amz123.com/t/qQRr6r3X",
-      "publishedAt": "2026-08-08T14:58:35.331Z",
+      "publishedAt": "2026-08-09T15:01:14.427Z",
       "excerpt": "Joybuy进军欧洲六大市场，推出当日配送和低价会员模式",
       "body": "",
       "tags": [
@@ -146,7 +146,7 @@
       "category": "Official / Policy",
       "title": "SP-API Release Notes",
       "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
-      "publishedAt": "2026-08-08T14:58:34.188Z",
+      "publishedAt": "2026-08-09T15:01:10.250Z",
       "excerpt": "Selling Partner API new features, software updates, and changelog.",
       "body": "For releases prior to January 19, 2022, refer to Announcements in the Selling Partner API GitHub repo . August 5, 2026 API changes Tracking API v2026-01-30 Launched the new Tracking API with one operation available in the US store. The getShipmentTracking operation allows sellers and vendors to retrieve tracking details for a shipment as it moves through Amazon’s supply chain. For more information, refer to Tracking API . Notifications V1 Launched the SHIPMENT_TRACKING_MILESTONE_CHANGED notification type. Sellers and vendors can subscribe to this notification type to receive real-time tracking updates for a shipment as it moves through Amazon&#x27;s supply chain. For more information, refer to the Subscribe to shipment tracking notifications tutorial. Added support for the SHIPMENT_TRACKING_MILESTONE_CHANGED notification type to eventFilterType in the getSubscription operation. You can use the new corresponding TrackingFilter schema to specify a tracking identifier when subscribing to this notification type. Documentation changes Added the Retrieve multi-shipment package tracking details guide for Fulfillment Outbound API. This guide explains how to retrieve tracking information for all packages in a Multi-Channel Fulfillment order. Added the Retrieve delivery tracking information guide for Fulfillment Outbound API. This guide explains how to get delivery tracking information for a package in an outbound shipment for a Multi-Channel Fulfillment order. Added the Track a partially fulfilled order guide for Fulfillment Outbound API. This guide explains how to track a partially fulfilled order for items that are low inventory. Added the Track Delivery and Handle Order Outcomes guide for Fulfillment Outbound API. This guide explains how to track the delivery of an order and...",
       "tags": [
@@ -164,7 +164,7 @@
       "category": "Official / Policy",
       "title": "A guide to targeting with Sponsored Products",
       "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-08-08T14:58:33.983Z",
+      "publishedAt": "2026-08-09T15:01:09.870Z",
       "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
       "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
@@ -175,98 +175,13 @@
       "sourceReliability": "official"
     },
     {
-      "id": "billion-dollar-sellers-018fae469bdf603a",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] You're no longer just competing for clicks",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-you-re-no-longer-just-competing-for-clicks",
-      "publishedAt": "2026-08-08T14:58:33.905Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-b13c8b6b0eb7de92",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] TikTok plans to put agencies out of business",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-tiktok-plans-to-put-agencies-out-of-business",
-      "publishedAt": "2026-08-08T14:58:33.905Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-22815e93e1ff0dac",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] 7 strategies that make your ASIN answerable",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-7-strategies-that-make-your-asin-answerable",
-      "publishedAt": "2026-08-08T14:58:33.905Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-ff25791b46b6833f",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] Go from rank #71 to rank #2 in 5 days",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-go-from-rank-71-to-rank-2-in-5-days",
-      "publishedAt": "2026-08-08T14:58:33.905Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "billion-dollar-sellers-71fd926f40002057",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] Q4 warning - container shipments massively delayed",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-q4-warning-container-shipments-massively-delayed",
-      "publishedAt": "2026-08-08T14:58:33.904Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
       "id": "billion-dollar-sellers-e94a6b2b60e2c40d",
       "source": "Billion Dollar Sellers",
       "sourceType": "newsletter",
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon now tells you if your product is a winner before launching",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-now-tells-you-if-your-product-is-a-winner-before-launching",
-      "publishedAt": "2026-08-08T14:58:33.904Z",
+      "publishedAt": "2026-08-09T15:01:09.859Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -283,7 +198,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon moved your product while you weren't looking",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-moved-your-product-while-you-weren-t-looking",
-      "publishedAt": "2026-08-08T14:58:33.904Z",
+      "publishedAt": "2026-08-09T15:01:09.859Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -300,7 +215,92 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] AI wins the test. Humans win the close.",
       "url": "https://www.billiondollarsellers.com/p/bdsn-ai-wins-the-test-humans-win-the-close",
-      "publishedAt": "2026-08-08T14:58:33.904Z",
+      "publishedAt": "2026-08-09T15:01:09.859Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-018fae469bdf603a",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] You're no longer just competing for clicks",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-you-re-no-longer-just-competing-for-clicks",
+      "publishedAt": "2026-08-09T15:01:09.859Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-b13c8b6b0eb7de92",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] TikTok plans to put agencies out of business",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-tiktok-plans-to-put-agencies-out-of-business",
+      "publishedAt": "2026-08-09T15:01:09.859Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-22815e93e1ff0dac",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] 7 strategies that make your ASIN answerable",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-7-strategies-that-make-your-asin-answerable",
+      "publishedAt": "2026-08-09T15:01:09.859Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-ff25791b46b6833f",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] Go from rank #71 to rank #2 in 5 days",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-go-from-rank-71-to-rank-2-in-5-days",
+      "publishedAt": "2026-08-09T15:01:09.859Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-71fd926f40002057",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] Q4 warning - container shipments massively delayed",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-q4-warning-container-shipments-massively-delayed",
+      "publishedAt": "2026-08-09T15:01:09.858Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -404,40 +404,6 @@
       "url": "https://www.wearesellers.com/question/123135",
       "publishedAt": "Fri, 07 Aug 2026 02:41:44 +0000",
       "excerpt": "以前总以为，做老板最核心的本事就是会赚钱。工作久了才明白，赚钱只是最后呈现出来的结果。 真正拉开老板差距的，是在局势充满变数时，能不能 拿得住主意、做对判断 。 不少老板其实特别勤奋，研究行业走向，翻看各类商业案例，到处看 AI 输出的分析，也跟各路朋友探讨机会，掌握的信息远比普通员工多，甚至觉得自己比员工更懂业务。但 懂得再多，不等于就能做好决策 。 我见过不少这样的老板，脑子里永远不断冒出新念头。 今天刷到竞品做得不错，就问团队我...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-ce18c5b42309c06a",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "为什么你天天调广告，数据还是起不来？",
-      "url": "https://www.wearesellers.com/question/123105",
-      "publishedAt": "Thu, 06 Aug 2026 09:14:18 +0000",
-      "excerpt": "最近和一些朋友聊天，提到一个很真实的问题： 现在很多运营，链接都还没有优化好，就急着把广告开起来。结果广告一跑，数据很差。 他也给我说了一句话： 如果链接本身都没有优化好，广告很多时候其实没有太大意义。 因为广告不是拿来“拯救一个没准备好的链接”的，广告只是把你的产品更快地推到顾客面前。 如果你的页面表达、人群定位、图片文案、卖点逻辑都还没梳理清楚，那广告带来的流量，最后也只是更快地暴露问题而已。 这其实也让我想到我之前写过的一篇文章...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
-      "id": "wearesellers-6677fbabeb2d8d66",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "加更！精品化产品开发流程指北——市场调研篇（1）补充篇",
-      "url": "https://www.wearesellers.com/question/123089",
-      "publishedAt": "Thu, 06 Aug 2026 05:12:11 +0000",
-      "excerpt": "目标获奖感言： 没想到啊没想到，我一直以为自己拿真实市场讲开发，迟早会因为市场趋势和我预计的“不一致”而被评论区“反向团建”，然后正当大家以为我走投无路只能退网时，我直接一手岁月史书紧急修改我之前文章（冷知识：我现在还能修改我之前的所有文章），当场替换成和市场方向“一致”的结论，最后美美洗白上岸开课讲我的来时路...... 结果还没等到这一天，我居然要先把我自己岁月史书了——先写完市场调研（1）和竞卖调研（2），结果这次反耳开倒车、写...",
       "body": "",
       "tags": [
         "community",

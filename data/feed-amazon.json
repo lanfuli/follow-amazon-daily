@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-15T18:23:18.989Z",
-  "date": "2026-09-15",
-  "itemCount": 28,
+  "generatedAt": "2026-09-16T18:19:07.453Z",
+  "date": "2026-09-16",
+  "itemCount": 30,
   "items": [
     {
       "id": "amz123-23e1fce32322e361",
@@ -10,7 +10,7 @@
       "category": "Seller Ops",
       "title": "/format/webp/quality/80\" alt=\"亚马逊美区系统崩了，仍未全面恢复！\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "url": "https://www.amz123.com/t/TWOq3YK7",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
       "excerpt": "/format/webp/quality/80\" alt=\"亚马逊美区系统崩了，仍未全面恢复！\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "body": "",
       "tags": [
@@ -27,7 +27,7 @@
       "category": "Seller Ops",
       "title": "/format/webp/quality/80\" alt=\"亚马逊扩大Prime Video可购物范围\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "url": "https://www.amz123.com/t/SAmifCPq",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
       "excerpt": "/format/webp/quality/80\" alt=\"亚马逊扩大Prime Video可购物范围\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "body": "",
       "tags": [
@@ -44,7 +44,7 @@
       "category": "Seller Ops",
       "title": "/format/webp/quality/80\" alt=\"火爆全网的“不插电卷发器”，在TikTok卖了460万\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "url": "https://www.amz123.com/t/i634k7lb",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
       "excerpt": "/format/webp/quality/80\" alt=\"火爆全网的“不插电卷发器”，在TikTok卖了460万\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "body": "",
       "tags": [
@@ -55,14 +55,31 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amz123-95a1a5df348b1e0c",
+      "id": "amz123-a6bd7b8faa32e9e9",
       "source": "AMZ123 跨境头条",
       "sourceType": "industry",
       "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"欧盟拟出台《欧洲产品法》 收紧跨境电商进口监管\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
+      "title": "/format/webp/quality/80\" alt=\"站内流量见顶后，亚马逊卖家如何重构增长飞轮？\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
+      "url": "https://www.amz123.com/t/9wHck96F",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
+      "excerpt": "/format/webp/quality/80\" alt=\"站内流量见顶后，亚马逊卖家如何重构增长飞轮？\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-4aec695e7375fbe8",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "欧盟拟出台《欧洲产品法》 收紧跨境电商进口监管",
       "url": "https://www.amz123.com/t/7aGv71gc",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"欧盟拟出台《欧洲产品法》 收紧跨境电商进口监管\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
+      "excerpt": "欧盟拟出台《欧洲产品法》 收紧跨境电商进口监管",
       "body": "",
       "tags": [
         "AMZ123",
@@ -78,7 +95,7 @@
       "category": "Seller Ops",
       "title": "美国海关查扣两批中国出口货物",
       "url": "https://www.amz123.com/t/D0lUogGm",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
       "excerpt": "美国海关查扣两批中国出口货物",
       "body": "",
       "tags": [
@@ -89,14 +106,14 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amz123-dd3c9fae45305c6e",
+      "id": "amz123-84cecbe077ea95a1",
       "source": "AMZ123 跨境头条",
       "sourceType": "industry",
       "category": "Seller Ops",
-      "title": "26年H1亚马逊欧盟月活用户达1.94亿，增长放缓",
-      "url": "https://www.amz123.com/t/lrTMqj8z",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
-      "excerpt": "26年H1亚马逊欧盟月活用户达1.94亿，增长放缓",
+      "title": "关税优势消退，部分海外订单、生产线向中国回流",
+      "url": "https://www.amz123.com/t/IWGgFXv5",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
+      "excerpt": "关税优势消退，部分海外订单、生产线向中国回流",
       "body": "",
       "tags": [
         "AMZ123",
@@ -106,31 +123,14 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amz123-fc2e6d3cf7c21522",
+      "id": "amz123-3849ed210f186a06",
       "source": "AMZ123 跨境头条",
       "sourceType": "industry",
       "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"站内流量见顶后，亚马逊卖家如何重构增长飞轮？\" class=\"ugc-insert-image\" style=\"\" loading=\"eager\" data-v-57a9f5e0 data-v-e2918602>",
-      "url": "https://www.amz123.com/t/9wHck96F",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"站内流量见顶后，亚马逊卖家如何重构增长飞轮？\" class=\"ugc-insert-image\" style=\"\" loading=\"eager\" data-v-57a9f5e0 data-v-e2918602>",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-124abab57a7fbfc9",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "eBay拟重组欧洲业务，简化跨境销售步骤",
-      "url": "https://www.amz123.com/t/pwPxrw8E",
-      "publishedAt": "2026-09-15T18:23:18.987Z",
-      "excerpt": "eBay拟重组欧洲业务，简化跨境销售步骤",
+      "title": "小红书跨境电商平台，开始收费！",
+      "url": "https://www.amz123.com/t/e3DSzncq",
+      "publishedAt": "2026-09-16T18:19:04.572Z",
+      "excerpt": "小红书跨境电商平台，开始收费！",
       "body": "",
       "tags": [
         "AMZ123",
@@ -146,7 +146,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Why Vine reviewers tank your rating",
       "url": "https://www.billiondollarsellers.com/p/bdsn-why-vine-reviewers-tank-your-rating",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -163,7 +163,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon account suspension wipes out $35M, leaves $6M in debt",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-account-suspension-wipes-out-35m-leaves-6m-in-debt",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -180,7 +180,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Reviews are vanishing \\u0026 Amazon won't say why",
       "url": "https://www.billiondollarsellers.com/p/bdsn-reviews-are-vanishing-amazon-won-t-say-why",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -197,7 +197,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How to track TikTok",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-to-track-tiktok-halo-sales-on-amazon",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -214,7 +214,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] States taxing sellers on marketplace fees (hidden on Amazon payouts)",
       "url": "https://www.billiondollarsellers.com/p/bdsn-states-taxing-sellers-on-marketplace-fees-hidden-on-amazon-payouts",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -231,7 +231,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Claude is watermarking your listing copy",
       "url": "https://www.billiondollarsellers.com/p/bdsn-claude-is-watermarking-your-listing-copy",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -248,7 +248,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 15 Years of Product Sourcing in 1 Email",
       "url": "https://www.billiondollarsellers.com/p/bdsn-15-years-of-product-sourcing-in-1-email",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -265,7 +265,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 🔒 Amazon is locking its data in the vault",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-is-locking-its-data-in-the-vault",
-      "publishedAt": "2026-09-15T18:23:17.492Z",
+      "publishedAt": "2026-09-16T18:19:03.664Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +282,7 @@
       "category": "Official / Policy",
       "title": "A guide to targeting with Sponsored Products",
       "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-09-15T18:23:17.458Z",
+      "publishedAt": "2026-09-16T18:19:03.192Z",
       "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
       "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
@@ -293,15 +293,15 @@
       "sourceReliability": "official"
     },
     {
-      "id": "my-amazon-guy-770a8b09d7fb7ec4",
+      "id": "my-amazon-guy-f165d2b9433ef65f",
       "source": "My Amazon Guy",
       "sourceType": "youtube",
       "category": "Podcast / Video Playbooks",
-      "title": "Amazon Prime Big Deals Day Dates Announced",
-      "url": "https://www.youtube.com/watch?v=i1at1MR3sCI",
-      "publishedAt": "2026-09-15T15:15:41+00:00",
-      "excerpt": "Prime Big Deal Days 2026 for Amazon sellers covers promotions, PPC bids, and customer targeting before the October 6–7 sales event. Amazon Brand Tailored Promotions can reach high-intent shoppers, new customers, and at-risk buyers while the event builds useful audience data. Amazon PPC budgets, cost per click, AMC targeting, Black Friday, and Cyber Monday planning all matter as shoppers wait for Prime Day deals. Get...",
-      "body": "Prime Big Deal Days 2026 for Amazon sellers covers promotions, PPC bids, and customer targeting before the October 6–7 sales event. Amazon Brand Tailored Promotions can reach high-intent shoppers, new customers, and at-risk buyers while the event builds useful audience data. Amazon PPC budgets, cost per click, AMC targeting, Black Friday, and Cyber Monday planning all matter as shoppers wait for Prime Day deals. Get the Prime Big Deal Days promotion, bid, and audience plan checked before October 6 so Q4 starts with a plan instead of expensive cleanup: https://bit.ly/4jMZtxu #PrimeBigDealDays #AmazonSellers #AmazonPPC Want free resources? Dowload our Free Amazon guides here: Your $1M Roadmap is here!: https://bit.ly/3SBO7Vk Download the 2026 Amazon AI Operating Manual: https://bit.ly/3SLmusP Amazon Receiving Delay Guide: https://hubs.ly/Q04cdD4c0 Amazon Catalog Spring Cleaning: https://hubs.ly/Q046BVfp0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btghf0 Amazon 2026 PPC guide: https://bit.ly/4lF0OYX Timestamps 0:00 – Prime Big Deal Days 2026 Dates and Seller Impact 0:39 – Brand Tailored Promotions for High-Intent Shoppers 1:12 – Q4 Audience Data and Amazon PPC Planning ----------------------------------------------------------------------------------------- Follow us: LinkedIn: https://www.linkedin.com/company/28605816/ Instagram: https://www.instagram.com/stevenpopemag/ Pinterest: https://www.pinterest.com/myamazonguys/ Twitter: https://twitter.com/myamazonguy Subscribe to the My Amazon Guy podcast: https://podcast.myamazonguy.com Apple Podcast: https://podcasts.apple.com/us/podcas...",
+      "title": "Why Content Creation Feels So Hard (And How to Fix It)",
+      "url": "https://www.youtube.com/watch?v=WbHMz9rznrg",
+      "publishedAt": "2026-09-16T15:00:25+00:00",
+      "excerpt": "Five minutes in front of a camera can produce nothing when the customer is missing from the conversation. Steven Pope explains why forced brainstorming makes content harder and how real customer questions, DMs, emails, support issues, and Amazon problems can become useful video ideas. For Amazon sellers, founders, and brand owners, staying close to customer feedback makes it easier to create tutorials and videos aro...",
+      "body": "Five minutes in front of a camera can produce nothing when the customer is missing from the conversation. Steven Pope explains why forced brainstorming makes content harder and how real customer questions, DMs, emails, support issues, and Amazon problems can become useful video ideas. For Amazon sellers, founders, and brand owners, staying close to customer feedback makes it easier to create tutorials and videos around problems people already care about. Need help with an Amazon brand? Book a coaching call with My Amazon Guy: https://bit.ly/4jMZtxu #ContentCreation #ContentMarketing #BrandBuilding #VoiceOfTheCustomer #EcommerceStrategy Want free resources? Dowload our Free Amazon guides here: Your $1M Roadmap is here!: https://bit.ly/3SBO7Vk Download the 2026 Amazon AI Operating Manual: https://bit.ly/3SLmusP Amazon Receiving Delay Guide: https://hubs.ly/Q04cdD4c0 Amazon Catalog Spring Cleaning: https://hubs.ly/Q046BVfp0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btghf0 Amazon 2026 PPC guide: https://bit.ly/4lF0OYX Timestamps: 00:00 - Why Content Creation Feels Hard 00:56 - Every Brand Is a Content Creator 01:42 - Stay Close to Customer Problems 02:24 - Understanding Customers Before Recording 03:09 - Turn Customer Questions Into Videos 03:42 - Why CEOs Need the Voice of the Customer ----------------------------------------------------------------------------------------- Follow us: LinkedIn: https://www.linkedin.com/company/28605816/ Instagram: https://www.instagram.com/stevenpopemag/ Pinterest: https://www.pinterest.com/myamazonguys/ Twitter: https://twitter.com/myamazonguy Sub...",
       "tags": [
         "YouTube",
         "agency playbook"
@@ -310,14 +310,31 @@
       "sourceReliability": "media"
     },
     {
-      "id": "wearesellers-6434220aa811a1be",
+      "id": "my-amazon-guy-3bea4d690c6eb022",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Why Seller Prepaid Labels and SAFE-T Claims Matter",
+      "url": "https://www.youtube.com/shorts/OSV4gTMqW7s",
+      "publishedAt": "2026-09-16T13:00:28+00:00",
+      "excerpt": "See why seller prepaid return labels matter and how SAFE-T claims work when FBM returns come back. Book a coaching call with My Amazon Guy for help with your Amazon account: https://bit.ly/4jMZtxu #AmazonFBM #AmazonReturns #SellerCentral #AmazonSelling #amazonseller Want free resources? Dowload our Free Amazon guides here: Your $1M Roadmap is here!: https://bit.ly/3SBO7Vk Download the 2026 Amazon AI Operating Manual...",
+      "body": "See why seller prepaid return labels matter and how SAFE-T claims work when FBM returns come back. Book a coaching call with My Amazon Guy for help with your Amazon account: https://bit.ly/4jMZtxu #AmazonFBM #AmazonReturns #SellerCentral #AmazonSelling #amazonseller Want free resources? Dowload our Free Amazon guides here: Your $1M Roadmap is here!: https://bit.ly/3SBO7Vk Download the 2026 Amazon AI Operating Manual: https://bit.ly/4wBQOoj Get your Catalog Cleaned up! https://hubs.ly/Q046BVfp0 Growth Email Marketing Strategies: https://hubs.ly/Q04457QF0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon PPC Guide 2026 is here!: https://bit.ly/4lF0OYX Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btpfh0",
+      "tags": [
+        "YouTube",
+        "agency playbook"
+      ],
+      "access": "public",
+      "sourceReliability": "media"
+    },
+    {
+      "id": "wearesellers-16c6c5b0336257ba",
       "source": "WeAreSellers",
       "sourceType": "community",
       "category": "Community Pain Signals",
-      "title": "TRO问题求助！一个asin的TRO拖到现在，工厂法务让我预交2万美金，我该弃店还是继续扛？求过来人指点",
-      "url": "https://www.wearesellers.com/question/124605",
-      "publishedAt": "Tue, 15 Sep 2026 10:19:55 +0000",
-      "excerpt": "各位大佬好，最近遇到一件非常棘手的事，一个人做店，实在扛不住了，想在这里求大家给点建议。 先说背景。我是个人卖家，一个人做亚马逊美国站。前阵子店铺出了一个TRO，是知识产权方面的投诉，原因也是我自己没有重视，一开始收到通知的时候没有及时操作，等回过神来已经过了最佳处理时间。 工厂那边之前也遇到过类似的事情，他们协助过其他卖家通过了审核，所以我一开始以为问题不大。但真正轮到我自己的时候，才发现事情远比想象中复杂。 现在的状况是： 一、法...",
+      "title": "亚马逊消费者法案：存款账户账单验证遇到问题，存款账户持有人不是法人和公司，但是连连账单提示填写法人或者公司，直接填持有人可以吗",
+      "url": "https://www.wearesellers.com/question/124638",
+      "publishedAt": "Wed, 16 Sep 2026 09:28:37 +0000",
+      "excerpt": "做美国站消费者法案验证，在上传存款账户账单的时候提示“银行对账单上的账户持有人姓名必须与您在上一步中选择的账户持有人一致”，但是存款账户持有人不是法人和公司，是第三方人，连连账单也是提示填写法人或者公司，这样直接填写第三方持有人名字开账单上传可以通过审核吗？（附上截图） 如果账单验证不通过，后续还有机会重新上传文件审核吗？ 比较急，需要在9.19号前提交审核，先谢谢大家的帮忙！ （附上截图） 验证吗？",
       "body": "",
       "tags": [
         "community",
@@ -327,14 +344,31 @@
       "sourceReliability": "community"
     },
     {
-      "id": "wearesellers-1317140214e81e13",
+      "id": "wearesellers-6b35c05748d55f92",
       "source": "WeAreSellers",
       "sourceType": "community",
       "category": "Community Pain Signals",
-      "title": "# Amazon案例分析 # 亚马逊COSMO算法下，如何提升自然排名？如何提升利润？",
-      "url": "https://www.wearesellers.com/question/124574",
-      "publishedAt": "Tue, 15 Sep 2026 02:27:09 +0000",
-      "excerpt": "各位大佬好！想问下新的COSMO算法下，如何提升自然排名？基于以下背景怎么做利润呢？ 背景： 1、我的店铺是在6月注册下店的，品牌也是R标，新品牌，但是产品比较红海，产品是7月27上架的，中间店铺经历了很多波折，2次绩效审核，一次是操纵排名（Vine计划批量取消，实际并没有定制Vine，疑似被恶搞），第二次是面审，中间经历一次审核就断一次推广节奏，目前单量每日是3-5单左右，再往前走很难，所以想试试看提升自然排名来往前走； 2、提升利...",
+      "title": "6年开发，在兼职店铺年利润已达20万、主业月薪8千且提成不到位的情况下，要不要辞职全职做店铺？",
+      "url": "https://www.wearesellers.com/question/124635",
+      "publishedAt": "Wed, 16 Sep 2026 08:45:28 +0000",
+      "excerpt": "本人是从20年开始接触亚马逊行业的，学历嘛不高不低，一本以上。当时因为有点恋爱脑回了老家的省直，想着电商行业不太吃地域，就阴差阳错进了一个本地的亚马逊公司，在我们这规模也是排名前几的。又因为六级不好，没能去成运营当了开发，现在想想这其实是一个正确的决定，在亚马逊越来越卷的现在，我认为开品能力是非常重要的。 在这个公司我也非常幸运遇到了我的朋友，暂称小A。我俩就是职场上的青梅竹马，当然了只是戏称，其实我俩同为女生，做的也都是开发岗位。当...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
+    },
+    {
+      "id": "wearesellers-b71932713b89976a",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "亚马逊评论分析竞品选择把这些失望发生的瞬间找出来提前规避",
+      "url": "https://www.wearesellers.com/question/124616",
+      "publishedAt": "Wed, 16 Sep 2026 02:45:02 +0000",
+      "excerpt": "今天说点我感觉很简单，但是运营过程中很多人都会有的问题，关于亚马逊竞品的评论分析，这里我不是分析怎么看对手是不是测评，是不是种子，这些很多人都讲过，关于分析评论来源，大家有兴趣我可以收集一些案例，下次再进行分享，今天主要想把最近我看到的一些发生在我身边的问题分享一下，做一个记录和总结。 起因是最近在做选品后的竞品调研，但是我会发现很多人在分析的评论的时候，会有一些不仔细的地方，比如： 分析一条几千上万条评论的链接评论 分析一条新品链接...",
       "body": "",
       "tags": [
         "community",
@@ -395,11 +429,11 @@
       "sourceReliability": "media"
     },
     {
-      "id": "wearesellers-30f4a9dc6ffbbddc",
+      "id": "wearesellers-72294ba1ae5f5157",
       "source": "WeAreSellers",
       "sourceType": "community",
       "category": "Community Pain Signals",
-      "title": "Agent Skill 越装越乱？我整理了一套跨境 AI 团队管理方案【建议收藏】",
+      "title": "Agent Skill 越装越乱？跨境 AI 团队管理方案【Skills-Manager 项目已开源】",
       "url": "https://www.wearesellers.com/question/124563",
       "publishedAt": "Mon, 14 Sep 2026 15:40:23 +0000",
       "excerpt": "全文约 4,500 字，预计阅读时间 15min 适用人群：已经在用 ChatGPT、Codex、Claude Code 等 AI 工具的跨境卖家 实操时间：预计 30 min，最好预留 1h 进行实操 难度提醒：不要求会写代码，全程跟 AI 口喷 一、前言：Agent越装越多，越多越乱，怎么破？ Hello，大家好，我是 Andy。 最近我还是在沉浸式做 AI 跨境实践，这个过程中尝试了很多 Skills，也针对业务流程写了很多 S...",

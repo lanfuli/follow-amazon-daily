@@ -1,8 +1,25 @@
 {
-  "generatedAt": "2026-09-29T19:34:01.679Z",
-  "date": "2026-09-29",
-  "itemCount": 26,
+  "generatedAt": "2026-09-30T19:33:48.657Z",
+  "date": "2026-09-30",
+  "itemCount": 27,
   "items": [
+    {
+      "id": "amz123-015e9c636690ddd9",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "/format/webp/quality/80\" alt=\"突发！13条柜子在港被查，国内海关查获大批瞒报货物！\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
+      "url": "https://www.amz123.com/t/jLgpEcBp",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
+      "excerpt": "/format/webp/quality/80\" alt=\"突发！13条柜子在港被查，国内海关查获大批瞒报货物！\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
     {
       "id": "amz123-fff039a60564732c",
       "source": "AMZ123 跨境头条",
@@ -10,7 +27,7 @@
       "category": "Seller Ops",
       "title": "/format/webp/quality/80\" alt=\"10月26日起，亚马逊新增4大危险品合规问题\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "url": "https://www.amz123.com/t/hnnWwLQw",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
       "excerpt": "/format/webp/quality/80\" alt=\"10月26日起，亚马逊新增4大危险品合规问题\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "body": "",
       "tags": [
@@ -27,7 +44,7 @@
       "category": "Seller Ops",
       "title": "/format/webp/quality/80\" alt=\"亚马逊推出AI+多渠道工具，免费管理eBay等平台订单\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "url": "https://www.amz123.com/t/ILWWGQJk",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
       "excerpt": "/format/webp/quality/80\" alt=\"亚马逊推出AI+多渠道工具，免费管理eBay等平台订单\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "body": "",
       "tags": [
@@ -44,25 +61,8 @@
       "category": "Seller Ops",
       "title": "/format/webp/quality/80\" alt=\"曝光超万亿！TikTok正在引爆“meme经济”\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "url": "https://www.amz123.com/t/ZPdmHQeG",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
       "excerpt": "/format/webp/quality/80\" alt=\"曝光超万亿！TikTok正在引爆“meme经济”\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-2f5c92935ec52a24",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"裁员三万人后，亚马逊要返聘前员工？\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "url": "https://www.amz123.com/t/HQcBUtnk",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"裁员三万人后，亚马逊要返聘前员工？\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
       "body": "",
       "tags": [
         "AMZ123",
@@ -78,7 +78,7 @@
       "category": "Seller Ops",
       "title": "宠物电商平台Chewy Q2财报出炉：营收增至33亿美元",
       "url": "https://www.amz123.com/t/Cvim6j5w",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
       "excerpt": "宠物电商平台Chewy Q2财报出炉：营收增至33亿美元",
       "body": "",
       "tags": [
@@ -89,14 +89,14 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amz123-02a0090300695e54",
+      "id": "amz123-4370536394ade6d0",
       "source": "AMZ123 跨境头条",
       "sourceType": "industry",
       "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"黑五旺季临近，这些细节或将偷走卖家利润！\" class=\"ugc-insert-image\" style=\"\" loading=\"eager\" data-v-57a9f5e0 data-v-e2918602>",
-      "url": "https://www.amz123.com/t/I5VmYo7t",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"黑五旺季临近，这些细节或将偷走卖家利润！\" class=\"ugc-insert-image\" style=\"\" loading=\"eager\" data-v-57a9f5e0 data-v-e2918602>",
+      "title": "300万TEU运力被占用，亚洲港口拥堵或持续至2027年",
+      "url": "https://www.amz123.com/t/vqEIkJdq",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
+      "excerpt": "300万TEU运力被占用，亚洲港口拥堵或持续至2027年",
       "body": "",
       "tags": [
         "AMZ123",
@@ -106,14 +106,14 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amz123-3fb795c8060cc17f",
+      "id": "amz123-ca8e7f130d43a347",
       "source": "AMZ123 跨境头条",
       "sourceType": "industry",
       "category": "Seller Ops",
-      "title": "26年美国11-12月线上销售额将创2751亿美元新纪录",
-      "url": "https://www.amz123.com/t/djAJ2yBm",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
-      "excerpt": "26年美国11-12月线上销售额将创2751亿美元新纪录",
+      "title": "TikTok Shop西班牙业务年增长150%",
+      "url": "https://www.amz123.com/t/YYtfCIWX",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
+      "excerpt": "TikTok Shop西班牙业务年增长150%",
       "body": "",
       "tags": [
         "AMZ123",
@@ -123,14 +123,14 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amz123-a7047ff61251e73a",
+      "id": "amz123-470260f23811783c",
       "source": "AMZ123 跨境头条",
       "sourceType": "industry",
       "category": "Seller Ops",
-      "title": "亚马逊巴西加入YouTube购物联盟计划",
-      "url": "https://www.amz123.com/t/Gb7fXQyA",
-      "publishedAt": "2026-09-29T19:34:01.678Z",
-      "excerpt": "亚马逊巴西加入YouTube购物联盟计划",
+      "title": "美客多投资9.11亿比索，新建墨西哥配送中心",
+      "url": "https://www.amz123.com/t/9xyGFtIZ",
+      "publishedAt": "2026-09-30T19:33:48.652Z",
+      "excerpt": "美客多投资9.11亿比索，新建墨西哥配送中心",
       "body": "",
       "tags": [
         "AMZ123",
@@ -138,23 +138,6 @@
       ],
       "access": "public",
       "sourceReliability": "industry"
-    },
-    {
-      "id": "amazon-ads-library-ce29e2b25dc58ef2",
-      "source": "Amazon Ads Library",
-      "sourceType": "official",
-      "category": "Official / Policy",
-      "title": "A guide to targeting with Sponsored Products",
-      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-09-29T19:34:00.567Z",
-      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
-      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
-      "tags": [
-        "Amazon Ads",
-        "advertising"
-      ],
-      "access": "public",
-      "sourceReliability": "official"
     },
     {
       "id": "billion-dollar-sellers-c60f1ef16bc429da",
@@ -163,7 +146,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Alibaba intros secret agentic weapon for sellers",
       "url": "https://www.billiondollarsellers.com/p/bdsn-alibaba-intros-secret-agentic-weapon-for-sellers",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -180,7 +163,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Is Amazon hiding your best keywords from search?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-is-amazon-hiding-your-best-keywords-from-search",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -197,7 +180,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 80% chance this improves your sales immediately",
       "url": "https://www.billiondollarsellers.com/p/bdsn-80-chance-this-improves-your-sales-immediately",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -214,7 +197,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 5 numbers to tell you if a creator can sell",
       "url": "https://www.billiondollarsellers.com/p/bdsn-5-numbers-to-tell-you-if-a-creator-can-sell",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -231,7 +214,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Why Vine reviewers tank your rating",
       "url": "https://www.billiondollarsellers.com/p/bdsn-why-vine-reviewers-tank-your-rating",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -248,7 +231,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon account suspension wipes out $35M, leaves $6M in debt",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-account-suspension-wipes-out-35m-leaves-6m-in-debt",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -265,7 +248,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Reviews are vanishing \\u0026 Amazon won't say why",
       "url": "https://www.billiondollarsellers.com/p/bdsn-reviews-are-vanishing-amazon-won-t-say-why",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +265,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] How to track TikTok",
       "url": "https://www.billiondollarsellers.com/p/bdsn-how-to-track-tiktok-halo-sales-on-amazon",
-      "publishedAt": "2026-09-29T19:34:00.547Z",
+      "publishedAt": "2026-09-30T19:33:47.732Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -293,21 +276,72 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "my-amazon-guy-0b4f0d44c0df5858",
+      "id": "amazon-ads-library-ce29e2b25dc58ef2",
+      "source": "Amazon Ads Library",
+      "sourceType": "official",
+      "category": "Official / Policy",
+      "title": "A guide to targeting with Sponsored Products",
+      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+      "publishedAt": "2026-09-30T19:33:47.442Z",
+      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
+      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
+      "tags": [
+        "Amazon Ads",
+        "advertising"
+      ],
+      "access": "public",
+      "sourceReliability": "official"
+    },
+    {
+      "id": "my-amazon-guy-8ef2382a6a227155",
       "source": "My Amazon Guy",
       "sourceType": "youtube",
       "category": "Podcast / Video Playbooks",
-      "title": "How to Solve Cash Flow and Inventory Financing on Amazon",
-      "url": "https://www.youtube.com/watch?v=A7mqEHETYrI",
-      "publishedAt": "2026-09-29T15:00:16+00:00",
-      "excerpt": "New Amazon sellers are facing bigger cash flow and financing challenges in 2026, especially when money is tied up in inventory. In this video, Steven Pope explains why his close rate with new Amazon sellers dropped from 33% to 15%, why financing has become a major roadblock, and how My Amazon Guy plans to connect sellers with financing options. He also shares a $15,000 product launch mistake and explains how the rig...",
-      "body": "New Amazon sellers are facing bigger cash flow and financing challenges in 2026, especially when money is tied up in inventory. In this video, Steven Pope explains why his close rate with new Amazon sellers dropped from 33% to 15%, why financing has become a major roadblock, and how My Amazon Guy plans to connect sellers with financing options. He also shares a $15,000 product launch mistake and explains how the right agency support can help sellers avoid expensive errors and scale faster. Ready to grow an Amazon business with the right support? Book a free call with My Amazon Guy: https://bit.ly/4jMZtxu #AmazonSeller #SellingOnAmazon #AmazonBusiness #AmazonAgency #BusinessLoans Want free resources? Dowload our Free Amazon guides here: Our Amazon Turkey 12 Benchmark and War Room Guide is here: https://bit.ly/4yg8Z47 Your $1M Roadmap is here!: https://bit.ly/3SBO7Vk Download the 2026 Amazon AI Operating Manual: https://bit.ly/3SLmusP Amazon Receiving Delay Guide: https://hubs.ly/Q04cdD4c0 Amazon Catalog Spring Cleaning: https://hubs.ly/Q046BVfp0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btghf0 Amazon 2026 PPC guide: https://bit.ly/4lF0OYX Timestamps 00:00 – Why New Amazon Seller Sales Are Down 01:30 – The #1 Roadblock: Cash Flow & Financing 02:18 – Financing Options for New Amazon Sellers 03:54 – My $15,000 Amazon Product Launch Mistake 05:59 – Why Amazon Agency Support Can Pay for Itself 07:21 – Financing and Scaling an Amazon Business ----------------------------------------------------------------------------------------- Follow us: LinkedIn: https://www.linkedin.com/company/2...",
+      "title": "New PPC Technique to Get Amazon Reviews...",
+      "url": "https://www.youtube.com/watch?v=dVuQaehDh4I",
+      "publishedAt": "2026-09-30T15:01:19+00:00",
+      "excerpt": "Amazon Review Requests ads let eligible US sellers reach recent buyers for ratings and written reviews through Amazon Ads. The new Amazon review request beta uses campaign bidding and budget controls while verified purchasers see review invitations across Amazon. Amazon sellers with products under 1,000 ratings and reviews can test the new review ads through Amazon Ads Agent when the beta opens. Before adding anothe...",
+      "body": "Amazon Review Requests ads let eligible US sellers reach recent buyers for ratings and written reviews through Amazon Ads. The new Amazon review request beta uses campaign bidding and budget controls while verified purchasers see review invitations across Amazon. Amazon sellers with products under 1,000 ratings and reviews can test the new review ads through Amazon Ads Agent when the beta opens. Before adding another Amazon ad campaign, get the review and launch strategy checked so ad spend supports sales instead of creating another expensive test: https://bit.ly/4jMZtxu #AmazonReviews #AmazonSeller #AmazonAds #amazonsellernews ------------------------------------------------------------------------------------------- Want free resources? Dowload our Free Amazon guides here: Our Amazon Turkey 12 Benchmark and War Room Guide is here: https://bit.ly/4yg8Z47 Your $1M Roadmap is here!: https://bit.ly/3SBO7Vk Download the 2026 Amazon AI Operating Manual: https://bit.ly/3SLmusP Amazon Receiving Delay Guide: https://hubs.ly/Q04cdD4c0 Amazon Catalog Spring Cleaning: https://hubs.ly/Q046BVfp0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btghf0 Amazon 2026 PPC guide: https://bit.ly/4lF0OYX Timestamps 0:00 – Amazon Review Requests Ads Explained 0:58 – Amazon Review Requests Open Beta 1:33 – What Customers See in Review Request Ads 2:38 – Amazon Review Request Eligibility and 1,000 Review Limit 3:08 – Do Amazon Review Ads Guarantee a Review? 3:40 – Testing Amazon Review Requests With Low Bids 4:10 – Is Paying for Amazon Review Requests Worth It? ------------------------------------------------...",
       "tags": [
         "YouTube",
         "agency playbook"
       ],
       "access": "public",
       "sourceReliability": "media"
+    },
+    {
+      "id": "my-amazon-guy-360a3d1a04ac1e07",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Protect Your Brand Identity on Amazon Now",
+      "url": "https://www.youtube.com/shorts/0-d_DWbFNGE",
+      "publishedAt": "2026-09-30T13:00:30+00:00",
+      "excerpt": "Too many resellers can quickly turn into lost control over your Amazon brand. Learn how to organize distribution lists, assign authorized reseller roles in Brand Registry, and keep your brand identity consistent. Need help managing your Amazon brand and reseller setup? Book a call with My Amazon Guy: https://bit.ly/3SH8m0l #AmazonBrandRegistry #AmazonResellers #AmazonBrandProtection #AmazonSeller #AmazonFBA Want fre...",
+      "body": "Too many resellers can quickly turn into lost control over your Amazon brand. Learn how to organize distribution lists, assign authorized reseller roles in Brand Registry, and keep your brand identity consistent. Need help managing your Amazon brand and reseller setup? Book a call with My Amazon Guy: https://bit.ly/3SH8m0l #AmazonBrandRegistry #AmazonResellers #AmazonBrandProtection #AmazonSeller #AmazonFBA Want free resources? Dowload our Free Amazon guides here: Your $1M Roadmap is here!: https://bit.ly/3SBO7Vk Download the 2026 Amazon AI Operating Manual: https://bit.ly/4wBQOoj Get your Catalog Cleaned up! https://hubs.ly/Q046BVfp0 Growth Email Marketing Strategies: https://hubs.ly/Q04457QF0 Amazon Proft Margin Defense 2026: https://hubs.ly/Q042trRH0 Amazon PPC Guide 2026 is here!: https://bit.ly/4lF0OYX Amazon SEO Toolkit 2026: https://bit.ly/4oC2ClT Amazon Seller Strategy Report 2026: https://bit.ly/3YN1RME 2026 Ecommerce Website & SEO Readiness Checklist: https://hubs.ly/Q04btpfh0",
+      "tags": [
+        "YouTube",
+        "agency playbook"
+      ],
+      "access": "public",
+      "sourceReliability": "media"
+    },
+    {
+      "id": "wearesellers-837bd9dc00db5e86",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "有电商+微开发经验背景，想转行做亚马逊运营但0经验，不知如何定位求职、准备面试？简历上怎么写才能让HR觉得这人虽然没做过亚马逊但有基础？求前辈指条路",
+      "url": "https://www.wearesellers.com/question/125083",
+      "publishedAt": "Wed, 30 Sep 2026 09:59:29 +0000",
+      "excerpt": "先说下背景，方便大家给建议： 个人情况： 坐标深圳，做电商系统开发，同时也做过一段时间Takealot（南非电商平台）的店铺运营 对选品、Listing上架、广告投放、物流发货这些流程有基本概念，但没接触过亚马逊 我的优势（自认为）： 有实际电商运营经验，不是纯小白，知道上架→优化→推广→数据分析这套逻辑 目前的困惑： 求职方向：以我的背景，适合投亚马逊运营助理/初级运营，还是可以直接投中级？简历上怎么写才能让HR觉得\"这人虽然没做过...",
+      "body": "",
+      "tags": [
+        "community",
+        "seller pain"
+      ],
+      "access": "community_signal",
+      "sourceReliability": "community"
     },
     {
       "id": "wearesellers-70eb700a81169a3f",
@@ -393,23 +427,6 @@
       ],
       "access": "public",
       "sourceReliability": "media"
-    },
-    {
-      "id": "wearesellers-36948a24e82bfe12",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "到底有多少亚马逊买家使用AI工具 Alexa shopping 搜索listing？",
-      "url": "https://www.wearesellers.com/question/124979",
-      "publishedAt": "Sun, 27 Sep 2026 12:25:04 +0000",
-      "excerpt": "承接上篇文章的讨论（ https://www.wearesellers.com/question/124834 ），看到大家对Alexa for shopping/Rufus使用情况的好奇。 我自己搜了下全网，似乎没有比较全面的、客观的汇总，而这又是大家关心的点（直接关联AI权重建设的必要性），所以再次搜集一轮一手、二手的数据信息，做二次洞察（本次数据信息放前面，结论放后面） 那么截止目前“亚马逊买家通过Alexa for shopp...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
     },
     {
       "id": "my-amazon-guy-c262d5aa233cdd3e",

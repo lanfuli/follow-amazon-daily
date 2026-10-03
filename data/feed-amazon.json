@@ -1,76 +1,8 @@
 {
-  "generatedAt": "2026-10-02T19:26:42.261Z",
-  "date": "2026-10-02",
-  "itemCount": 24,
+  "generatedAt": "2026-10-03T18:08:54.295Z",
+  "date": "2026-10-03",
+  "itemCount": 23,
   "items": [
-    {
-      "id": "amz123-f5b8b732b24c841b",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"Temu下场自营品牌，卖家坐不住了！\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "url": "https://www.amz123.com/t/6uuTqrZq",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"Temu下场自营品牌，卖家坐不住了！\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-2a8235269b8accd1",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"泰国洪灾冲击物流与电商，Shopee等平台延长发货期限\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "url": "https://www.amz123.com/t/6z6B3r9g",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"泰国洪灾冲击物流与电商，Shopee等平台延长发货期限\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-96c7846509641ad7",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"烂片才有春天？｜2026国产剧出海总结\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "url": "https://www.amz123.com/t/7GS58YZR",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"烂片才有春天？｜2026国产剧出海总结\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-55492a532591e093",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "/format/webp/quality/80\" alt=\"TikTok Shop西班牙业务年增长150%\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "url": "https://www.amz123.com/t/YYtfCIWX",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
-      "excerpt": "/format/webp/quality/80\" alt=\"TikTok Shop西班牙业务年增长150%\" class=\"carousel-img min-h-[281px]\" style=\"\" loading=\"eager\" data-v-e7c29d6b data-v-e2918602>",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
     {
       "id": "amz123-4370536394ade6d0",
       "source": "AMZ123 跨境头条",
@@ -78,8 +10,25 @@
       "category": "Seller Ops",
       "title": "300万TEU运力被占用，亚洲港口拥堵或持续至2027年",
       "url": "https://www.amz123.com/t/vqEIkJdq",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
       "excerpt": "300万TEU运力被占用，亚洲港口拥堵或持续至2027年",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-ca8e7f130d43a347",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "TikTok Shop西班牙业务年增长150%",
+      "url": "https://www.amz123.com/t/YYtfCIWX",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
+      "excerpt": "TikTok Shop西班牙业务年增长150%",
       "body": "",
       "tags": [
         "AMZ123",
@@ -95,8 +44,25 @@
       "category": "Seller Ops",
       "title": "美客多投资9.11亿比索，新建墨西哥配送中心",
       "url": "https://www.amz123.com/t/9xyGFtIZ",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
       "excerpt": "美客多投资9.11亿比索，新建墨西哥配送中心",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-6d1a885bdc47a6b5",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "泰国洪灾冲击物流与电商，Shopee等平台延长发货期限",
+      "url": "https://www.amz123.com/t/6z6B3r9g",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
+      "excerpt": "泰国洪灾冲击物流与电商，Shopee等平台延长发货期限",
       "body": "",
       "tags": [
         "AMZ123",
@@ -112,7 +78,7 @@
       "category": "Seller Ops",
       "title": "Neater Scooper 猫砂铲，三个美国发明专利层层设卡！",
       "url": "https://www.amz123.com/t/4OUcebXT",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
       "excerpt": "Neater Scooper 猫砂铲，三个美国发明专利层层设卡！",
       "body": "",
       "tags": [
@@ -129,7 +95,7 @@
       "category": "Seller Ops",
       "title": "严查升级！8万+件产品被召回，卖家别只盯着认证",
       "url": "https://www.amz123.com/t/sEVxKjcM",
-      "publishedAt": "2026-10-02T19:26:42.260Z",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
       "excerpt": "严查升级！8万+件产品被召回，卖家别只盯着认证",
       "body": "",
       "tags": [
@@ -140,21 +106,38 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amazon-ads-library-ce29e2b25dc58ef2",
-      "source": "Amazon Ads Library",
-      "sourceType": "official",
-      "category": "Official / Policy",
-      "title": "A guide to targeting with Sponsored Products",
-      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-10-02T19:26:41.334Z",
-      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
-      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
+      "id": "amz123-1cfa95e1e6098868",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "欧盟小包关税之后，长尾SKU才是底牌",
+      "url": "https://www.amz123.com/t/OXkMPicx",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
+      "excerpt": "欧盟小包关税之后，长尾SKU才是底牌",
+      "body": "",
       "tags": [
-        "Amazon Ads",
-        "advertising"
+        "AMZ123",
+        "cross-border"
       ],
       "access": "public",
-      "sourceReliability": "official"
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-1963a30ecafc0ae3",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "烂片才有春天？｜2026国产剧出海总结",
+      "url": "https://www.amz123.com/t/7GS58YZR",
+      "publishedAt": "2026-10-03T18:08:54.293Z",
+      "excerpt": "烂片才有春天？｜2026国产剧出海总结",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
     },
     {
       "id": "billion-dollar-sellers-e2dce1b8a8c27204",
@@ -163,7 +146,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Who to email at Amazon when you have a problem",
       "url": "https://www.billiondollarsellers.com/p/bdsn-who-to-email-at-amazon-when-you-have-a-problem",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -180,7 +163,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Alibaba intros secret agentic weapon for sellers",
       "url": "https://www.billiondollarsellers.com/p/bdsn-alibaba-intros-secret-agentic-weapon-for-sellers",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -197,7 +180,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Is Amazon hiding your best keywords from search?",
       "url": "https://www.billiondollarsellers.com/p/bdsn-is-amazon-hiding-your-best-keywords-from-search",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -214,7 +197,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 80% chance this improves your sales immediately",
       "url": "https://www.billiondollarsellers.com/p/bdsn-80-chance-this-improves-your-sales-immediately",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -231,7 +214,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 5 numbers to tell you if a creator can sell",
       "url": "https://www.billiondollarsellers.com/p/bdsn-5-numbers-to-tell-you-if-a-creator-can-sell",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -248,7 +231,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Why Vine reviewers tank your rating",
       "url": "https://www.billiondollarsellers.com/p/bdsn-why-vine-reviewers-tank-your-rating",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -265,7 +248,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon account suspension wipes out $35M, leaves $6M in debt",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-account-suspension-wipes-out-35m-leaves-6m-in-debt",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +265,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Reviews are vanishing \\u0026 Amazon won't say why",
       "url": "https://www.billiondollarsellers.com/p/bdsn-reviews-are-vanishing-amazon-won-t-say-why",
-      "publishedAt": "2026-10-02T19:26:41.195Z",
+      "publishedAt": "2026-10-03T18:08:52.770Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -291,6 +274,40 @@
       ],
       "access": "partial_public",
       "sourceReliability": "industry"
+    },
+    {
+      "id": "amazon-ads-library-ce29e2b25dc58ef2",
+      "source": "Amazon Ads Library",
+      "sourceType": "official",
+      "category": "Official / Policy",
+      "title": "A guide to targeting with Sponsored Products",
+      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+      "publishedAt": "2026-10-03T18:08:52.754Z",
+      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
+      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
+      "tags": [
+        "Amazon Ads",
+        "advertising"
+      ],
+      "access": "public",
+      "sourceReliability": "official"
+    },
+    {
+      "id": "my-amazon-guy-8b19aefd492dcdf5",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
+      "url": "https://www.youtube.com/watch?v=m0X__f-XPDA",
+      "publishedAt": "2026-10-03T05:03:32+00:00",
+      "excerpt": "More traffic in Q4 does not guarantee more profit. Sometimes it just makes your mistakes bigger. Q4 puts everything under a microscope, your PPC, listings, inventory, conversion rate, and operations. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and bring the questions that could make or break your Q4. We’ll tackle: → Amazon SEO and listing optimization → PPC, ACOS, and ad performa...",
+      "body": "More traffic in Q4 does not guarantee more profit. Sometimes it just makes your mistakes bigger. Q4 puts everything under a microscope, your PPC, listings, inventory, conversion rate, and operations. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and bring the questions that could make or break your Q4. We’ll tackle: → Amazon SEO and listing optimization → PPC, ACOS, and ad performance → Conversion rate and merchandising → Inventory and operations → Q4 strategy and profitable scaling More shoppers are coming. Make sure your business is ready to turn that traffic into profit. 📌 Need personalized help with your Q4 strategy? Book a free strategy call → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
+      "tags": [
+        "YouTube",
+        "agency playbook"
+      ],
+      "access": "public",
+      "sourceReliability": "media"
     },
     {
       "id": "my-amazon-guy-00e502204e8241fd",
@@ -328,23 +345,6 @@
       "sourceReliability": "official"
     },
     {
-      "id": "my-amazon-guy-8b19aefd492dcdf5",
-      "source": "My Amazon Guy",
-      "sourceType": "youtube",
-      "category": "Podcast / Video Playbooks",
-      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
-      "url": "https://www.youtube.com/watch?v=m0X__f-XPDA",
-      "publishedAt": "2026-10-01T16:42:51+00:00",
-      "excerpt": "More traffic in Q4 does not guarantee more profit. Sometimes it just makes your mistakes bigger. Q4 puts everything under a microscope, your PPC, listings, inventory, conversion rate, and operations. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and bring the questions that could make or break your Q4. We’ll tackle: → Amazon SEO and listing optimization → PPC, ACOS, and ad performa...",
-      "body": "More traffic in Q4 does not guarantee more profit. Sometimes it just makes your mistakes bigger. Q4 puts everything under a microscope, your PPC, listings, inventory, conversion rate, and operations. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and bring the questions that could make or break your Q4. We’ll tackle: → Amazon SEO and listing optimization → PPC, ACOS, and ad performance → Conversion rate and merchandising → Inventory and operations → Q4 strategy and profitable scaling More shoppers are coming. Make sure your business is ready to turn that traffic into profit. 📌 Need personalized help with your Q4 strategy? Book a free strategy call → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
-      "tags": [
-        "YouTube",
-        "agency playbook"
-      ],
-      "access": "public",
-      "sourceReliability": "media"
-    },
-    {
       "id": "my-amazon-guy-360a3d1a04ac1e07",
       "source": "My Amazon Guy",
       "sourceType": "youtube",
@@ -360,23 +360,6 @@
       ],
       "access": "public",
       "sourceReliability": "media"
-    },
-    {
-      "id": "wearesellers-837bd9dc00db5e86",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "有电商+微开发经验背景，想转行做亚马逊运营但0经验，不知如何定位求职、准备面试？简历上怎么写才能让HR觉得这人虽然没做过亚马逊但有基础？求前辈指条路",
-      "url": "https://www.wearesellers.com/question/125083",
-      "publishedAt": "Wed, 30 Sep 2026 09:59:29 +0000",
-      "excerpt": "先说下背景，方便大家给建议： 个人情况： 坐标深圳，做电商系统开发，同时也做过一段时间Takealot（南非电商平台）的店铺运营 对选品、Listing上架、广告投放、物流发货这些流程有基本概念，但没接触过亚马逊 我的优势（自认为）： 有实际电商运营经验，不是纯小白，知道上架→优化→推广→数据分析这套逻辑 目前的困惑： 求职方向：以我的背景，适合投亚马逊运营助理/初级运营，还是可以直接投中级？简历上怎么写才能让HR觉得\"这人虽然没做过...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
     },
     {
       "id": "serious-sellers-podcast-a36c9491cf220970",

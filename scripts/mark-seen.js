@@ -14,6 +14,7 @@
 
 import { parseArgs, readJson, repoPath } from "./lib/common.js";
 import { loadState, markSeen, saveState } from "./lib/state.js";
+import { pathToFileURL } from "node:url";
 
 async function main() {
   const args = parseArgs();
@@ -39,7 +40,7 @@ async function main() {
   process.stdout.write(`${JSON.stringify({ status: "ok", marked: items.length })}\n`);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((error) => {
     console.error(error.stack || error.message);
     process.exitCode = 1;

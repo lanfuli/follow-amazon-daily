@@ -1,59 +1,8 @@
 {
-  "generatedAt": "2026-10-23T18:36:46.516Z",
-  "date": "2026-10-23",
-  "itemCount": 30,
+  "generatedAt": "2026-10-24T17:31:18.211Z",
+  "date": "2026-10-24",
+  "itemCount": 28,
   "items": [
-    {
-      "id": "amz123-fc6245f117b666ac",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "做了几年阿里国际站，一位外贸SOHO朋友为什么开始转向独立站？",
-      "url": "https://www.amz123.com/t/in8dryVt",
-      "publishedAt": "2026-10-23T18:36:46.344Z",
-      "excerpt": "做了几年阿里国际站，一位外贸SOHO朋友为什么开始转向独立站？",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-9af4ded02ba93670",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "26-cv-02287｜Keith律所再放大招，147店被困复古花卉与迷幻图案版权TRO迷宫",
-      "url": "https://www.amz123.com/t/eTQ5GqmE",
-      "publishedAt": "2026-10-23T18:36:46.344Z",
-      "excerpt": "26-cv-02287｜Keith律所再放大招，147店被困复古花卉与迷幻图案版权TRO迷宫",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-bdf209762e001e6e",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "26年1-9月巴西南部电商销售额达475亿雷亚尔",
-      "url": "https://www.amz123.com/t/FK89zLU2",
-      "publishedAt": "2026-10-23T18:36:46.343Z",
-      "excerpt": "26年1-9月巴西南部电商销售额达475亿雷亚尔",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
     {
       "id": "amz123-5c1db95c2503dba4",
       "source": "AMZ123 跨境头条",
@@ -61,7 +10,7 @@
       "category": "Seller Ops",
       "title": "知名货代集团德迅Q3营收73亿瑞士法郎，货运量增长",
       "url": "https://www.amz123.com/t/kho5wYk7",
-      "publishedAt": "2026-10-23T18:36:46.343Z",
+      "publishedAt": "2026-10-24T17:31:18.210Z",
       "excerpt": "知名货代集团德迅Q3营收73亿瑞士法郎，货运量增长",
       "body": "",
       "tags": [
@@ -78,7 +27,7 @@
       "category": "Seller Ops",
       "title": "谷歌Universal Cart上线，AI时代出海怎么玩？",
       "url": "https://www.amz123.com/t/Ob8Kf9BB",
-      "publishedAt": "2026-10-23T18:36:46.343Z",
+      "publishedAt": "2026-10-24T17:31:18.210Z",
       "excerpt": "谷歌Universal Cart上线，AI时代出海怎么玩？",
       "body": "",
       "tags": [
@@ -95,7 +44,7 @@
       "category": "Seller Ops",
       "title": "26年澳洲万圣节消费将达5.1亿澳元，消费者参与度下滑",
       "url": "https://www.amz123.com/t/3UMYjBhg",
-      "publishedAt": "2026-10-23T18:36:46.343Z",
+      "publishedAt": "2026-10-24T17:31:18.210Z",
       "excerpt": "26年澳洲万圣节消费将达5.1亿澳元，消费者参与度下滑",
       "body": "",
       "tags": [
@@ -112,7 +61,7 @@
       "category": "Seller Ops",
       "title": "拉美市场进入深水区，卖家如何寻找新增量？",
       "url": "https://www.amz123.com/t/UnbuszaK",
-      "publishedAt": "2026-10-23T18:36:46.343Z",
+      "publishedAt": "2026-10-24T17:31:18.210Z",
       "excerpt": "拉美市场进入深水区，卖家如何寻找新增量？",
       "body": "",
       "tags": [
@@ -129,7 +78,7 @@
       "category": "Seller Ops",
       "title": "9月波兰电商销售额增长18.7%，Allegro排名第一",
       "url": "https://www.amz123.com/t/nDZl0qbC",
-      "publishedAt": "2026-10-23T18:36:46.343Z",
+      "publishedAt": "2026-10-24T17:31:18.210Z",
       "excerpt": "9月波兰电商销售额增长18.7%，Allegro排名第一",
       "body": "",
       "tags": [
@@ -140,22 +89,89 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "amazon-sp-api-docs-9a0cdbdb4d392e53",
-      "source": "Amazon SP-API Release Notes",
+      "id": "amz123-fc6245f117b666ac",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "做了几年阿里国际站，一位外贸SOHO朋友为什么开始转向独立站？",
+      "url": "https://www.amz123.com/t/in8dryVt",
+      "publishedAt": "2026-10-24T17:31:18.210Z",
+      "excerpt": "做了几年阿里国际站，一位外贸SOHO朋友为什么开始转向独立站？",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-9af4ded02ba93670",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "26-cv-02287｜Keith律所再放大招，147店被困复古花卉与迷幻图案版权TRO迷宫",
+      "url": "https://www.amz123.com/t/eTQ5GqmE",
+      "publishedAt": "2026-10-24T17:31:18.210Z",
+      "excerpt": "26-cv-02287｜Keith律所再放大招，147店被困复古花卉与迷幻图案版权TRO迷宫",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-bdf209762e001e6e",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "26年1-9月巴西南部电商销售额达475亿雷亚尔",
+      "url": "https://www.amz123.com/t/FK89zLU2",
+      "publishedAt": "2026-10-24T17:31:18.209Z",
+      "excerpt": "26年1-9月巴西南部电商销售额达475亿雷亚尔",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amazon-ads-library-ce29e2b25dc58ef2",
+      "source": "Amazon Ads Library",
       "sourceType": "official",
       "category": "Official / Policy",
-      "title": "Announcements",
-      "url": "https://developer-docs.amazon/sp-api/changelog",
-      "publishedAt": "2026-10-23T18:36:45.243Z",
-      "excerpt": "Announcements",
-      "body": "SP-API Updates: New Shipment Notification for Tracking Number Changes in MCF, New EU Customs Product Identifiers Requirement, and New Enum Value for Finances API October 21st, 2026 by AntonioM_Amazon",
+      "title": "A guide to targeting with Sponsored Products",
+      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
+      "publishedAt": "2026-10-24T17:31:17.227Z",
+      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
+      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
       "tags": [
-        "SP-API",
-        "Amazon",
-        "developer"
+        "Amazon Ads",
+        "advertising"
       ],
       "access": "public",
       "sourceReliability": "official"
+    },
+    {
+      "id": "billion-dollar-sellers-42be465a60e519ff",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] 1 product but 3 listings to boost sales",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-1-product-but-3-listings-to-boost-sales",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
     },
     {
       "id": "billion-dollar-sellers-808bdd064fc20b26",
@@ -164,7 +180,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Stack these 3 things on Amazon for a conversion bomb",
       "url": "https://www.billiondollarsellers.com/p/bdsn-stack-these-3-things-on-amazon-for-a-conversion-bomb",
-      "publishedAt": "2026-10-23T18:36:45.071Z",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -181,7 +197,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Seller Central just gave you an intern",
       "url": "https://www.billiondollarsellers.com/p/bdsn-seller-central-just-gave-you-an-intern",
-      "publishedAt": "2026-10-23T18:36:45.071Z",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -198,7 +214,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] The spillover effect on Amazon can print u $",
       "url": "https://www.billiondollarsellers.com/p/bdsn-the-spillover-effect-on-amazon-can-print-u",
-      "publishedAt": "2026-10-23T18:36:45.071Z",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -215,7 +231,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Do this today before your competition does",
       "url": "https://www.billiondollarsellers.com/p/bdsn-do-this-today-before-your-competition-does",
-      "publishedAt": "2026-10-23T18:36:45.071Z",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -232,7 +248,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Amazon to let you buy up to 1,000 reviews",
       "url": "https://www.billiondollarsellers.com/p/bdsn-amazon-to-let-you-buy-up-to-1-000-reviews",
-      "publishedAt": "2026-10-23T18:36:45.071Z",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -249,7 +265,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Who to email at Amazon when you have a problem",
       "url": "https://www.billiondollarsellers.com/p/bdsn-who-to-email-at-amazon-when-you-have-a-problem",
-      "publishedAt": "2026-10-23T18:36:45.071Z",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -266,7 +282,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Alibaba intros secret agentic weapon for sellers",
       "url": "https://www.billiondollarsellers.com/p/bdsn-alibaba-intros-secret-agentic-weapon-for-sellers",
-      "publishedAt": "2026-10-23T18:36:45.071Z",
+      "publishedAt": "2026-10-24T17:31:16.925Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -277,38 +293,21 @@
       "sourceReliability": "industry"
     },
     {
-      "id": "billion-dollar-sellers-42be465a60e519ff",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] 1 product but 3 listings to boost sales",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-1-product-but-3-listings-to-boost-sales",
-      "publishedAt": "2026-10-23T18:36:45.070Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
+      "id": "my-amazon-guy-f73de5112f01e39a",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
+      "url": "https://www.youtube.com/watch?v=XL-Jg7EDi-I",
+      "publishedAt": "2026-10-24T05:00:52+00:00",
+      "excerpt": "Your competitors aren't smarter than you. They might just be fixing problems you're ignoring. Q4 is moving fast, and Amazon isn't exactly handing out second chances. A weak listing, wasted ad spend, or poor inventory planning could be the difference between a record-breaking quarter and a missed opportunity. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA! Bring your toughest questio...",
+      "body": "Your competitors aren't smarter than you. They might just be fixing problems you're ignoring. Q4 is moving fast, and Amazon isn't exactly handing out second chances. A weak listing, wasted ad spend, or poor inventory planning could be the difference between a record-breaking quarter and a missed opportunity. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA! Bring your toughest questions on: → Amazon SEO and listing optimization → PPC, ACOS, and advertising strategy → Conversion rates and organic rankings → Inventory management and operations → Holiday sales and Q4 growth strategies → Scaling your ecommerce business profitably Don't just watch your competitors win. Audit your top listings, review your wasted PPC spend, and check your inventory before the holiday rush catches you off guard. Your next big move could start with one good question. 📌 Need personalized help with your Q4 strategy? Book a free strategy call → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
       "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amazon-ads-library-ce29e2b25dc58ef2",
-      "source": "Amazon Ads Library",
-      "sourceType": "official",
-      "category": "Official / Policy",
-      "title": "A guide to targeting with Sponsored Products",
-      "url": "https://advertising.amazon.com/en-us/library/guides/targeting-with-sponsored-products/",
-      "publishedAt": "2026-10-23T18:36:45.012Z",
-      "excerpt": "Discover tips to help you drive sales through targeting with Sponsored Products.",
-      "body": "Guide A simple guide to effective targeting with Sponsored Products Tips to help you drive sales through targeting with Sponsored Products. Table of contents 1 . An introduction to Sponsored Products targeting What is targeting? 2 . Targeting options with Sponsored Products Automatic targeting Manual targeting Negative targeting Deciding which targeting strategy 3 . Automatic targeting with Sponsored Products Remember this When to choose automatic targeting Just getting started with Sponsored Products? Already have active manual campaigns? 4 . Manual targeting (keywords) with Sponsored Products More about match types Remember this Top tips Keyword types Do your research To note, for Kindle Direct Publishing (KDP) authors and book vendors Choose keyword targeting when: 5 . Manual targeting (product) with Sponsored Products Remember this Choose product targeting when: 6 . Negative targeting with Sponsored Products Consider adding the following as negative keywords Remember this 7 . Setting up strategic targeting for Sponsored Products campaigns How to be strategic Start by defining your business goals Next, choose your campaign strategy 6 tips to remember How campaign structure can impact advertising performance 8 . Sponsored Products targeting checklist An introduction to Sponsored Products targeting Strong targeting is crucial to build a solid foundation for your Sponsored Products campaigns, and can help to match shoppers intents to your products. What is targeting? Targeting is the way you define the context in which you want your ads to appear. That can be done in multiple ways. The most common is the use of keywords that match your ad with the shopping queries customers use when looking for something online. This guide will explore everything you need to know about...",
-      "tags": [
-        "Amazon Ads",
-        "advertising"
+        "YouTube",
+        "agency playbook"
       ],
       "access": "public",
-      "sourceReliability": "official"
+      "sourceReliability": "media"
     },
     {
       "id": "my-amazon-guy-e5da5db0c9d1aa7d",
@@ -379,23 +378,6 @@
       "sourceReliability": "community"
     },
     {
-      "id": "my-amazon-guy-f73de5112f01e39a",
-      "source": "My Amazon Guy",
-      "sourceType": "youtube",
-      "category": "Podcast / Video Playbooks",
-      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
-      "url": "https://www.youtube.com/watch?v=XL-Jg7EDi-I",
-      "publishedAt": "2026-10-22T16:26:28+00:00",
-      "excerpt": "Your competitors aren't smarter than you. They might just be fixing problems you're ignoring. Q4 is moving fast, and Amazon isn't exactly handing out second chances. A weak listing, wasted ad spend, or poor inventory planning could be the difference between a record-breaking quarter and a missed opportunity. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA! Bring your toughest questio...",
-      "body": "Your competitors aren't smarter than you. They might just be fixing problems you're ignoring. Q4 is moving fast, and Amazon isn't exactly handing out second chances. A weak listing, wasted ad spend, or poor inventory planning could be the difference between a record-breaking quarter and a missed opportunity. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA! Bring your toughest questions on: → Amazon SEO and listing optimization → PPC, ACOS, and advertising strategy → Conversion rates and organic rankings → Inventory management and operations → Holiday sales and Q4 growth strategies → Scaling your ecommerce business profitably Don't just watch your competitors win. Audit your top listings, review your wasted PPC spend, and check your inventory before the holiday rush catches you off guard. Your next big move could start with one good question. 📌 Need personalized help with your Q4 strategy? Book a free strategy call → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
-      "tags": [
-        "YouTube",
-        "agency playbook"
-      ],
-      "access": "public",
-      "sourceReliability": "media"
-    },
-    {
       "id": "wearesellers-6e3df907667fd372",
       "source": "WeAreSellers",
       "sourceType": "community",
@@ -428,23 +410,6 @@
       ],
       "access": "public",
       "sourceReliability": "media"
-    },
-    {
-      "id": "wearesellers-b74fa3317fdb4445",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "第十二期：秋促后有什么感想以及如何备战黑五网一",
-      "url": "https://www.wearesellers.com/question/125696",
-      "publishedAt": "Wed, 21 Oct 2026 06:52:35 +0000",
-      "excerpt": "一、秋促情况回顾 先说下整体的情况：我这边亚马逊秋促第一天是平时正常情况下的5倍，而秋促第一天是第二天的2倍。（基数不是特别大，不是大佬） 但是在秋促前3天的单量下滑明显，所以除去吐出来的秋促前几天的单量，合理来说应该是3倍左右。 就同事来说，因为做的品类有所差异，这几位类目有着差异的同事，大概是平时的2倍左右。 结合我自己这边和同事的链接，从新老链接的角度来看，秋促增长明显的是：有着稳定排名和稳定的自然位置的成熟的老链接，表现最好的...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
     },
     {
       "id": "my-amazon-guy-3e49bbe0681f7033",
@@ -515,5 +480,16 @@
       "sourceReliability": "media"
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "source": "Amazon SP-API Release Notes",
+      "url": "https://developer-docs.amazon.com/sp-api/docs/sp-api-release-notes",
+      "message": "HTTP 429 Too Many Requests"
+    },
+    {
+      "source": "Amazon SP-API Release Notes",
+      "url": "https://developer-docs.amazon.com/sp-api/changelog",
+      "message": "altUrl failed: HTTP 429 Too Many Requests"
+    }
+  ]
 }

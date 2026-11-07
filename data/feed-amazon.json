@@ -1,42 +1,8 @@
 {
-  "generatedAt": "2026-11-06T20:29:58.553Z",
-  "date": "2026-11-06",
+  "generatedAt": "2026-11-07T18:59:01.390Z",
+  "date": "2026-11-07",
   "itemCount": 28,
   "items": [
-    {
-      "id": "amz123-ad1ec1525edf9430",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "26年Q4英国网购支出将达400亿英镑，AI流量暴涨214%",
-      "url": "https://www.amz123.com/t/7e3AjaRb",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
-      "excerpt": "26年Q4英国网购支出将达400亿英镑，AI流量暴涨214%",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-207ffd78c2e57ae8",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "从广告到下单，2026电商AI营销新风口来了！",
-      "url": "https://www.amz123.com/t/QpNVlHzE",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
-      "excerpt": "从广告到下单，2026电商AI营销新风口来了！",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
     {
       "id": "amz123-4b85e1916153fe1b",
       "source": "AMZ123 跨境头条",
@@ -44,7 +10,7 @@
       "category": "Seller Ops",
       "title": "马士基公布Q3财报：营收180亿美元，利润大幅增长",
       "url": "https://www.amz123.com/t/TOdTxeS4",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
+      "publishedAt": "2026-11-07T18:59:01.389Z",
       "excerpt": "马士基公布Q3财报：营收180亿美元，利润大幅增长",
       "body": "",
       "tags": [
@@ -61,7 +27,7 @@
       "category": "Seller Ops",
       "title": "美客多Q3财报出炉：营收107亿美元，GMV大增38%",
       "url": "https://www.amz123.com/t/qkTmhnbU",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
+      "publishedAt": "2026-11-07T18:59:01.389Z",
       "excerpt": "美客多Q3财报出炉：营收107亿美元，GMV大增38%",
       "body": "",
       "tags": [
@@ -78,7 +44,7 @@
       "category": "Seller Ops",
       "title": "亚马逊卖家服务与广告持续创新高，业务重心或转移",
       "url": "https://www.amz123.com/t/fVKeSOxd",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
+      "publishedAt": "2026-11-07T18:59:01.389Z",
       "excerpt": "亚马逊卖家服务与广告持续创新高，业务重心或转移",
       "body": "",
       "tags": [
@@ -95,7 +61,7 @@
       "category": "Seller Ops",
       "title": "AMZ123会员专享丨11月第1周资讯汇总",
       "url": "https://www.amz123.com/t/xacxVCoF",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
+      "publishedAt": "2026-11-07T18:59:01.389Z",
       "excerpt": "AMZ123会员专享丨11月第1周资讯汇总",
       "body": "",
       "tags": [
@@ -112,7 +78,7 @@
       "category": "Seller Ops",
       "title": "亚马逊再涨FBA配送费，卖家：我画地为牢啊！",
       "url": "https://www.amz123.com/t/6H26rrTC",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
+      "publishedAt": "2026-11-07T18:59:01.389Z",
       "excerpt": "亚马逊再涨FBA配送费，卖家：我画地为牢啊！",
       "body": "",
       "tags": [
@@ -129,8 +95,42 @@
       "category": "Seller Ops",
       "title": "突发！亚马逊配送费再涨，买X赠Y正式开始收费",
       "url": "https://www.amz123.com/t/bTAe0gZZ",
-      "publishedAt": "2026-11-06T20:29:58.533Z",
+      "publishedAt": "2026-11-07T18:59:01.389Z",
       "excerpt": "突发！亚马逊配送费再涨，买X赠Y正式开始收费",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-ad1ec1525edf9430",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "26年Q4英国网购支出将达400亿英镑，AI流量暴涨214%",
+      "url": "https://www.amz123.com/t/7e3AjaRb",
+      "publishedAt": "2026-11-07T18:59:01.388Z",
+      "excerpt": "26年Q4英国网购支出将达400亿英镑，AI流量暴涨214%",
+      "body": "",
+      "tags": [
+        "AMZ123",
+        "cross-border"
+      ],
+      "access": "public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "amz123-207ffd78c2e57ae8",
+      "source": "AMZ123 跨境头条",
+      "sourceType": "industry",
+      "category": "Seller Ops",
+      "title": "从广告到下单，2026电商AI营销新风口来了！",
+      "url": "https://www.amz123.com/t/QpNVlHzE",
+      "publishedAt": "2026-11-07T18:59:01.388Z",
+      "excerpt": "从广告到下单，2026电商AI营销新风口来了！",
       "body": "",
       "tags": [
         "AMZ123",
@@ -146,7 +146,7 @@
       "category": "Official / Policy",
       "title": "دليل الاستهداف باستخدام المنتجات المدعومة | Amazon Ads",
       "url": "https://advertising.amazon.com/ar-ae/library/guides/targeting-with-sponsored-products",
-      "publishedAt": "2026-11-06T20:29:58.361Z",
+      "publishedAt": "2026-11-07T18:59:00.810Z",
       "excerpt": "اكتشِف نصائح لمساعدتك على تحفيز المبيعات من خلال الاستهداف باستخدام المنتجات المدعومة.",
       "body": "دليل دليل بسيط للاستهداف الفعال باستخدام المنتجات المدعومة نصائح لمساعدتك على تحفيز المبيعات من خلال الاستهداف مع المنتجات المدعومة. جدول المحتويات جدول المحتويات 1 مقدمة عن استهداف المنتجات المدعومة ما هو الاستهداف؟ 2 خيارات الاستهداف باستخدام المنتجات المدعومة الاستهداف التلقائي الاستهداف اليدوي الاستهداف السلبي اختيار استراتيجية الاستهداف 3 الاستهداف التلقائي باستخدام المنتجات المدعومة تذكَّر هذا متى تختار الاستهداف التلقائي هل بدأت للتو باستخدام المنتجات المدعومة؟ هل لديك بالفعل حملات يدوية نشطة؟ 4 الاستهداف اليدوي (الكلمات الرئيسية) باستخدام المنتجات المدعومة المزيد حول أنواع المطابقة تذكَّر هذا أهم النصائح أنواع الكلمات الرئيسية أجرِ بأبحاثك ملاحظة، لمؤلفي Kindle Direct Publishing (KDP) ومورّدي الكتب اختر استهداف الكلمات الرئيسية عندما: 5 الاستهداف اليدوي (المنتج) باستخدام المنتجات المدعومة تذكَّر هذا اختر استهداف المنتجات عندما: 6 الاستهداف السلبي باستخدام المنتجات المدعومة ضع في اعتبارك إضافة ما يلي ككلمات رئيسية سلبية تذكَّر هذا 7 إعداد الاستهداف الاستراتيجي لحملات المنتجات المدعومة كيف تكون استراتيجيًا ابدأ بتحديد أهداف نشاطك التجاري بعد ذلك، اختر استراتيجية الحملة 6 نصائح للتذكر كيف يمكن أن يؤثر هيكل الحملة على أداء الإعلان 8 قائمة تدقيق استهداف المنتجات المدعومة مقدمة عن استهداف المنتجات المدعومة الاستهداف القوي أمر بالغ الأهمية لبناء أساس متين لحملات المنتجات المدعومة ، ويمكن أن يساعد في مطابقة نية المتسوق مع منتجاتك. ما هو الاستهداف؟ الاستهداف هو الطريقة التي تحدد بها السياق الذي تريد أن تظهر فيه إعلاناتك. ويمكن القيام بذلك بطرق متعددة. والأكثر شيوعًا لها هو استخدام الكلمات الرئيسية التي تطابق إعلانك مع استعلامات التسوق التي يستخدمها العملاء عند البحث عن شيء ما عبر الإنترنت. سيستكشف هذا الدليل كل ما تحتاج لمعرفته حول استهداف المنتجات المدعومة باستخدام Amazon Ads. استمر في القراءة للتعرّف على كل شيء عن: خيارات الاستهداف لحملات المنتجات المدعومة الإعلانية ل...",
       "tags": [
@@ -157,30 +157,13 @@
       "sourceReliability": "official"
     },
     {
-      "id": "billion-dollar-sellers-15e98e681fd2befd",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] 6 AEO myths you can ignore for your brand",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-6-aeo-myths-you-can-ignore-for-your-brand",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
       "id": "billion-dollar-sellers-799d29bc324072a4",
       "source": "Billion Dollar Sellers",
       "sourceType": "newsletter",
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] The Amazon badge worth +12% in sales",
       "url": "https://www.billiondollarsellers.com/p/bdsn-the-amazon-badge-worth-12-in-sales",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
+      "publishedAt": "2026-11-07T18:59:00.140Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -197,7 +180,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] What your ecom biz is worth in 2026",
       "url": "https://www.billiondollarsellers.com/p/bdsn-what-your-ecom-biz-is-worth-in-2026",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
+      "publishedAt": "2026-11-07T18:59:00.140Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -214,7 +197,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] This is how many Amazon reviews you really need",
       "url": "https://www.billiondollarsellers.com/p/bdsn-this-is-how-many-amazon-reviews-you-really-need",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
+      "publishedAt": "2026-11-07T18:59:00.140Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -231,7 +214,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 1 product but 3 listings to boost sales",
       "url": "https://www.billiondollarsellers.com/p/bdsn-1-product-but-3-listings-to-boost-sales",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
+      "publishedAt": "2026-11-07T18:59:00.140Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -248,7 +231,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Stack these 3 things on Amazon for a conversion bomb",
       "url": "https://www.billiondollarsellers.com/p/bdsn-stack-these-3-things-on-amazon-for-a-conversion-bomb",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
+      "publishedAt": "2026-11-07T18:59:00.140Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -265,7 +248,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] Seller Central just gave you an intern",
       "url": "https://www.billiondollarsellers.com/p/bdsn-seller-central-just-gave-you-an-intern",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
+      "publishedAt": "2026-11-07T18:59:00.140Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +265,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] The spillover effect on Amazon can print u $",
       "url": "https://www.billiondollarsellers.com/p/bdsn-the-spillover-effect-on-amazon-can-print-u",
-      "publishedAt": "2026-11-06T20:29:57.534Z",
+      "publishedAt": "2026-11-07T18:59:00.140Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -291,6 +274,40 @@
       ],
       "access": "partial_public",
       "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-15e98e681fd2befd",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] 6 AEO myths you can ignore for your brand",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-6-aeo-myths-you-can-ignore-for-your-brand",
+      "publishedAt": "2026-11-07T18:59:00.139Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "my-amazon-guy-0ef64ee27f1ac4f2",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
+      "url": "https://www.youtube.com/watch?v=dWOzCFvijX8",
+      "publishedAt": "2026-11-07T05:51:04+00:00",
+      "excerpt": "Amazon doesn't care how hard you worked on your listing. If shoppers aren't buying, something's wrong. And with Black Friday and Cyber Monday getting closer, you can't afford to keep guessing. More traffic won't magically fix poor conversions, wasted ad spend, or inventory problems. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get answers to the questions holding your business...",
+      "body": "Amazon doesn't care how hard you worked on your listing. If shoppers aren't buying, something's wrong. And with Black Friday and Cyber Monday getting closer, you can't afford to keep guessing. More traffic won't magically fix poor conversions, wasted ad spend, or inventory problems. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get answers to the questions holding your business back. Bring your questions on: → Amazon SEO and improving organic rankings → PPC, ACOS, and smarter ad spending → Listing optimization and conversion rates → Black Friday and Cyber Monday preparation → Inventory planning and account health → Scaling your ecommerce business profitably Here's the thing: Your competitors don't need to be better than you. They just need to make fewer mistakes. Before the holiday rush, review your top search terms, fix weak product images and titles, and double-check your inventory levels. Got a problem you can't figure out? Bring it to the live. 📌 We're giving away our trade secrets, download our Amazon guides here: → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
+      "tags": [
+        "YouTube",
+        "agency playbook"
+      ],
+      "access": "public",
+      "sourceReliability": "media"
     },
     {
       "id": "my-amazon-guy-06d4b8b9b4bd6db4",
@@ -325,23 +342,6 @@
       ],
       "access": "community_signal",
       "sourceReliability": "community"
-    },
-    {
-      "id": "my-amazon-guy-0ef64ee27f1ac4f2",
-      "source": "My Amazon Guy",
-      "sourceType": "youtube",
-      "category": "Podcast / Video Playbooks",
-      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
-      "url": "https://www.youtube.com/watch?v=dWOzCFvijX8",
-      "publishedAt": "2026-11-05T17:01:15+00:00",
-      "excerpt": "Amazon doesn't care how hard you worked on your listing. If shoppers aren't buying, something's wrong. And with Black Friday and Cyber Monday getting closer, you can't afford to keep guessing. More traffic won't magically fix poor conversions, wasted ad spend, or inventory problems. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get answers to the questions holding your business...",
-      "body": "Amazon doesn't care how hard you worked on your listing. If shoppers aren't buying, something's wrong. And with Black Friday and Cyber Monday getting closer, you can't afford to keep guessing. More traffic won't magically fix poor conversions, wasted ad spend, or inventory problems. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get answers to the questions holding your business back. Bring your questions on: → Amazon SEO and improving organic rankings → PPC, ACOS, and smarter ad spending → Listing optimization and conversion rates → Black Friday and Cyber Monday preparation → Inventory planning and account health → Scaling your ecommerce business profitably Here's the thing: Your competitors don't need to be better than you. They just need to make fewer mistakes. Before the holiday rush, review your top search terms, fix weak product images and titles, and double-check your inventory levels. Got a problem you can't figure out? Bring it to the live. 📌 We're giving away our trade secrets, download our Amazon guides here: → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
-      "tags": [
-        "YouTube",
-        "agency playbook"
-      ],
-      "access": "public",
-      "sourceReliability": "media"
     },
     {
       "id": "my-amazon-guy-c2f1c740b53ea11f",

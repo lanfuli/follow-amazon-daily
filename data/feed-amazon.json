@@ -1,144 +1,8 @@
 {
-  "generatedAt": "2026-11-20T21:55:02.364Z",
-  "date": "2026-11-20",
-  "itemCount": 27,
+  "generatedAt": "2026-11-21T20:38:22.353Z",
+  "date": "2026-11-21",
+  "itemCount": 19,
   "items": [
-    {
-      "id": "amz123-1025889e408d23cd",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "26年网络周全球销售额将达3570亿美元，AI影响21%销售额",
-      "url": "https://www.amz123.com/t/ZYbAkEEw",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "26年网络周全球销售额将达3570亿美元，AI影响21%销售额",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-817f1e565bf8aadc",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "26年法国黑五购物趋势：预算下滑19%，折扣信任度下降",
-      "url": "https://www.amz123.com/t/h48d96pB",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "26年法国黑五购物趋势：预算下滑19%，折扣信任度下降",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-980f55fd82f30a3c",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "Jumia Q3营收6070万美元，同比增长33%",
-      "url": "https://www.amz123.com/t/tV1ZAaWY",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "Jumia Q3营收6070万美元，同比增长33%",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-7413fdb743e17205",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "AMZ123会员专享丨11月第3周资讯汇总",
-      "url": "https://www.amz123.com/t/G5dQFFNL",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "AMZ123会员专享丨11月第3周资讯汇总",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-e205e6e39c2fa57c",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "亚马逊加拿大上线AI购物助手Alexa for Shopping",
-      "url": "https://www.amz123.com/t/Dk0XmrdS",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "亚马逊加拿大上线AI购物助手Alexa for Shopping",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-148712b897ca5640",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "Anthropic成功IPO，首日募资813亿美元",
-      "url": "https://www.amz123.com/t/fOFgHrEZ",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "Anthropic成功IPO，首日募资813亿美元",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-094ec7c0ed537027",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "黑五首日哑火，卖家集体炸了",
-      "url": "https://www.amz123.com/t/LEZnxupF",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "黑五首日哑火，卖家集体炸了",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
-    {
-      "id": "amz123-a03b53f56df3768d",
-      "source": "AMZ123 跨境头条",
-      "sourceType": "industry",
-      "category": "Seller Ops",
-      "title": "海外仓丝滑上架，新人动效也能 “百分百”",
-      "url": "https://www.amz123.com/t/lt6cadxv",
-      "publishedAt": "2026-11-20T21:55:02.363Z",
-      "excerpt": "海外仓丝滑上架，新人动效也能 “百分百”",
-      "body": "",
-      "tags": [
-        "AMZ123",
-        "cross-border"
-      ],
-      "access": "public",
-      "sourceReliability": "industry"
-    },
     {
       "id": "amazon-ads-library-6425d4d04efdabdf",
       "source": "Amazon Ads Library",
@@ -146,7 +10,7 @@
       "category": "Official / Policy",
       "title": "دليل الاستهداف باستخدام المنتجات المدعومة | Amazon Ads",
       "url": "https://advertising.amazon.com/ar-ae/library/guides/targeting-with-sponsored-products",
-      "publishedAt": "2026-11-20T21:55:01.515Z",
+      "publishedAt": "2026-11-21T20:38:03.158Z",
       "excerpt": "اكتشِف نصائح لمساعدتك على تحفيز المبيعات من خلال الاستهداف باستخدام المنتجات المدعومة.",
       "body": "دليل دليل بسيط للاستهداف الفعال باستخدام المنتجات المدعومة نصائح لمساعدتك على تحفيز المبيعات من خلال الاستهداف مع المنتجات المدعومة. جدول المحتويات جدول المحتويات 1 مقدمة عن استهداف المنتجات المدعومة ما هو الاستهداف؟ 2 خيارات الاستهداف باستخدام المنتجات المدعومة الاستهداف التلقائي الاستهداف اليدوي الاستهداف السلبي اختيار استراتيجية الاستهداف 3 الاستهداف التلقائي باستخدام المنتجات المدعومة تذكَّر هذا متى تختار الاستهداف التلقائي هل بدأت للتو باستخدام المنتجات المدعومة؟ هل لديك بالفعل حملات يدوية نشطة؟ 4 الاستهداف اليدوي (الكلمات الرئيسية) باستخدام المنتجات المدعومة المزيد حول أنواع المطابقة تذكَّر هذا أهم النصائح أنواع الكلمات الرئيسية أجرِ بأبحاثك ملاحظة، لمؤلفي Kindle Direct Publishing (KDP) ومورّدي الكتب اختر استهداف الكلمات الرئيسية عندما: 5 الاستهداف اليدوي (المنتج) باستخدام المنتجات المدعومة تذكَّر هذا اختر استهداف المنتجات عندما: 6 الاستهداف السلبي باستخدام المنتجات المدعومة ضع في اعتبارك إضافة ما يلي ككلمات رئيسية سلبية تذكَّر هذا 7 إعداد الاستهداف الاستراتيجي لحملات المنتجات المدعومة كيف تكون استراتيجيًا ابدأ بتحديد أهداف نشاطك التجاري بعد ذلك، اختر استراتيجية الحملة 6 نصائح للتذكر كيف يمكن أن يؤثر هيكل الحملة على أداء الإعلان 8 قائمة تدقيق استهداف المنتجات المدعومة مقدمة عن استهداف المنتجات المدعومة الاستهداف القوي أمر بالغ الأهمية لبناء أساس متين لحملات المنتجات المدعومة ، ويمكن أن يساعد في مطابقة نية المتسوق مع منتجاتك. ما هو الاستهداف؟ الاستهداف هو الطريقة التي تحدد بها السياق الذي تريد أن تظهر فيه إعلاناتك. ويمكن القيام بذلك بطرق متعددة. والأكثر شيوعًا لها هو استخدام الكلمات الرئيسية التي تطابق إعلانك مع استعلامات التسوق التي يستخدمها العملاء عند البحث عن شيء ما عبر الإنترنت. سيستكشف هذا الدليل كل ما تحتاج لمعرفته حول استهداف المنتجات المدعومة باستخدام Amazon Ads. استمر في القراءة للتعرّف على كل شيء عن: خيارات الاستهداف لحملات المنتجات المدعومة الإعلانية ل...",
       "tags": [
@@ -157,30 +21,13 @@
       "sourceReliability": "official"
     },
     {
-      "id": "billion-dollar-sellers-6fe8330d6c3e34e8",
-      "source": "Billion Dollar Sellers",
-      "sourceType": "newsletter",
-      "category": "Newsletter / Analyst Signals",
-      "title": "[ BDSN ] Turn your Amazon product into a story",
-      "url": "https://www.billiondollarsellers.com/p/bdsn-turn-your-amazon-product-into-a-story",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
-      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
-      "body": "",
-      "tags": [
-        "newsletter",
-        "strategy"
-      ],
-      "access": "partial_public",
-      "sourceReliability": "industry"
-    },
-    {
       "id": "billion-dollar-sellers-994265fcfd57ebcd",
       "source": "Billion Dollar Sellers",
       "sourceType": "newsletter",
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 20 negative reviews gone in 30 days",
       "url": "https://www.billiondollarsellers.com/p/bdsn-20-negative-reviews-gone-in-30-days",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
+      "publishedAt": "2026-11-21T20:38:02.749Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -197,7 +44,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 2 switches fewer than 1% of Amazon sellers have flipped",
       "url": "https://www.billiondollarsellers.com/p/bdsn-2-switches-fewer-than-1-of-amazon-sellers-have-flipped",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
+      "publishedAt": "2026-11-21T20:38:02.749Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -214,7 +61,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 6 AEO myths you can ignore for your brand",
       "url": "https://www.billiondollarsellers.com/p/bdsn-6-aeo-myths-you-can-ignore-for-your-brand",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
+      "publishedAt": "2026-11-21T20:38:02.749Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -231,7 +78,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] The Amazon badge worth +12% in sales",
       "url": "https://www.billiondollarsellers.com/p/bdsn-the-amazon-badge-worth-12-in-sales",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
+      "publishedAt": "2026-11-21T20:38:02.749Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -248,7 +95,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] What your ecom biz is worth in 2026",
       "url": "https://www.billiondollarsellers.com/p/bdsn-what-your-ecom-biz-is-worth-in-2026",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
+      "publishedAt": "2026-11-21T20:38:02.749Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -265,7 +112,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] This is how many Amazon reviews you really need",
       "url": "https://www.billiondollarsellers.com/p/bdsn-this-is-how-many-amazon-reviews-you-really-need",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
+      "publishedAt": "2026-11-21T20:38:02.749Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -282,7 +129,7 @@
       "category": "Newsletter / Analyst Signals",
       "title": "[ BDSN ] 1 product but 3 listings to boost sales",
       "url": "https://www.billiondollarsellers.com/p/bdsn-1-product-but-3-listings-to-boost-sales",
-      "publishedAt": "2026-11-20T21:55:01.075Z",
+      "publishedAt": "2026-11-21T20:38:02.749Z",
       "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
       "body": "",
       "tags": [
@@ -291,6 +138,40 @@
       ],
       "access": "partial_public",
       "sourceReliability": "industry"
+    },
+    {
+      "id": "billion-dollar-sellers-6fe8330d6c3e34e8",
+      "source": "Billion Dollar Sellers",
+      "sourceType": "newsletter",
+      "category": "Newsletter / Analyst Signals",
+      "title": "[ BDSN ] Turn your Amazon product into a story",
+      "url": "https://www.billiondollarsellers.com/p/bdsn-turn-your-amazon-product-into-a-story",
+      "publishedAt": "2026-11-21T20:38:02.748Z",
+      "excerpt": "Public archive metadata from Billion Dollar Sellers; subscriber-only body is not persisted.",
+      "body": "",
+      "tags": [
+        "newsletter",
+        "strategy"
+      ],
+      "access": "partial_public",
+      "sourceReliability": "industry"
+    },
+    {
+      "id": "my-amazon-guy-abbe00400a483338",
+      "source": "My Amazon Guy",
+      "sourceType": "youtube",
+      "category": "Podcast / Video Playbooks",
+      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
+      "url": "https://www.youtube.com/watch?v=2d2SWHEAqlo",
+      "publishedAt": "2026-11-21T06:09:57+00:00",
+      "excerpt": "Your competitors are stealing sales while you're busy blaming the algorithm. Amazon's algorithm isn't your enemy. But ignoring your data might be. With Black Friday and Cyber Monday around the corner, every click, conversion, and dollar spent matters. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get real answers to the problems slowing down your business. Bring your questions...",
+      "body": "Your competitors are stealing sales while you're busy blaming the algorithm. Amazon's algorithm isn't your enemy. But ignoring your data might be. With Black Friday and Cyber Monday around the corner, every click, conversion, and dollar spent matters. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get real answers to the problems slowing down your business. Bring your questions on: → Amazon SEO and organic rankings → PPC, ACOS, and wasted ad spend → Listing optimization and conversion rates → Black Friday and Cyber Monday strategies → Inventory planning and account health → Scaling your ecommerce business profitably Here's the reality: More traffic won't fix a product page that can't convert. Before the holiday rush, check which search terms are driving sales, improve your main images and titles, and review your PPC bids before increasing your budget. Stop blaming the algorithm. Start making smarter decisions. Got questions? Bring them to the live. 📌 We're giving away our trade secrets, download our Amazon guides here: → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
+      "tags": [
+        "YouTube",
+        "agency playbook"
+      ],
+      "access": "public",
+      "sourceReliability": "media"
     },
     {
       "id": "my-amazon-guy-917653ee6d972927",
@@ -327,21 +208,21 @@
       "sourceReliability": "community"
     },
     {
-      "id": "my-amazon-guy-abbe00400a483338",
-      "source": "My Amazon Guy",
-      "sourceType": "youtube",
-      "category": "Podcast / Video Playbooks",
-      "title": "Friday Live Amazon & Ecommerce Q&A with Noah Wickham",
-      "url": "https://www.youtube.com/watch?v=2d2SWHEAqlo",
-      "publishedAt": "2026-11-19T17:14:48+00:00",
-      "excerpt": "Your competitors are stealing sales while you're busy blaming the algorithm. Amazon's algorithm isn't your enemy. But ignoring your data might be. With Black Friday and Cyber Monday around the corner, every click, conversion, and dollar spent matters. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get real answers to the problems slowing down your business. Bring your questions...",
-      "body": "Your competitors are stealing sales while you're busy blaming the algorithm. Amazon's algorithm isn't your enemy. But ignoring your data might be. With Black Friday and Cyber Monday around the corner, every click, conversion, and dollar spent matters. Join Noah Wickham LIVE this Friday at 12:00 PM ET for our Amazon & eCommerce AMA and get real answers to the problems slowing down your business. Bring your questions on: → Amazon SEO and organic rankings → PPC, ACOS, and wasted ad spend → Listing optimization and conversion rates → Black Friday and Cyber Monday strategies → Inventory planning and account health → Scaling your ecommerce business profitably Here's the reality: More traffic won't fix a product page that can't convert. Before the holiday rush, check which search terms are driving sales, improve your main images and titles, and review your PPC bids before increasing your budget. Stop blaming the algorithm. Start making smarter decisions. Got questions? Bring them to the live. 📌 We're giving away our trade secrets, download our Amazon guides here: → https://myamazonguy.com/services/free-amazon-resources/ 📌 Need personalized help with your Amazon strategy? Book a free strategy call → https://bit.ly/47kL4Ff",
+      "id": "wearesellers-18e16c6617c9ac56",
+      "source": "WeAreSellers",
+      "sourceType": "community",
+      "category": "Community Pain Signals",
+      "title": "200多个SKU拿去做TikTok，我会先挑库存没那么急的品",
+      "url": "https://www.wearesellers.com/question/126682",
+      "publishedAt": "Thu, 19 Nov 2026 10:09:23 +0000",
+      "excerpt": "论坛有个运营讲自己的经历 ，前一家公司是一个人管店铺、视频和达人，投放预算也不连续。换了公司以后，接手的又是200多个SKU的清货任务，公司更倾向达人和AI产出，不支持做自营短视频。 评论里不少人在争，TikTok到底应该做精品还是铺货，达人和自营哪个更重要。这个当然可以聊，但我看到200多个清货SKU的时候，先想到的是另一个问题：这些货里面，有多少是真的值得重新花钱做内容的？ 货已经在仓库里了，想着多开一个渠道卖掉，我觉得很正常。尤...",
+      "body": "",
       "tags": [
-        "YouTube",
-        "agency playbook"
+        "community",
+        "seller pain"
       ],
-      "access": "public",
-      "sourceReliability": "media"
+      "access": "community_signal",
+      "sourceReliability": "community"
     },
     {
       "id": "wearesellers-f6e9e8fbb2e51e0d",
@@ -361,14 +242,14 @@
       "sourceReliability": "community"
     },
     {
-      "id": "wearesellers-c64f7714c34c059f",
+      "id": "wearesellers-7aeea35ac1c394d8",
       "source": "WeAreSellers",
       "sourceType": "community",
       "category": "Community Pain Signals",
-      "title": "请教大家如何培养助理？带亚马逊应届助理越带越累：交代任务半小时没反馈，怎么才能培养她的主动性？",
-      "url": "https://www.wearesellers.com/question/126673",
-      "publishedAt": "Thu, 19 Nov 2026 07:20:12 +0000",
-      "excerpt": "招了个应届生妹子，前期觉得她做事情很细致，交给她的事情基本不出错，态度也很好。但是现在渐渐交给她的任务多了起来后，就遇到了一些问题： 1. 从不主动反馈：我交给她一个任务，在没完成之前，如果我不主动问，她不会主动告知我任务进度，也不会说过程中是否遇到了问题；而且如果任务拖得太久，我不催的话，可能做着做着就没了。 2. 主动思考、主动学习的能力很弱：基本上我教什么，她就做什么；让我做什么，她就做什么。我安排她自己去看后台产品的报表、看亚...",
+      "title": "直接调 MCP 和走 Skill，差别为什么这么大？",
+      "url": "https://www.wearesellers.com/question/126668",
+      "publishedAt": "Thu, 19 Nov 2026 05:56:51 +0000",
+      "excerpt": "以前想让 AI 帮忙分析卖家精灵里的数据，基本都是导出 Excel 或者直接复制粘贴数据，把它搬进AI对话框。几千条关键词摆在那，单看表格看不出规律，得让 AI 整理、对比，才能落到具体动作上。现在接了卖家精灵MCP，AI 工具自己就能去查，这一趟数据搬运就省了。但省下来的只是搬运工作，拿什么标准去挑，还是得自己想清楚。 用了一阵子，我把常做的那几步固定成了一个 Skill。同样一句话问下去，出来的东西差得挺多。这篇不讲原理，就放几个...",
       "body": "",
       "tags": [
         "community",
@@ -414,23 +295,6 @@
       "sourceReliability": "media"
     },
     {
-      "id": "wearesellers-87714a21dcd39c02",
-      "source": "WeAreSellers",
-      "sourceType": "community",
-      "category": "Community Pain Signals",
-      "title": "黑五明天开打，最近单量不错，反而有点怕黑五来了没单……临近黑五，心里反而越没底。你们更看好爆单，还是担心流量被全市场大促分流？",
-      "url": "https://www.wearesellers.com/question/126648",
-      "publishedAt": "Wed, 18 Nov 2026 09:19:49 +0000",
-      "excerpt": "明天黑五活动周就正式开始了，按理说这个时候应该期待流量和单量再往上冲一波，但最近反而有点担心。最近店铺流量整体感觉还不错，部分链接的单量也比前几周稳定，广告数据看起来至少没有那么难看。结果越临近黑五，心里反而越没底。 不知道是不是错觉，最近不少产品感觉提前把需求吃掉了一部分，正常流量、正常订单都还可以。真到了黑五，消费者都在等折扣，竞品集中降价，广告竞价再往上抬，反而可能出现流量被分走、转化下降的情况。 我记得去年就是：活动前单量还不...",
-      "body": "",
-      "tags": [
-        "community",
-        "seller pain"
-      ],
-      "access": "community_signal",
-      "sourceReliability": "community"
-    },
-    {
       "id": "serious-sellers-podcast-38923f9bafe36177",
       "source": "Serious Sellers Podcast",
       "sourceType": "podcast",
@@ -470,6 +334,11 @@
       "source": "Amazon SP-API Release Notes",
       "url": "https://developer-docs.amazon/sp-api/docs/sp-api-release-notes",
       "message": "thin content: source returned only an index/JS shell; no substantive body captured"
+    },
+    {
+      "source": "AMZ123 跨境头条",
+      "url": "https://www.amz123.com/t",
+      "message": "This operation was aborted"
     }
   ]
 }
